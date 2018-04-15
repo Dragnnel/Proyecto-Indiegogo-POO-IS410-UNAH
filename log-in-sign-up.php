@@ -56,7 +56,8 @@
             </div>
             <div class="col-xl-4">
               <h2>Registrarse</h2>
-              <form class="formularios">
+              <!--formulario de registro -->
+              <form class="formularios"  method="GET" action="procesar.php">
                 <div class="form-group">
                   <input type="text" class="form-control" id="txt-nombre" placeholder="Introduzca sus nombre">
               </div>
@@ -73,7 +74,11 @@
                   <input type="checkbox" class="form-check-input" id="checkNotificar">
                   <label class="form-check-label" for="checkNotificar">Regístrate en el boletín semanal</label>
               </div>
-              <button type="submit" class="btn btn-rosa1 btn-block btn-lg">Crear una cuenta</button>
+              <button type="button" id="btn-Crear-Cuenta" class="btn btn-rosa1 btn-block btn-lg" onclick="crearCuenta();" >Crear una cuenta</button>
+                    <div class="container-fluid">
+                      <div class="row" id="div-respuesta">
+                      </div>
+                    </div>
             </form>
             </div>
             <div class="col-xl-4">
@@ -191,6 +196,10 @@
     <script src="js/jquery-3.3.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+     <!--Controlador para gestionar la pagina-->
+    <script type="text/javascript" src="js/controlador.js"></script>
+
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
