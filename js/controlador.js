@@ -12,6 +12,7 @@ function crearCuenta(){
 		method:"POST",
 		data:parametros,
 		success:function(respuesta){
+			console.log(respuesta);
 			$("#div-respuesta").append(respuesta);
 		}
 	});
@@ -22,20 +23,13 @@ $(document).ready(function(){
 	$.ajax({
 		url:"ajax/obtener-usuarios.php",
 		success:function(respuesta){
-			$("#div-usuarios").html(respuesta);
+			console.log(respuesta);
+			//$("#div-usuarios").html(respuesta);
 		}
 	});
 
-	cargarMemes();	
 });
 
 
-function cargarMemes(){
-	$.ajax({
-		url:"ajax/obtener-memes.php",
-		success:function(respuesta){
-			$("#div-memes").html(respuesta);
-		}
-	});
-}
+
 
