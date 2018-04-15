@@ -1,0 +1,108 @@
+		<header>
+	      <nav class="navbar navbar-expand-md navbar-dark bg-dark 
+	       col-xl-12 "> <!-- elimine el atributo fixet top-->
+	        <a class="navbar-brand" href="/indiegogo-v6/index.php"><img src="img/logo.png" class="img-fluid"></a>
+	         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+	          <span class="navbar-toggler-icon"><i class="fas fa-angle-down"></i></span>
+	        </button>
+	        <div class="collapse navbar-collapse" id="navbarCollapse">
+	          <ul class="navbar-nav mr-auto">
+	            <li class="nav-item active">
+	              <a class="nav-link" href="#">Explorar<span class="sr-only">(current)</span></a>
+	            </li>
+	            <li class="nav-item">
+	              <a class="nav-link" href="lo-que-hacemos.php">Lo que hacemos.</a>
+	            </li>
+	            <li class="nav-item">
+	              <a class="nav-link" href="#"><i class="fas fa-search fa-lg" style="color: gray;"></i></a>
+	            </li>
+	            <li class="nav-item">
+	              <a class="nav-link" href="#"><i class="fas fa-envelope fa-lg"></i>&nbsp;Newsletter</a>
+	            </li>
+	          </ul>
+	          <a href="#" class="nav-link">Para emprendedores</a>
+	          <a href="comienza-una-campania.php" class="nav-link">Comienza una campaña</a>
+	          <div class="barra-vertical"></div>
+	          <a href="#" class="nav-link" data-toggle="modal" data-target="#modal-LogIn">Iniciar Sesión</a>
+	          <a href="#" class="nav-link"  data-toggle="modal" data-target="#modal-SignUp">Regístrate</a>
+	        </div>
+	      </nav>
+
+	      
+	    </header>
+
+	     <!-- Modal Sign Up - Regístrate -->
+		<div class="modal fade" id="modal-SignUp">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title">Regístrate</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		        <a class="btn btn-facebook btn-lg btn-block" href="#"> CONTINUAR CON FACEBOOK </a>
+		      
+		        <p>Sin publicaciones sin su permiso.</p>
+		        <hr> 
+		        <h5>O regístrate con el correo electrónico</h5>    
+		        <form>
+		                <div class="form-group">
+		                  <input type="text" class="form-control" id="txt-nombre" placeholder="Introduzca sus nombre">
+		              </div>
+		              <div class="form-group">
+		                  <input type="text" class="form-control" id="text-apellido" placeholder="Intruduzca sus apellido">
+		              </div>
+		              <div class="form-group">
+		                  <input type="email" class="form-control" id="txt-email"  placeholder="Introduzca su correo electrónico">
+		              </div>
+		              <div class="form-group">
+		                  <input type="password" class="form-control" id="txt-password" placeholder="Introduzca su contraseña">
+		              </div>
+		              <div class="form-check">
+		                  <input type="checkbox" class="form-check-input" id="checkNotificar">
+		                  <label class="form-check-label" for="checkNotificar">Regístrate en el boletín semanal</label>
+		              </div>
+		              <button type="submit" class="btn btn-rosa1">Crear una cuenta</button>
+		            </form>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+
+		      <!-- Modal log in - iniciar sesión -->
+		<div class="modal fade" id="modal-LogIn">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title">Iniciar Sesión</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		        <a class="btn btn-facebook btn-lg btn-block" href="#">INICIAR CON FACEBOOK</a>
+		        <p>Sin publicaciones sin su permiso.</p>
+		        <hr> 
+		        <h5>O ingresa con el correo electrónico</h5>    
+		          <form>
+		              <div class="form-group">
+		                  <input type="email" class="form-control" id="txt-email"  placeholder="Introduzca su correo electrónico">
+		              </div>
+		              <div class="form-group">
+		                  <input type="password" class="form-control" id="txt-password" placeholder="Introduzca su contraseña">
+		              </div>
+		              <div class="form-check">
+		                  <input type="checkbox" class="form-check-input" id="checkRecordar">
+		                  <label class="form-check-label" for="checkRecordar">Recuérdame</label>
+		              </div>
+		              <button type="submit" class="btn btn-rosa1">Iniciar Sección</button>
+		          </form>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<!--Fin de los modales de log in y de sing up -->
