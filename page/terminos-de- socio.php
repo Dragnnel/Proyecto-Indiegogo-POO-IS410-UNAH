@@ -15,7 +15,7 @@
 
     <!-- Icono o favicon de el sitio web y nombre de la pagina -->
     <link rel="icon" href="../img/favicon.png">
-    <title>Términos de uso Indiegogo IS-POO-2018</title>
+    <title>Términos de los socios Indiegogo IS-POO-2018</title>
 
 	<!-- Importar las librerias de bootstrap -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -41,7 +41,7 @@
 
     <main role="main">
     	<div class="container">
-    		<h1>Términos de uso</h1>
+    		<h1>Términos de los socios</h1>
 
     		<br>
     		<h2>Indiegogo, Inc.</h2>
