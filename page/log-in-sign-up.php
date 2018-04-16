@@ -14,20 +14,20 @@
     <meta name="author" content="RonmelLizardo_LuisEstrada">
 
     <!-- Icono o favicon de el sitio web y nombre de la pagina -->
-    <link rel="icon" href="img/favicon.png">
+    <link rel="icon" href="../img/favicon.png">
     <title>Indiegogo IS-POO-2018</title>
 
 	<!-- Importar las librerias de bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet">
+    <link href="../css/custom.css" rel="stylesheet">
 
     <!-- Libreria para utilizar font awesome-->
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
     <!--Css donde se creara los demas atributos que se
     utilizara en el sitio web -->
-    <link rel="stylesheet" type="text/css" href=" css/estiloIS.css">
+    <link rel="stylesheet" type="text/css" href="../css/estiloIS.css">
   </head>
   <!--Fin del encabezado -->
 
@@ -37,7 +37,7 @@
   <body>
 
   <!--Inicio de la barra de menu -->
-    <?php include("header.html"); ?>
+    <?php include("../page/header.html"); ?>
 
     <main role="main">
 
@@ -57,7 +57,7 @@
             <div class="col-xl-4">
               <h2>Registrarse</h2>
               <!--formulario de registro -->
-              <form class="formularios"  method="GET" action="procesar.php">
+              <form class="formularios"  method="GET" action="../page/procesar.php">
                 <div class="form-group">
                   <input type="text" class="form-control" id="txt-nombre" placeholder="Introduzca sus nombre">
               </div>
@@ -164,41 +164,18 @@
             <hr>
 
               <!-- FOOTER -->
-        <div class="container  col-xl-12 ">
-            <div class="row">
-              <div class="col-xl-2">
-                <p style=" font-size: 12px;">&copy; Indiegogo,Inc. IS-POO-2018. &middot;</p>
-
-              </div>
-              <div class="col-xl-8">
-                
-              &nbsp <a href="#">Términos De Uso </a>&nbsp 
-              &nbsp <a href="#">Política De Privacidad </a>&nbsp 
-              &nbsp <a href="#">Política De Cookies  </a>&nbsp 
-              &nbsp <a href="#">Términos De Los Socios</a>&nbsp 
-
-              </div>
-
-              <div class="col-xl-2">
-                <!--Fuentes que son utilizado como iconos con la libreria de font awesome -->
-                  <a href="#"><i class="fab fa-facebook-square"></i></a>
-                  <a href="#"><i class="fab fa-twitter"></i></a>
-                  <a href="#"><i class="fab fa-youtube"></i></a>
-                  <a href="#"><i class="fab fa-instagram"></i></a>
-                  <a href="#"><i class="fab fa-linkedin"></i> </a>
-              </div>
-            </div>
-              </footer>
+              <?php include '../page/footer.html'; ?>
+        
               <!-- fin del pie de pagina -->
             </main>
 
     <!--Posterior uso JS, Popper.js y jQuery -->
-    <script src="js/jquery-3.3.1.js"></script>
+    <script src="../js/jquery-3.3.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
      <!--Controlador para gestionar la pagina-->
-    <script type="text/javascript" src="js/controlador.js"></script>
+    <script type="text/javascript" src="../js/controlador.js"></script>
 
 
     <!-- Bootstrap core JavaScript

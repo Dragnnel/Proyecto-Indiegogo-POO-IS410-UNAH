@@ -37,7 +37,8 @@
   <body>
 
   <!--Inicio de la barra de menu -->
-    <?php include("header.html"); ?>
+   <?php include("page/header-del-index.html"); ?>
+    
 
     <main role="main">
 
@@ -139,8 +140,8 @@
                     <div class="container col-lg-3" id="carousel-CuadroDeRegistro"  >
                       <h1>Encuéntralo primero en Indiegogo.</h1> 
                       <p>Descubre innovaciones en tecnología y diseño antes de que sean masivas, incluso cientos de productos con envío inmediato.</p>
-                      <a class="btn btn-rosa1" href="log-in-sign-up.php" >REGÍSTRATE</a>
-                      <a class="btn btn-rosa2" href="lo-que-hacemos.php">MÁS INFORMACIÓN</a>
+                      <a class="btn btn-rosa1" href="page/log-in-sign-up.php" >REGÍSTRATE</a>
+                      <a class="btn btn-rosa2" href="page/lo-que-hacemos.php">MÁS INFORMACIÓN</a>
                     </div>
               </div>
       </div>
@@ -279,7 +280,7 @@
       </div><!-- /.container -->
 
       <!-- Comienzo del pie de pagina -->
-      <?php include("footer.html"); ?>
+      <?php include("page/footer-del-index.html"); ?>
         
     </main>
 

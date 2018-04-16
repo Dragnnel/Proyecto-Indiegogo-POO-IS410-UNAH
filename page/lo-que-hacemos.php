@@ -14,20 +14,20 @@
     <meta name="author" content="RonmelLizardo_LuisEstrada">
 
     <!-- Icono o favicon de el sitio web y nombre de la pagina -->
-    <link rel="icon" href="img/favicon.png">
+    <link rel="icon" href="../img/favicon.png">
     <title>Indiegogo IS-POO-2018</title>
 
 	<!-- Importar las librerias de bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet">
+    <link href="../css/custom.css" rel="stylesheet">
 
     <!-- Libreria para utilizar font awesome-->
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
     <!--Css donde se creara los demas atributos que se
     utilizara en el sitio web -->
-    <link rel="stylesheet" type="text/css" href=" css/estiloIS.css">
+    <link rel="stylesheet" type="text/css" href="../css/estiloIS.css">
   </head>
   <!--Fin del encabezado -->
 
@@ -37,7 +37,7 @@
   <body>
 
   <!--Inicio de la barra de menu -->
-    <?php include("header.html"); ?>
+    <?php include("../page/header.html"); ?>
 
     <main role="main">
 
@@ -47,7 +47,7 @@
  <div class="container">
 
  <div class="row">
-      <div class="col-xl-12"  style="background-image: url(img/hero_tablet.jpg); background-repeat: no-repeat;background-size: cover;">
+      <div class="col-xl-12"  style="background-image: url(../img/hero_tablet.jpg); background-repeat: no-repeat;background-size: cover;">
         
         <h1>Obtén la tecnología que hace a la gente hablar</h1> 
         <p>Con campañas de recaudación de fondos activas así como envío de productos innovadores ahora, no hay mejor lugar para comenzar la caza de innovaciones geniales e inteligentes que sorprenden y deleitan. Indiegogo es donde lo nuevo se lanza.</p>
@@ -61,13 +61,13 @@
       <h1>Encuentra, financia y compra el próximo artículo importante</h1>
 
       <div class="col-xl-6"  style="background-color:#ffffff">
-        <img src="img/Crowdfunding_robot.svg">
+        <img src="../img/Crowdfunding_robot.svg">
         <h5>Financiamiento</h5> 
         <p>Aquí es donde las nuevas e innovadoras ideas levantan vuelo, donde encuentras y financias el próximo gran artículo. Con miles de lanzamientos de campañas de crowdfunding e InDemand cada semana, hay mucho de tecnología, diseño y mucho más, a menudo con precios y recompensas especiales para los primeros patrocinadores</p>
         <a href="#">Más sobre financiamiento > </a>
       </div>
       <div class="col-xl-6"  style="background-color:#ffffff">
-        <img src="img/Marketplace_robot.svg">
+        <img src="../img/Marketplace_robot.svg">
         <h5>Marketplace</h5> 
         <p>El marketplace de Indiegogo está lleno de innovaciones inteligentes y sorprendentes en tecnología, diseño y más—todo con envío garantizado Con la mayoría de los productos provenientes de campañas de crowdfunding exitosas, seguro encontrarás algo bueno antes de que tenga éxito.</p>
         <a href="#">Más sobre el marketplace > </a>
@@ -158,7 +158,7 @@
     <hr>
 
       <!-- Comienzo del pie de pagina-->
-      <?php include("footer.html"); ?>
+      <?php include("../page/footer.html"); ?>
 
       </main>
 
