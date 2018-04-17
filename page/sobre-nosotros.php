@@ -15,7 +15,7 @@
 
     <!-- Icono o favicon de el sitio web y nombre de la pagina -->
     <link rel="icon" href="../img/favicon.png">
-    <title>Términos de los socios Indiegogo IS-POO-2018</title>
+    <title>Sobre nosotros - Indiegogo IS-POO-2018</title>
 
 	<!-- Importar las librerias de bootstrap -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -87,7 +87,7 @@
     </div>
     <div class="row">
       <div class="col-xl-12">
-        <h2 class="lo-encontrara">Lo encontrará primero en Indiegogo</h2>
+        <h2 class="img-centradas" style="background-image: url(../img/lo-encontrara.jpg);">Lo encontrará primero en Indiegogo</h2>
       </div>
     </div>
     <div class="container">

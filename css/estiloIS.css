@@ -364,17 +364,18 @@ row img{
 
 }
 
-.lo-encontrara{
-    background-image: url(../img/lo-encontrara.jpg);
+.img-centradas{
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
     color: white;
-    margin-top: 50px;
-    margin-bottom: 50px;
     padding-top: 140px;
     padding-bottom: 140px;
-    font-weight: bold;
+}
+
+.img-centradas p{
+    max-width: 750px;
+    margin-left: 300px;
 }
 
 .texto h2{

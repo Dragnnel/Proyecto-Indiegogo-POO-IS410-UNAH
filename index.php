@@ -415,7 +415,7 @@
                 <h5>ACERCA DE</h5> 
                   <a href="page/sobre-nosotros.php">Sobre nosotros</a><br>
                   <a href="">Blog</a><br>
-                  <a href="">Confianza y seguridad</a><br>
+                  <a href="page/confianza-seguridad.php">Confianza y seguridad</a><br>
                   <a href="">Ayuda y servicio técnico</a><br>
                   <a href="">Prensa</a><br>
                   <a href="">Carreras</a><br>

@@ -15,7 +15,7 @@
 
     <!-- Icono o favicon de el sitio web y nombre de la pagina -->
     <link rel="icon" href="../img/favicon.png">
-    <title>Indiegogo IS-POO-2018</title>
+    <title>Lo que hacemos - Indiegogo IS-POO-2018</title>
 
 	<!-- Importar las librerias de bootstrap -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
