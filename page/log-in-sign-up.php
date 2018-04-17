@@ -37,7 +37,7 @@
   <body>
 
   <!--Inicio de la barra de menu -->
-    <?php include("../page/header.html"); ?>
+    <?php include("header.html"); ?>
 
     <main role="main">
 
@@ -102,72 +102,13 @@
 
         <!--Fin de Formularios -->
 
-        <div class="container  col-xl-12">
-            <div class="row">
-              <div class="col-xl-2">
-                <br>
-                <h5>EXPLORAR</h5> 
-                  <a href="#">Lo que hacemos </a><br>
-                  <a href="#">Financiamiento</a><br>
-                  <a href="#">Marketplace</a><br>
-                  <a href="#">Invertir</a><br>
-                  <a href="#">Generosity</a><br>
 
-              </div>
-              <div class="col-xl-2">
-                 <br>
-                <h5>ACERCA DE</h5> 
-                  <a href="">Sobre nosotros</a><br>
-                  <a href="">Blog</a><br>
-                  <a href="">Confianza y seguridad</a><br>
-                  <a href="">Ayuda y servicio técnico</a><br>
-                  <a href="">Prensa</a><br>
-                  <a href="">Carreras</a><br>
-                  <a href="">Contacto</a><br>
-              </div>
-              <div class="col-xl-2" >
-                 <br>
-                <h5>EMPRENDEDORES</h5> 
-                  <a href="">Cómo funciona</a><br>
-                  <a href="">Indiegogo vs. Kickstarter</a><br>
-                  <a href="">Centro de educación</a><br>
-                  <a href="">Directorio de expertos</a><br>
-                  <a href="">Tarifas</a><br>
-                  <a href="">Programa</a><br>
-              </div>
-              <div class="col-xl-2">
-                 <br>
-                <h5>IDIOMA</h5>
-                 <div class="dropdown">
-                  <button class="btn btn-rosa1 dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Idioma</button>
-                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#">Español</a>
-                    <a class="dropdown-item" href="#">English</a>
-                    <a class="dropdown-item" href="#">Frances</a>
-                    <a class="dropdown-item" href="#">Deutsch</a>
-                  </div>
-                 </div>
-              </div>
-              <div class="col-xl-4">
-                <img src=""> 
-                <i class="fas fa-envelope-open fa-3x"></i>
-                <p><b>Lo encontrará primero en Indiegogo</b></p>
-                <form>
-                  <p>Descubre productos nuevos e inteligentes en el boletín de Indiegogo</p>
-                <input type="email" name="txt-email-footer" class="form-control" placeholder="Tu dirección de correo aqui">
-              
-                <button type="submit" class="btn btn-rosa1 btn-lg btn-block ">Registrarme</button>
-                </form>
-              </div>
-            </div>
-            <hr>
 
-              <!-- FOOTER -->
-              <?php include '../page/footer.html'; ?>
+       <!-- FOOTER -->
+      <?php include 'footer.html'; ?>
         
-              <!-- fin del pie de pagina -->
-            </main>
+      <!-- fin del pie de pagina -->
+    </main>
 
     <!--Posterior uso JS, Popper.js y jQuery -->
     <script src="../js/jquery-3.3.1.js"></script>

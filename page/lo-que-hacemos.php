@@ -37,7 +37,7 @@
   <body>
 
   <!--Inicio de la barra de menu -->
-    <?php include("../page/header.html"); ?>
+    <?php include("header.html"); ?>
 
     <main role="main">
 
@@ -171,7 +171,7 @@
     <hr>
 
       <!-- Comienzo del pie de pagina-->
-      <?php include("../page/footer.html"); ?>
+      <?php include("footer.html"); ?>
 
       </main>
 

@@ -384,8 +384,8 @@
           <div class="col-xl-3"><img src="https://indiegogo-media-prod-cld-res.cloudinary.com/image/upload/homepage/crowdfunding-crowdsurfing_base.svg">
           </div>
           <div class="col-xl-6">
-            <a class="btn btn-rosa1" href="log-in-sign-up.php" >REGÍSTRATE</a>
-            <a class="btn btn-rosa2" href="lo-que-hacemos.php" >MÁS INFORMACIÓN</a>
+            <a class="btn btn-rosa1" href="page/log-in-sign-up.php" >REGÍSTRATE</a>
+            <a class="btn btn-rosa2" href="page/lo-que-hacemos.php" >MÁS INFORMACIÓN</a>
           </div>
         </div>
 
@@ -407,7 +407,7 @@
                   <a href="#">Financiamiento</a><br>
                   <a href="#">Marketplace</a><br>
                   <a href="#">Invertir</a><br>
-                  <a href="#">Generosity</a><br>
+                  <a href="https://www.generosity.com/">Generosity</a><br>
 
               </div>
               <div class="col-xl-2">
