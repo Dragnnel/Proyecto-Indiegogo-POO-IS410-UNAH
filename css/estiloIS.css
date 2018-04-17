@@ -331,4 +331,51 @@ h1{
     text-decoration: none;
 }
 
+.normal-text{
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 90px;
+}
+
+.centrado{
+    max-width: 980px;
+    margin-left: 140px;
+}
+
+.pink-link a{
+    color: #EB1478;
+}
+
+.pink-link{
+    margin-top: 90px;
+}
+
+row img{
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.lo-encontrara{
+    background-image: url(../img/lo-encontrara.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    font-weight: bold;
+}
+
+.texto h2{
+    color: #EB1478;
+}
+
+.texto{
+    margin-bottom: 60px;
+    max-width: 450px;
+    margin-left: 60px;
+}
 
