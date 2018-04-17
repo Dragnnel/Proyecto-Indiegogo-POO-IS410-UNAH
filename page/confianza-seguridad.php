@@ -45,11 +45,11 @@
         </div>
         <div class="col-xl-5 pink-link">
           Related Links:<br>
-          <a href="">Términos de uso</a><br>
-          <a href="">Cómo funciona</a><br>
+          <a href="terminos-de-uso.php">Términos de uso</a><br>
+          <a href="para-emprendedores.php">Cómo funciona</a><br>
           <a href="">Evaluating Campaigns</a><br>
           <a href="">Centro de ayuda</a><br>
-          <a href="">Contáctanos</a>
+          <a href="contacto.php">Contáctanos</a>
         </div>
       </div>
     </div>
@@ -76,7 +76,7 @@
         <div class="col-xl-12 pink-link">
           <h4>Transparency and communication</h4>
           Providing a trusted platform is a two-way street. We expect everyone to comply with our
-          <a href="#">&nbsp;Términos de uso&nbsp;</a>
+          <a href="terminos-de-uso.php">&nbsp;Términos de uso&nbsp;</a>
           and keep the lines of communication open and honest. Not doing so may jeopardize the confidence and trust of the community who is excited to see entrepreneurial projects succeed.<br><br>
         </div>
         <div class="col-xl-6">
@@ -114,7 +114,7 @@
           <h4>We are here to support you</h4>
           <p>We are constantly listening to feedback and finding ways to improve our platform so that you feel confident in your decision to back campaigns on Indiegogo. Though sometimes projects encounter obstacles and unforeseen circumstances that could prevent entrepreneurs from being able to fulfill, we have policies and tools in place to help them communicate to their supporters in an effective and productive way. Failure to provide monthly updates and maintain open communication may result in restrictions to individual Indiegogo accounts or suspension of campaigns.</p>
 
-          <p>With crowdfunding, there are always risks, so Indiegogo does not guarantee that contributions will be used as promised, that campaign owners will deliver perks, or that campaigns will achieve their goals. However, if our <a href="#">&nbsp;Términos de uso&nbsp;</a> are violated, we will take action on behalf of our backers to make things right.</p>
+          <p>With crowdfunding, there are always risks, so Indiegogo does not guarantee that contributions will be used as promised, that campaign owners will deliver perks, or that campaigns will achieve their goals. However, if our <a href="terminos-de-uso.php">&nbsp;Términos de uso&nbsp;</a> are violated, we will take action on behalf of our backers to make things right.</p>
 
           <p>Though we don’t review crowdfunding campaigns for feasibility, we do require Product Stages for all Tech & Innovation campaigns. Our Trust & Safety team reviews each individual campaign in this category before granting the Prototype Stage, Manufacturing Stage or Shipping Stage to any campaign – so you can be better informed about where these ideas are in the product lifecycle when you’re deciding whether you’d like to back them. If we receive any questions or concerns regarding a particular project, our Trust & Safety experts review and address these concerns with the campaign owners directly.</p>
 
@@ -122,7 +122,7 @@
 
           <p>We’re constantly improving our platform and policies to create a better experience for backers and campaigners. However, we can’t make any promises on behalf of the entrepreneurs on our platform, and we can’t guarantee that every incredible idea will come to life. To that end, Indiegogo does not resolve disputes, nor do we offer refunds once funds have been disbursed.</p>
 
-          <p><b>We are here to support you.</b> You can access our Help Center or <a href="#">&nbsp;Contact us&nbsp;</a> at any time. Our dedicated Customer Happiness agents will reply to any support query within 24 hours.</p>
+          <p><b>We are here to support you.</b> You can access our Help Center or <a href="contacto.php">&nbsp;Contact us&nbsp;</a> at any time. Our dedicated Customer Happiness agents will reply to any support query within 24 hours.</p>
         </div>
         <div class="col-xl-12">
           <div class="img-centradas" style="background-image: url(../img/cuddle.jpg);">

@@ -46,10 +46,10 @@
         <div class="col-xl-5 pink-link">
           <a href="">Prensa</a><br>
           <a href="">Carreras</a><br>
-          <a href="">Confianza Y Seguridad</a><br>
+          <a href="confianza-seguridad.php">Confianza Y Seguridad</a><br>
           <a href="">Medio</a><br>
           <a href="">Recursos De Marca</a><br>
-          <a href="">Contatarnos</a>
+          <a href="contacto.php">Contatarnos</a>
         </div>
       </div>
     </div>
@@ -63,7 +63,7 @@
         <div class="col-xl-12 pink-link normal-text">
           <h2>La comunidad Indiegogo</h2>
           <h4>Impulsada por la curiosidad, la comunidad Indiegogo ha ayudado a que más de 800.000 ideas innovadoras cobraran vida desde 2008. En la actualidad, tenemos un grupo de más de 9 millones de patrocinadores, que representan a 235 países y territorios. Siempre en busca de nuevas soluciones para los problemas de todos los días, nuestra comunidad se esfuerza por hacer descubrimientos inteligentes antes que nadie. Desde campañas en vivo hasta tecnología lista para enviar, nuestros curiosos humanos confían en Indiegogo para encontrar las últimas innovaciones en tecnología y diseño.</h4><br>
-          <a href="">Infórmate sobre qué hacemos</a>
+          <a href="lo-que-hacemos.php">Infórmate sobre qué hacemos</a>
         </div>
         <div class="col-xl-4">
           "Los productos en Indiegogo son únicos y más interesantes. No son como lo que encuentro en el mercado. Son innovadores. La tecnología es tan nueva que las empresas ni siquiera saben que serán populares."

@@ -419,7 +419,7 @@
                   <a href="">Ayuda y servicio técnico</a><br>
                   <a href="">Prensa</a><br>
                   <a href="">Carreras</a><br>
-                  <a href="">Contacto</a><br>
+                  <a href="page/contacto.php">Contacto</a><br>
               </div>
               <div class="col-xl-2" >
                  <br>
