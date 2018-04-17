@@ -14,20 +14,20 @@
     <meta name="author" content="RonmelLizardo_LuisEstrada">
 
     <!-- Icono o favicon de el sitio web y nombre de la pagina -->
-    <link rel="icon" href="img/favicon.png">
-    <title>Indiegogo IS-POO-2018</title>
+    <link rel="icon" href="../img/favicon.png">
+    <title>Comienza Una Campañia Indiegogo IS-POO-2018</title>
 
 	<!-- Importar las librerias de bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet">
+    <link href="../css/custom.css" rel="stylesheet">
 
     <!-- Libreria para utilizar font awesome-->
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
     <!--Css donde se creara los demas atributos que se
     utilizara en el sitio web -->
-    <link rel="stylesheet" type="text/css" href="css/estiloIS.css">
+    <link rel="stylesheet" type="text/css" href="../css/estiloIS.css">
   </head>
   <!--Fin del encabezado -->
 
@@ -37,7 +37,7 @@
   <body>
 
   <!--Inicio de la barra de menu -->
-    <?php include("header.html"); ?>
+    <?php include("../page/header.html"); ?>
 
     <main role="main">
 
@@ -54,7 +54,7 @@
                 <p>Indiegogo es donde las ideas innovadoras cobran vida.</p>
                 <hr>
                 <p>Tarifa de 5% de la plataforma</p>
-                <img class="img-small" src="img/logo2.png">
+                <img class="img-small" src="../img/logo2.png">
               </a>
             </div>
           </div>
@@ -65,7 +65,7 @@
                 <p>YouCaring es un sitio web confiable y gratuito líder en recaudación de fondos para causas personales, médicas y benéficas.</p>
                 <hr>
                 <p>Tarifa de 0% de la plataforma</p>
-                <img class="img-small" src="img/youCaring-logo.png">
+                <img class="img-small" src="../img/youCaring-logo.png">
               </a>
             </div>
           </div>
@@ -74,7 +74,7 @@
       </div>
 
       <!-- Comienzo del pie de pagina -->
-      <?php include("footer.html"); ?>
+      <?php include("../page/footer.html"); ?>
 
     </main>
 
@@ -84,19 +84,15 @@
 
 
     <!--Posterior uso JS, Popper.js y jQuery -->
-    <script src="js/jquery-3.3.1.js"></script>
+    <script src="../js/jquery-3.3.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="../../../../assets/js/vendor/popper.min.js"></script>
-    <script src="../../../../dist/js/bootstrap.min.js"></script>
-    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-    <script src="../../../../assets/js/vendor/holder.min.js"></script>
+    
+
+     <!--Controlador para gestionar la pagina-->
+    <script type="text/javascript" src="../js/controlador.js"></script>
+
 
 
   </body>

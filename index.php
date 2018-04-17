@@ -37,8 +37,124 @@
   <body>
 
   <!--Inicio de la barra de menu -->
-   <?php include("page/header-del-index.html"); ?>
-    
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark 
+         col-xl-12 "> <!-- elimine el atributo fixet top-->
+          <a class="navbar-brand" href="index.php"><img src="img/logo.png" class="img-fluid"></a>
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fas fa-angle-down"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">              
+                  <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Explorar
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="page/lo-que-hacemos.php">Lo que hacemos.</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-search fa-lg" style="color: gray;"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-envelope fa-lg"></i>&nbsp;Newsletter</a>
+              </li>
+            </ul>
+            <a href="page/para-emprendedores.php" class="nav-link">Para emprendedores</a>
+            <a href="page/comienza-una-campania.php" class="nav-link">Comienza una campaña</a>
+            <div class="barra-vertical"></div>
+            <a href="#" class="nav-link" data-toggle="modal" data-target="#modal-LogIn">Iniciar Sesión</a>
+            <a href="#" class="nav-link"  data-toggle="modal" data-target="#modal-SignUp">Regístrate</a>
+          </div>
+        </nav>
+
+        
+      </header>
+
+       <!-- Modal Sign Up - Regístrate -->
+    <div class="modal fade" id="modal-SignUp">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Regístrate</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <a class="btn btn-facebook btn-lg btn-block" href="#"> CONTINUAR CON FACEBOOK </a>
+          
+            <p>Sin publicaciones sin su permiso.</p>
+            <hr> 
+            <h5>O regístrate con el correo electrónico</h5>    
+            <form>
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="txt-nombre" placeholder="Introduzca sus nombre">
+                  </div>
+                  <div class="form-group">
+                      <input type="text" class="form-control" id="text-apellido" placeholder="Intruduzca sus apellido">
+                  </div>
+                  <div class="form-group">
+                      <input type="email" class="form-control" id="txt-email"  placeholder="Introduzca su correo electrónico">
+                  </div>
+                  <div class="form-group">
+                      <input type="password" class="form-control" id="txt-password" placeholder="Introduzca su contraseña">
+                  </div>
+                  <div class="form-check">
+                      <input type="checkbox" class="form-check-input" id="checkNotificar">
+                      <label class="form-check-label" for="checkNotificar">Regístrate en el boletín semanal</label>
+                  </div>
+                  <button type="submit" class="btn btn-rosa1">Crear una cuenta</button>
+                </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+          <!-- Modal log in - iniciar sesión -->
+    <div class="modal fade" id="modal-LogIn">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Iniciar Sesión</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <a class="btn btn-facebook btn-lg btn-block" href="#">INICIAR CON FACEBOOK</a>
+            <p>Sin publicaciones sin su permiso.</p>
+            <hr> 
+            <h5>O ingresa con el correo electrónico</h5>    
+              <form>
+                  <div class="form-group">
+                      <input type="email" class="form-control" id="txt-email"  placeholder="Introduzca su correo electrónico">
+                  </div>
+                  <div class="form-group">
+                      <input type="password" class="form-control" id="txt-password" placeholder="Introduzca su contraseña">
+                  </div>
+                  <div class="form-check">
+                      <input type="checkbox" class="form-check-input" id="checkRecordar">
+                      <label class="form-check-label" for="checkRecordar">Recuérdame</label>
+                  </div>
+                  <button type="submit" class="btn btn-rosa1">Iniciar Sección</button>
+              </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Fin de los modales de log in y de sing up -->
 
     <main role="main">
 
@@ -280,8 +396,97 @@
       </div><!-- /.container -->
 
       <!-- Comienzo del pie de pagina -->
-      <?php include("page/footer-del-index.html"); ?>
-        
+      <footer class="container  col-xl-12">
+
+        <div class="container  col-xl-12">
+            <div class="row">
+              <div class="col-xl-2">
+                <br>
+                <h5>EXPLORAR</h5> 
+                  <a href="#">Lo que hacemos </a><br>
+                  <a href="#">Financiamiento</a><br>
+                  <a href="#">Marketplace</a><br>
+                  <a href="#">Invertir</a><br>
+                  <a href="#">Generosity</a><br>
+
+              </div>
+              <div class="col-xl-2">
+                 <br>
+                <h5>ACERCA DE</h5> 
+                  <a href="">Sobre nosotros</a><br>
+                  <a href="">Blog</a><br>
+                  <a href="">Confianza y seguridad</a><br>
+                  <a href="">Ayuda y servicio técnico</a><br>
+                  <a href="">Prensa</a><br>
+                  <a href="">Carreras</a><br>
+                  <a href="">Contacto</a><br>
+              </div>
+              <div class="col-xl-2" >
+                 <br>
+                <h5>EMPRENDEDORES</h5> 
+                  <a href="">Cómo funciona</a><br>
+                  <a href="">Indiegogo vs. Kickstarter</a><br>
+                  <a href="">Centro de educación</a><br>
+                  <a href="">Directorio de expertos</a><br>
+                  <a href="">Tarifas</a><br>
+                  <a href="">Programa</a><br>
+              </div>
+              <div class="col-xl-2">
+                 <br>
+                <h5>IDIOMA</h5>
+                 <div class="dropdown">
+                  <button class="btn btn-rosa1 dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Idioma</button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Español</a>
+                    <a class="dropdown-item" href="#">English</a>
+                    <a class="dropdown-item" href="#">Frances</a>
+                    <a class="dropdown-item" href="#">Deutsch</a>
+                  </div>
+                 </div>
+              </div>
+              <div class="col-xl-4">
+                <img src=""> 
+                <i class="fas fa-envelope-open fa-3x"></i>
+                <p><b>Lo encontrará primero en Indiegogo</b></p>
+                <form>
+                  <p>Descubre productos nuevos e inteligentes en el boletín de Indiegogo</p>
+                <input type="email" name="txt-email-footer" class="form-control" placeholder="Tu dirección de correo aqui">
+              
+                <button type="submit" class="btn btn-rosa1 btn-lg btn-block ">Registrarme</button>
+                </form>
+              </div>
+            </div>
+            <hr>
+
+                   <!-- FOOTER -->
+        <div class="container  col-xl-12 ">
+            <div class="row">
+              <div class="col-xl-2">
+                <p style=" font-size: 12px;">&copy; Indiegogo,Inc. IS-POO-2018. &middot;</p>
+
+              </div>
+              <div class="col-xl-8">
+                
+              &nbsp <a href="page/terminos-de-uso.php">Términos De Uso </a>&nbsp 
+              &nbsp <a href="page/politica-de-privacidad.php">Política De Privacidad </a>&nbsp 
+              &nbsp <a href="page/politica-de-cookies.php">Política De Cookies  </a>&nbsp 
+              &nbsp <a href="page/terminos-de-socio.php">Términos De Los Socios</a>&nbsp 
+
+              </div>
+
+              </div>
+
+              <div class="col-xl-2">
+                <!--Fuentes que son utilizado como iconos con la libreria de font awesome -->
+                  <a href="#"><i class="fab fa-facebook-square"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-youtube"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-linkedin"></i> </a>
+              </div>
+            </div>
+          </footer>  
     </main>
 
 
@@ -297,14 +502,7 @@
     <script type="text/javascript" src="js/controlador.js"></script>
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="../../../../assets/js/vendor/popper.min.js"></script>
-    <script src="../../../../dist/js/bootstrap.min.js"></script>
-    <script src="../../../../assets/js/vendor/holder.min.js"></script>
+   
 
 
 

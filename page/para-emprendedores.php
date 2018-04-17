@@ -15,7 +15,7 @@
 
     <!-- Icono o favicon de el sitio web y nombre de la pagina -->
     <link rel="icon" href="../img/favicon.png">
-    <title>Términos de uso Indiegogo IS-POO-2018</title>
+    <title>Para Emprendedores Indiegogo IS-POO-2018</title>
 
 	<!-- Importar las librerias de bootstrap -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -40,8 +40,108 @@
     <?php include("../page/header.html"); ?>
 
     <main role="main">
+
     	<div class="container">
-    		<h1>Términos de uso</h1>
+        
+       
+       
+
+
+      <div class="row">
+          <div class="col-xl-12"  style="background-image: url(../img/para-emprendedores-header.png); background-repeat: no-repeat;background-size: cover; position: relative;
+    height: 375px;">
+            
+            <h1 style="  font-family: "Benton Sans Medium","Helvetica","sans-serif";
+        font-size: 36px;  text-align: center; ">
+
+            Para Emprendedores</h1> 
+            <p>Con campañas de recaudación de fondos activas así como envío de productos innovadores ahora, no hay mejor lugar para comenzar la caza de innovaciones geniales e inteligentes que sorprenden y deleitan. Indiegogo es donde lo nuevo se lanza.</p>
+
+            <button class="btn btn-rosa1">Obtener la guía</button>
+          </div>
+    </div>
+
+    <hr>
+
+      <div class="row">
+          <div class="col-xl-12">
+                <h2>Proyecto por proyecto,estamos cambiando la forma en que las nuevas ideas cobran vida.</h2>   
+            </div>
+            <div class="col-xl-3">
+                <h5>1B+</h5>  
+                <p>Total recaudado en todos los proyectos, desde baile hasta diseño. </p> 
+            </div>
+            <div class="col-xl-3">
+                <h5>11MM+</h5>  
+                <p>Contribuciones de nuestra increíble comunidad de patrocinadores para proyectos de 650k+.</p> 
+            </div>
+            <div class="col-xl-3">
+                <h5>223</h5>  
+                <p>Países y territorios donde las campañas han comenzado. </p> 
+            </div>
+            <div class="col-xl-3">
+                <h5>18,983%</h5>  
+                <p>Lo máximo que una campaña ha superado su objetivo ... ¡hasta ahora!</p> 
+            </div>
+      </div>
+
+        <hr>
+        <div class="row">
+          <div class="col-xl-12">
+                <h2>Suéñalo. Financiarla. Hazlo. Envíalo.Ayudamos en cada paso desde el concepto hasta el mercado.</h2>   
+            </div>
+            <div class="col-xl-6">
+                <img src="../img/financiamiento.jpg" alt="">
+                <h5>CROWDFUNDING</h5>  
+                <h4>Recauda fondos con una campaña de crowdfunding</h4>
+                <p>Adquiera capital inicial y valide su idea aprovechando la red global de adoptantes tempraneros de Indiegogo.</p> 
+                    <a href="#" title="">INICIAR UNA CAMPAÑA></a>
+            </div>
+             <div class="col-xl-6">
+                <img src="../img/indenisacion.jpg" alt="">
+                <h5>EN DEMANDA</h5>  
+                <h4>Extienda su campaña con InDemand</h4>
+                <p>Después de su campaña de crowdfunding, continúe recaudando dinero y construyendo su comunidad con InDemand. Sin objetivo de recaudación de fondos, sin límites de fecha límite.</p> 
+                    <a href="#" title="">ACCESO A InDemand></a>
+            </div>
+             <div class="col-xl-6">
+                <img src="../img/marketplace.jpg" alt="">
+                <h5>MERCADO</h5>  
+                <h4>Genere ventas anticipadas en Indiegogo Marketplace</h4>
+                <p>Venda su producto directamente a nuestra audiencia de consumidores tecnológicos; incluso tenemos socios para proporcionar herramientas de cumplimiento.</p> 
+                    <a href="#" title="">ÚNASE AL MERCADO></a>
+            </div>
+             <div class="col-xl-6">
+                <img src="../img/aquity.jpg" alt="">
+                <h5>EQUIDAD CROWDFUNDING</h5>  
+                <h4>Aumentar la inversión de la multitud o conducir ICOs</h4>
+                <p>Let the crowd invest in your company along with (or instead of) traditional investors. Offer securities, revenue sharing, or even cryptocurrency and token sales.</p> 
+                    <a href="#" title="">SOLICITE LA EQUIDAD></a>
+            </div>
+
+      </div>
+
+<hr>
+       <div class="row">
+          
+            <div class="col-xl-6">
+                <img src="../img/emprendedores.jpg" >
+            </div>
+             <div class="col-xl-6">
+                <h5>Servicios para emprendedores</h5> 
+                <p>Desde el concepto hasta el mercado, Indiegogo Entrepreneur Services está aquí para ayudarlo.</p>
+
+               
+                <p>Más que una plataforma de crowdfunding, Indiegogo ofrece servicios y recursos de socios clave para empoderar a los empresarios a lo largo de la vida de su proyecto.</p> 
+                    <a href="#" title="">ACCESO A InDemand></a>
+            </div>
+          </div>
+
+
+
+
+
+    		<h1>Para Emprendedores</h1>
 
     		<br>
     		<h2>Indiegogo, Inc.</h2>
@@ -90,7 +190,7 @@
 
       </main>
 
-    <!--Posterior uso JS, Popper.js y jQuery -->
+   <!--Posterior uso JS, Popper.js y jQuery -->
     <script src="../js/jquery-3.3.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -99,8 +199,9 @@
     <script type="text/javascript" src="../js/controlador.js"></script>
 
 
-    
-    
+ 
+
+
 
   </body>
 </html>

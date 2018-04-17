@@ -15,7 +15,7 @@
 
     <!-- Icono o favicon de el sitio web y nombre de la pagina -->
     <link rel="icon" href="../img/favicon.png">
-    <title>Términos de uso Indiegogo IS-POO-2018</title>
+    <title>Términos de los socios Indiegogo IS-POO-2018</title>
 
 	<!-- Importar las librerias de bootstrap -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -41,7 +41,7 @@
 
     <main role="main">
     	<div class="container">
-    		<h1>Términos de uso</h1>
+    		<h1>Términos de los socios</h1>
 
     		<br>
     		<h2>Indiegogo, Inc.</h2>
@@ -90,7 +90,7 @@
 
       </main>
 
-    <!--Posterior uso JS, Popper.js y jQuery -->
+   <!--Posterior uso JS, Popper.js y jQuery -->
     <script src="../js/jquery-3.3.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -100,7 +100,8 @@
 
 
     
-    
+
+
 
   </body>
 </html>
