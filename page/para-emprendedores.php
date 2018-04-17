@@ -51,13 +51,13 @@
           <div class="col-xl-12"  style="background-image: url(../img/para-emprendedores-header.png); background-repeat: no-repeat;background-size: cover; position: relative;
     height: 375px;">
             
-            <h1 style="  font-family: "Benton Sans Medium","Helvetica","sans-serif";
+            <h1 class="elemento" style="  font-family: "Benton Sans Medium","Helvetica","sans-serif";
         font-size: 36px;  text-align: center; ">
 
             Para Emprendedores</h1> 
-            <p>Con campañas de recaudación de fondos activas así como envío de productos innovadores ahora, no hay mejor lugar para comenzar la caza de innovaciones geniales e inteligentes que sorprenden y deleitan. Indiegogo es donde lo nuevo se lanza.</p>
+            <p class="elemento">Con campañas de recaudación de fondos activas así como envío de productos innovadores ahora, no hay mejor lugar para comenzar la caza de innovaciones geniales e inteligentes que sorprenden y deleitan. Indiegogo es donde lo nuevo se lanza.</p>
 
-            <button class="btn btn-rosa1">Obtener la guía</button>
+            <button class="btn btn-rosa1 text">Obtener la guía</button>
           </div>
     </div>
 
@@ -185,7 +185,7 @@
           <hr>
           <div class="row" style="background-color: #f5f5f5;">
             <div class="col-xl-6">
-                <img src="../img/emprendedores.jpg" >
+                <img src="../img/global.jpg" >
             </div>
              <div class="col-xl-6">
                 <h5>Indiegogo China: su vía rápida hacia el mercado global</h5> 
@@ -199,7 +199,93 @@
             </div>
           </div>
           <hr>
+          <div class="row">
+          <div class="col-xl-12">
+                <h2>Todos los expertos adecuados para ayudar a su negocio</h2> 
+
+                <h5>Explore nuestro nuevo Directorio de expertos y encuentre compañías investigadas por Indiegogo para ayudarlo a lanzar su campaña y llevar su producto al mercado.</h5>  
+            </div>
+            <div class="col-xl-2">
+                <img src="../img/creative.png" alt="">
+                <h5>Servicios creativos</h5>  
+            </div>
+             <div class="col-xl-2">
+                <img src="../img/entrepreneur.png">
+                <h5>Cumplimiento</h5>     
+            </div>
+             <div class="col-xl-2">
+                <img src="../img/marketing.png" alt="">
+                <h5>Comunicaciones de marketing</h5>           
+            </div>
+             <div class="col-xl-2">
+                <img src="../img/prototyping.png" alt="">
+                <h5>Prototipos y producción</h5>  
+       
+            </div>
+            <div class="col-xl-2">
+                <img src="../img/marketplace.jpg" alt="">
+                <h5>Comercio minorista, licencias y distribución</h5>    
+            </div>
+            <div class="col-xl-12">
+                <button class="btn btn-rosa1">Encontrar expertos</button>   
+            </div>
+      </div>
+      <hr>
+      <div class="row" style="background-color: #f5f5f5;">
+          <div class="col-xl-12" >
+                <h2>Historias de éxito</h2>   
+            </div>
+            <div class="col-xl-4">
+                <img src="../img/bag.jpg">
+                <p>La bolsa de viaje NOMATIC está enviando sus productos en todo el mundo a 7K patrocinadores después de recaudar $ 3M en crowdfunding en Indiegogo.<a href="">Aprende más</a></p> 
+            </div>
+            <div class="col-xl-4">
+                <img src="../img/HyperDrive.jpg"> 
+                <p>HyperDrive Thunderbolt 3 USB-C Hub para MacBook Pro recaudó más de 1 millón de dólares en InDemand, centrándose en el alcance para hacer crecer una comunidad leal de patrocinadores.<a href="">Aprende más</a></p> 
+            </div>
+            <div class="col-xl-4">
+                <img src="../img/BullRest.jpg">
+                <p>Después de recaudar $ 381K en Indiegogo, Bullrest, la almohada de viaje reinventada, se lanzó en Indiegogo Product Marketplace con envío garantizado.<a href="">Aprende más</a></p> 
+            </div>
+            <div class="col-xl-12">
+                <button class="btn btn-rosa1">Ver historias</button>
+            </div>
+      </div>
+          <hr>
+          <div class="row">
+          <div class="col-xl-12">
+                <h2>¿Listo para ir?</h2> 
+
+                <h5>Estás a un paso de comenzar tu aventura emprendedora en Indiegogo. Aquí es a dónde ir a continuación:</h5>  
+            </div>
+            <div class="col-xl-3">
+                <img src="../img/start-a-campaign.png" alt="">
+                <h5>Comience una Campaña</h5>  
+                <p>Dé el paso con nuestra herramienta de creación de campaña guiada. Es gratis, y puedes comenzar fácilmente ahora y terminar más tarde.</p>
+                <a href="#">Empezar</a>
+            </div>
+             <div class="col-xl-3">
+                <img src="../img/experts-directory.png">
+                <h5>Directorio de expertos</h5>  
+                <p>Lleve su idea más allá con estas empresas experimentadas recomendadas por los activistas y el personal de Indiegogo.</p>
+                <a href="#">Encontrar soporte</a>   
+            </div>
+             <div class="col-xl-3">
+                <img src="../img/education-center.png" alt="">
+                <h5>Centro educativo</h5>  
+                <p>Encuentre todo lo que necesita para una campaña exitosa en un lugar conveniente.</p>
+                <a href="#">Explore nuestros recursos</a>       
+            </div>
+             <div class="col-xl-3">
+                <img src="../img/Indiegogo-vs-Kickstarter.png" alt="">
+                <h5>Indiegogo vs Kickstarter</h5>  
+                <p>Conozca los beneficios de elegir Indiegogo para su idea. Vea nuestro desglose detallado.</p>
+                <a href="#">Informarse</a>  
+            </div>
+           
           
+      </div>
+
 
 
 
