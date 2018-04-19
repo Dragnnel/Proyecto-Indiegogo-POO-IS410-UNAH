@@ -46,18 +46,8 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">              
-                  <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Explorar
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#" id="btn-explorar">Explorar&nbsp;<i class="fas fa-angle-down"></i></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="page/lo-que-hacemos.php">Lo que hacemos.</a>
@@ -76,6 +66,96 @@
             <a href="#" class="nav-link"  data-toggle="modal" data-target="#modal-SignUp">Regístrate</a>
           </div>
         </nav>
+
+        <!--Desplegable de explorar-->
+       <div class="container-explorar" id="div-explorar" tabindex="0">
+        <div class="row explorar-header">
+          <div class="col-xl-2">
+            <div class="explorar-header-item"></div>
+          </div>
+          <div class="col-xl-2">
+            <div class="explorar-header-item"></div>
+          </div>
+          <div class="col-xl-2">
+            <div class="explorar-header-item"></div>
+          </div>
+          <div class="col-xl-2">
+            <div class="explorar-header-item"></div>
+          </div>
+          <div class="col-xl-2">
+            <div class="explorar-header-item"></div>
+          </div>
+          <div class="col-xl-2">
+            <div class="explorar-header-item"></div>
+          </div>
+        </div>
+        <div class="row explorar-footer">
+          <div class="col-xl-4">
+            <div class="row">
+              <div class="col-xl-12">
+                <p>Tecnología e innovación<p><br>
+              </div>
+              <div class="col-xl-6">
+                Audio<br>
+              Accesorios para cámaras<br>
+              Energía y tecnología ecológica<br>
+              Moda y dispositivos portátiles<br>
+              Alimentos y bebidas<br>
+              Salud y actividad física
+              </div>
+              <div class="col-xl-6">
+                Inicio<br>
+              Teléfonos y accesorios<br>
+              Productividad<br>
+              Transporte<br>
+              Viajes y vida al aire libre
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4">
+            <div class="row">
+              <div class="col-xl-12">
+                <p>Trabajos creativos<p><br>
+              </div>
+              <div class="col-xl-6">
+                Arte<br>
+              Cómics<br>
+              Danza y teatro<br>
+              Película<br>
+              Música<br>
+              Fotografía
+              </div>
+              <div class="col-xl-6">
+                Podcasts, blogs y vlogs<br>
+              Juegos de mesa<br>
+              Videojuegos<br>
+              Series web y programas de TV<br>
+              Escritura y edición 
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4">
+            <div class="row">
+              <div class="col-xl-12">
+                <p>Proyectos comunitarios<p><br>
+              </div>
+              <div class="col-xl-6">
+                Derechos de los animales<br>
+              Cultura<br>
+              Educación<br>
+              Medio ambiente<br>
+              Derechos humanos<br>
+              Empresas locales 
+              </div>
+              <div class="col-xl-6">
+                Espiritualidad<br>
+              Bienestar 
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
+       <!--Fin de Desplegable de explorar-->
 
         
       </header>
@@ -464,12 +544,10 @@
               </div>
               <div class="col-xl-8">
                 
-              &nbsp <a href="page/terminos-de-uso.php">Términos De Uso </a>&nbsp 
-              &nbsp <a href="page/politica-de-privacidad.php">Política De Privacidad </a>&nbsp 
-              &nbsp <a href="page/politica-de-cookies.php">Política De Cookies  </a>&nbsp 
-              &nbsp <a href="page/terminos-de-socio.php">Términos De Los Socios</a>&nbsp 
-
-              </div>
+              <a href="terminos-de-uso.php">Términos De Uso </a>&nbsp 
+              <a href="politica-de-privacidad.php">Política De Privacidad</a>&nbsp 
+              <a href="politica-de-cookies.php">Política De Cookies </a>&nbsp 
+              <a href="terminos-de-socio.php">Términos De Los Socios</a> 
 
               </div>
 
@@ -482,7 +560,9 @@
                   <a href="#"><i class="fab fa-linkedin"></i> </a>
               </div>
             </div>
-          </footer>  
+          </div>
+        </div>
+      </footer> 
     </main>
 
 

@@ -97,13 +97,13 @@ footer {
 
 
 footer a {
-font-family: "Benton Sans","Helvetica","sans-serif";
-font-size: 14px;
-font-weight: normal;
-line-height: 0px;
-color: #2a2a2a;
-text-decoration: none;
-text-align: left;
+    font-family: "Benton Sans","Helvetica","sans-serif";
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 0px;
+    color: #2a2a2a;
+    text-decoration: none;
+    text-align: left;
 }
 
 
@@ -430,6 +430,7 @@ row img{
 .img-centradas p{
     max-width: 750px;
     margin-left: 300px;
+    color: white;
 }
 
 .texto h2{
@@ -445,6 +446,11 @@ row img{
 .contact{
     color: #EB1478;
     text-align: left;
+}
+
+.contact .input-group{
+    border: 1px solid gray;
+    border-radius: .10rem;
 }
 
 .contact a{
@@ -464,6 +470,22 @@ row img{
     text-align: center;
     position: relative;
     margin: 0 420px 20px 420px;
+}
+
+.help-content .input-group{
+    width: 80%;
+    margin-left: 50px;
+}
+
+.input-group-text{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: .10rem;
+}
+
+.mb-3 .form-control{
+    border-color: white;
+    border-radius: .10rem;
 }
 
 .mb-3, .my-3{
@@ -502,4 +524,45 @@ row img{
 
 .custom-select{
     width: 55%;
+}
+
+#div-explorar{
+    display: none;
+    transition: all 3s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 10;
+    position: absolute;
+}
+
+.container-explorar{
+    width: 100%;
+    text-align: left;
+    font-family: "Helvetica";
+    color: #2a2a2a;
+    font-size: 12px;
+}
+
+.explorar-header{
+    background-color: white;
+    min-height: 200px;
+    padding: 60px 100px 15px 100px;
+}
+
+.explorar-footer{
+    background-color: #F0F0F0;
+    min-height: 200px;
+    padding: 20px 100px 20px 100px;
+    line-height: 22px;
+}
+
+.explorar-footer p{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: black;
+    font-size: 15px;
+}
+
+.explorar-header-item{
+    background-color: #F0F0F0;
+    min-height: 100px;
+    max-width: 80%;
 }

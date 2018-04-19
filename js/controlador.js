@@ -1,4 +1,18 @@
 
+$("#btn-explorar").hover(
+    function(){
+        $("#div-explorar").show();
+    }
+);
+
+$("#div-explorar").hover(
+	function(){
+        $("#div-explorar").show();
+    },
+    function(){
+        $("#div-explorar").hide();
+    }
+);
 
 function crearCuenta(){
 	var parametros= "nombre="+$("#txt-nombre").val()+"&"+
