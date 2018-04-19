@@ -403,7 +403,7 @@
               <div class="col-xl-2">
                 <br>
                 <h5>EXPLORAR</h5> 
-                  <a href="#">Lo que hacemos </a><br>
+                  <a href="page/lo-que-hacemos.php">Lo que hacemos </a><br>
                   <a href="#">Financiamiento</a><br>
                   <a href="#">Marketplace</a><br>
                   <a href="#">Invertir</a><br>
@@ -434,16 +434,12 @@
               <div class="col-xl-2">
                  <br>
                 <h5>IDIOMA</h5>
-                 <div class="dropdown">
-                  <button class="btn btn-rosa1 dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Idioma</button>
-                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#">Español</a>
-                    <a class="dropdown-item" href="#">English</a>
-                    <a class="dropdown-item" href="#">Frances</a>
-                    <a class="dropdown-item" href="#">Deutsch</a>
-                  </div>
-                 </div>
+                <select class="custom-select custom-select-sm">
+                    <option value="1" selected>Español</option>
+                    <option value="2">English</option>
+                    <option value="3">Frances</option>
+                    <option value="4">Deutsch</option>
+                  </select>
               </div>
               <div class="col-xl-4">
                 <img src=""> 
