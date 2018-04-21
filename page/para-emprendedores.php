@@ -51,11 +51,15 @@
           <div class="col-xl-12"  style="background-image: url(../img/para-emprendedores-header.png); background-repeat: no-repeat;background-size: cover; position: relative;
     height: 375px;">
             
-            <h1 class="elemento" style="  font-family: "Benton Sans Medium","Helvetica","sans-serif";
-        font-size: 36px;  text-align: center; ">
+            <div class="titulo-cuadrado">
+              <br>
+              <h1>Para Emprendedores</h1>
+            </div>
 
-            Para Emprendedores</h1> 
-            <p class="elemento">Con campañas de recaudación de fondos activas así como envío de productos innovadores ahora, no hay mejor lugar para comenzar la caza de innovaciones geniales e inteligentes que sorprenden y deleitan. Indiegogo es donde lo nuevo se lanza.</p>
+            <div>
+              <p  class="elemento">Con campañas de recaudación de fondos activas así como envío de productos innovadores ahora, no hay mejor lugar para comenzar la caza de innovaciones geniales e inteligentes que sorprenden y deleitan. Indiegogo es donde lo nuevo se lanza.</p>
+            </div>             
+            
 
             <button class="btn btn-rosa1 text">Obtener la guía</button>
           </div>
@@ -65,7 +69,7 @@
 
       <div class="row" style="background-color: #f5f5f5;">
           <div class="col-xl-12" >
-                <h2>Proyecto por proyecto,estamos cambiando la forma en que las nuevas ideas cobran vida.</h2>   
+                <h2 class="titulo-negritas">Proyecto por proyecto,estamos cambiando la forma en que las nuevas ideas cobran vida.</h2>   
             </div>
             <div class="col-xl-3">
                 <h5 class="text">1B+</h5>  
