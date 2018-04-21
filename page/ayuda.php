@@ -122,6 +122,11 @@
       <h1>Still can't find what you need?</h1>
       <a class="btn btn-rosa1" href="" >CONTACT SUPPORT</a>
     </div>
+    <hr>
+
+     <!-- Comienzo del pie de pagina-->
+      <?php include("footer.html"); ?>
+
 
 
    <!--Posterior uso JS, Popper.js y jQuery -->

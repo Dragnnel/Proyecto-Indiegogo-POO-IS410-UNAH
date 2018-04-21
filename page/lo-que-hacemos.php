@@ -49,58 +49,72 @@
  <div class="row">
       <div class="col-xl-12"  style="background-image: url(../img/hero_tablet.jpg); background-repeat: no-repeat;background-size: cover; position: relative;
     height: 375px;">
+        <br><br><br>
         
-        <h1 style="  font-family: "Benton Sans Medium","Helvetica","sans-serif";
-    font-size: 36px;  text-align: center; ">
-
+        <h1 class="titulo-cuadrado-negro titulo-negritas" >
         Obtén la tecnología que hace a la gente hablar</h1> 
+        <br>
+          <div class="elemento-p ">
         <p>Con campañas de recaudación de fondos activas así como envío de productos innovadores ahora, no hay mejor lugar para comenzar la caza de innovaciones geniales e inteligentes que sorprenden y deleitan. Indiegogo es donde lo nuevo se lanza.</p>
-      </div>
-      
+        </div>
+      </div>  
     </div>
 
     <hr>
 
     <div class="row">
-      <h1>Encuentra, financia y compra el próximo artículo importante</h1>
+      <h4 class="titulo-negritas" style="text-align: center;">&nbsp;&nbsp; Encuentra, financia y compra el próximo artículo importante</h4>
 
-      <div class="col-xl-6"  style="background-color:#ffffff">
+      <div class="col-xl-6 col-md-6" >
         <img src="../img/Crowdfunding_robot.svg">
         <h5>Financiamiento</h5> 
+        <div class="elemento-p ">
         <p>Aquí es donde las nuevas e innovadoras ideas levantan vuelo, donde encuentras y financias el próximo gran artículo. Con miles de lanzamientos de campañas de crowdfunding e InDemand cada semana, hay mucho de tecnología, diseño y mucho más, a menudo con precios y recompensas especiales para los primeros patrocinadores</p>
+      </div>
         <a href="#">Más sobre financiamiento > </a>
       </div>
-      <div class="col-xl-6"  style="background-color:#ffffff">
+      <div class="col-xl-6 col-md-6" >
         <img src="../img/Marketplace_robot.svg">
-        <h5>Marketplace</h5> 
+        <h5>Marketplace</h5>
+        <div class="elemento-p ">
         <p>El marketplace de Indiegogo está lleno de innovaciones inteligentes y sorprendentes en tecnología, diseño y más—todo con envío garantizado Con la mayoría de los productos provenientes de campañas de crowdfunding exitosas, seguro encontrarás algo bueno antes de que tenga éxito.</p>
+        </div>
+        <br>
         <a href="#">Más sobre el marketplace > </a>
+
       </div>
     </div>
 
     <hr>
   
     <div class="row">
-      <div class="col-xl-12"  style="background-color:#ffffff">
+      <div class="col-xl-12 div-sombreado-blanco">
         <h1>Grandes hallazgos, entregados todos los días</h1> 
         <p>Ya sea que busques campañas para financiar o productos para comprar, sacamos lo mejor y más brillante de Indiegogo en nuestro boletín. Regístrate para encontrar información sobre tecnología, diseño, películas y mucho más – todo antes de que sea masivo.</p>
-     
-     <input type="txt-email" name="txt-email" placeholder="Tu dirección de correo"> 
-     <button class="btn btn-rosa1">SUSCRIBIRME</button>
+        </div>
+        <div class="col-xl-12 col-md-12 ">
+            <div class="col-xl-12 ">
+                <form>
+                <input type="email" name="txt-email" class="form-control" placeholder="Tu dirección de correo aqui">
+              
+                <button type="button" class="btn btn-rosa1 btn-lg btn-block ">SUSCRIBIRSE</button>
+                </form>
+        
+          </div>   
       </div>
-      
-    </div>
 
-    <hr>
+
 
     <div class="row">
-      <div class="footer col-xl-12">
-        <img src="../img/financiamiento.jpg">
+      <div class="footer col-xl-12 ">
+            <hr> <br><br>
+        <img class="tamano-icon" src="../img/financiamiento.jpg">
         <h6>FINANCIAMIENTO</h6>
         <h1>Forma parte de tecnología emergente, diseño y mucho más</h1> 
-        <p>¿Eres nuevo en crowdfunding? ¡Bienvenido/a! Con las campañas de crowdfunding e InDemand de Indiegogo, no hay un lugar mejor para descubrir productos ingeniosos mientras emergen de las mentes de emprendedores creativos de todo el mundo.</p>
+        <div class="elemento-p">
+        <p >¿Eres nuevo en crowdfunding? ¡Bienvenido/a! Con las campañas de crowdfunding e InDemand de Indiegogo, no hay un lugar mejor para descubrir productos ingeniosos mientras emergen de las mentes de emprendedores creativos de todo el mundo.</p></div>
 
-        <p>Al colaborar con las campañas —por aquí lo llamamos "patrocinar"— te unes a un grupo de conocedores y primeros adaptadores que añaden impulso a grandes proyectos en varias etapas del desarrollo, desde los primeros conceptos hasta productos listos para enviar.</p>
+        <p class="elemento-p">Al colaborar con las campañas —por aquí lo llamamos "patrocinar"— te unes a un grupo de conocedores y primeros adaptadores que añaden impulso a grandes proyectos en varias etapas del desarrollo, desde los primeros conceptos hasta productos listos para enviar.</p>
         <button class="btn btn-rosa2">EXPLORAR CAMPAÑA</button>
       </div>
       
@@ -111,10 +125,11 @@
 
     <div class="row">
       <div class="col-xl-6"  >
-        <img src="../img/aquity.jpg" >
+        <hr> <br><br>
+        <img class="tamano-icon" class="tamano-icon" src="../img/aquity.jpg" >
       <h6>EQUITY CROWDFUNDING</h6>
         <h1>Invierte en empresas que te gustan</h1> 
-        <p>Encuentra empresas emergentes innovadoras y empresas en crecimiento en las que invertir, desde software hasta hardware, películas, restaurantes y más. Cualquiera puede invertir desde apenas $100, sin necesidad de acreditación.</p>
+        <p class="elemento-p1" >Encuentra empresas emergentes innovadoras y empresas en crecimiento en las que invertir, desde software hasta hardware, películas, restaurantes y más. Cualquiera puede invertir desde apenas $100, sin necesidad de acreditación.</p>
         <button class="btn btn-rosa2">INVERTIR EN EMPRESAS</button>
       </div>
       <div class="col-xl-6"  >
@@ -128,13 +143,16 @@
 
 <div class="row">
       <div class="footer col-xl-12">
-        <img src="../img/marketplace.jpg" >
+        <hr> <br><br>
+        <img class="tamano-icon" src="../img/marketplace.jpg" >
         <h6>MARKETPLACE</h6>
         <h1>Tu lugar para comprar innovación – garantizado</h1> 
-        <p>Al igual que con las campañas de crowdfunding de Indiegogo, encontrarás muchos productos inteligentes, inspiradores y sorprendentes en el Marketplace de Indiegogo. Y al igual que con crowdfunding, los productos llegan directo de empresarios y sus equipos de todo el mundo.</p>
+        <p class="elemento-p">Al igual que con las campañas de crowdfunding de Indiegogo, encontrarás muchos productos inteligentes, inspiradores y sorprendentes en el Marketplace de Indiegogo. Y al igual que con crowdfunding, los productos llegan directo de empresarios y sus equipos de todo el mundo.</p>
 
-        <p>Los pedidos de Marketplace tienen envío garantizado – si un vendedor no cumple con su cronograma de envíos, te reembolsaremos la compra. La mayoría de los productos son campañas de crowdfunding exitosas, por lo que no hay un lugar mejor para encontrar innovaciones antes de que sean masivas.</p>
+        <p class="elemento-p">Los pedidos de Marketplace tienen envío garantizado – si un vendedor no cumple con su cronograma de envíos, te reembolsaremos la compra. La mayoría de los productos son campañas de crowdfunding exitosas, por lo que no hay un lugar mejor para encontrar innovaciones antes de que sean masivas.</p>
         <button class="btn btn-rosa2">EXPLORA EL MARKETPLACE</button>
+
+        <hr><br><br>
       </div>
       
     </div>
@@ -142,28 +160,30 @@
     <hr>
 
     <div class="row">
+      <hr> <br><br>
       <div class="col-xl-12" class="col-xl-12"  style="background-image: url(../img/closing_signup.jpg); background-repeat: no-repeat;background-size: cover;
     height: 375px;" >
         <h1>¿Quieres más?</h1> 
-        <p>Regístrate para recibir nuestro boletín y obtener novedades sobre excelentes campañas y productos, todos organizados para brindarte hallazgos únicos, hasta recomendaciones personales.</p>
+        <p class="elemento-p">Regístrate para recibir nuestro boletín y obtener novedades sobre excelentes campañas y productos, todos organizados para brindarte hallazgos únicos, hasta recomendaciones personales.</p>
         <input type="txt-email" name="txt-email" placeholder="Tu dirección de correo ">
         <button class="btn btn-rosa1">SUSCRIBIRME</button>
       </div>
     </div>
 
     <hr>
-
+<br><br><br>
     <div class="row">
+      <hr> <br><br>
       <div class="col-xl-6" >
-
-        <img src="../img/explorar.jpg" >
+        <img class="tamano-icon" src="../img/explorar.jpg" >
         <h1>¿Estás listo? Explora</h1> 
         <button class="btn btn-rosa2">DESCUBRE PROYECTOS</button>
       </div>
       <div class="col-xl-6"  >
-          <img src="../img/inspiracion.jpg" >
+          <img class="tamano-icon" src="../img/inspiracion.jpg" >
            <h1>¿Te sientes inspirado?</h1> 
         <button class="btn btn-rosa2">CONVÍERTE EN EMPRENDEDOR</button>
+        <br><br>
       
       </div>
 

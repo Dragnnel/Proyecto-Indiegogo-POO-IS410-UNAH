@@ -8,7 +8,10 @@ a:hover {
     text-decoration: underline;    
 }
 
-
+.tamano-icon {
+    width: auto;
+    height: 90px;
+}
 
 
 .cuadrado {
@@ -25,6 +28,14 @@ a:hover {
     border-radius: 4px;
 }
 
+.div-sombreado{
+    background-color: #f5f5f5;  
+}
+
+.div-sombreado-blanco{
+    background-color: #ffffff;  
+}
+
 .titulo-cuadrado{
     font-size: 40px;
     font-weight: 400;
@@ -34,6 +45,27 @@ a:hover {
     color: #fff;
     text-align: center;
 }
+
+.titulo-cuadrado-negro {
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    font-size: 36px;
+    color: #000;
+    text-align: center;
+}
+
+.titulo1-cuadrado-negro {
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+}
+
 
 .titulo {
     font-family: "Benton Sans","Helvetica","sans-serif";
@@ -50,6 +82,15 @@ a:hover {
     color: #2a2a2a;
 }
 
+.titulo-negrita-rosa{
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 1.4em;
+    margin-top: 20px;
+    color: #eb1478;
+    font-size: 30px;
+}
+
 .titulo-negritas{
     font-size: 30px;
     font-weight: 700;
@@ -57,12 +98,6 @@ a:hover {
     line-height: 1.3em;
     color: inherit;
     text-align: center;
-}
-
-
-.text{
-    color: #eb1478;
-    font-size: 30px;
 }
 
 
@@ -75,6 +110,30 @@ p{
 .elemento {
     color: #ffffff;
     text-align: left;
+}
+
+.elemento-p {
+    color: #6a6a6a;
+    text-align: left;
+}
+
+
+
+.elemento-p1 {
+    color: #6a6a6a;
+    text-align: left;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.elemento-centrado {
+    color: #ffffff;
+    text-align: center;
+}
+
+.elemento-p-centrado {
+    color: #6a6a6a;
+    text-align: center;
 }
 
 .cariuselCuadroFijo {
@@ -112,17 +171,20 @@ p{
 footer a {
     text-decoration: none;
     color: #2a2a2a;
+    text-align: left;
 }
 
 footer a:hover {
     text-decoration: underline;
     color: #2a2a2a;
+    text-align: left;
 }
 
 footer {
     background: #f5f5f5;
     color: #2a2a2a;
     padding: 60px 10px 0;
+    text-align: left;
     
 }
 

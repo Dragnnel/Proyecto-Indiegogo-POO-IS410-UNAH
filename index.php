@@ -505,11 +505,11 @@
                  <br>
                 <h5>EMPRENDEDORES</h5> 
                   <a href="page/para-emprendedores.php">Cómo funciona</a><br>
-                  <a href="">Indiegogo vs. Kickstarter</a><br>
-                  <a href="">Centro de educación</a><br>
-                  <a href="">Directorio de expertos</a><br>
-                  <a href="">Tarifas</a><br>
-                  <a href="">Programa</a><br>
+                  <a href="page/indiegogo-vs-kickstarter.php">Indiegogo vs. Kickstarter</a><br>
+                  <a href="page/centro-de-educacion.php">Centro de educación</a><br>
+                  <a href="page/directorio-de-expertos.php">Directorio de expertos</a><br>
+                  <a href="page/tarifas.php">Tarifas</a><br>
+                  <a href="page/programa.php">Programa</a><br>
               </div>
               <div class="col-xl-2">
                  <br>
