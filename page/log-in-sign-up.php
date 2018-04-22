@@ -89,10 +89,10 @@
               <h2>Iniciar Sesión</h2>    
               <form class="formularios">
                 <div class="form-group">
-                    <input type="email" class="form-control" id="txt-email"  placeholder="Introduzca su correo electrónico">
+                    <input type="email" class="form-control" id="txt-email"  placeholder="Introduzca su correo electrónico" onkeydown="validarEmail(this);" >
                 </div>
                 <div class="form-group">
-                    <input type="password" class="form-control" id="txt-password" placeholder="Introduzca su contraseña">
+                    <input type="password" class="form-control" id="txt-password" placeholder="Introduzca su contraseña" onkeydown="validarContrasena(this);">
                 </div>
                 <div class="form-check">
                     <input type="checkbox" class="form-check-input" id="checkRecordar">
@@ -121,6 +121,8 @@
 
      <!--Controlador para gestionar la pagina-->
     <script type="text/javascript" src="../js/controlador.js"></script>
+
+    <script type="text/javascript" src="../js/jquery.validate.js"></script>
 
 
    
