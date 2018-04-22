@@ -218,6 +218,51 @@
             
             </div>
           </div>
+
+
+          <div class="row">
+              <hr> <br><br>
+              <div class="col-xl-12"  style="background-image: url(../img/bg_dl.png); background-repeat: no-repeat;background-size: cover;
+            height: 375px;" >
+              <p class="elemento-centrado ">Ready to Start Your Business?</p>
+                <h1 class="elemento-centrado ">Get the Essential Crowdfunding Field Guide</h1> 
+                <p class="elemento-centrado ">We worked with our Campaign Strategists to compile all the best practices and inspiring examples of a great crowdfunding experience.</p>
+
+                <div class="col-xl-12">
+                        <a class="btn btn-rosa1" href="" >READ THE GUIDE</a>
+                        
+                      </div>
+      </div>
+    </div>
+
+    <div class="row" style="background-color: #2a2a2a;;">
+              <div class="col-xl-2"></div>
+            <div class="col-xl-8">
+                <form >
+                  <div class="form-row">
+                    <h1 class="elemento">Join our entrepreneur community!</h1>
+                    <h5 class="elemento">Sign up now and get access to the latest campaign resources, business opportunities and expert advice sent directly to your inbox.</h5>
+                    <div class="form-group col-md-6">
+                      <label class="elemento">Nombres*</label>
+                      <input type="text" class="form-control" id="txt-nombre" placeholder="Introduzca sus Nombres">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label class="elemento" >Apellidos*</label>
+                      <input type="text" class="form-control" id="text-apellido" placeholder="Introduzca sus Apellidos">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="elemento">Email*</label>
+                    <input type="text" class="form-control" id="text-email" placeholder="Introduzca su correo electronico">
+                  </div>
+                  
+                    <div class="form-group ">
+                       <button type="button" class="btn btn-rosa1">SIGNP UP NOW</button>
+                    </div>
+                </form>
+
+            </div>
+
         
 
          
