@@ -136,6 +136,11 @@ p{
     line-height: 23px;
 }
 
+.elemento-p2 {
+    color: #000000;
+    text-align: left;
+}
+
 .elemento-centrado {
     color: #ffffff;
     text-align: center;

@@ -42,9 +42,185 @@
     <main role="main">
 
 <!-- Comienzo del contenido de pagina -->
-
-      
         <div class="container">
+          <div class="row">
+            <div class="col-xl-12"  style="background-image: url(../img/IGG_Education-center-header_1440x226.png); background-repeat: no-repeat;background-size: cover; background-position: 50%;position: relative; height: 375px;">
+            
+              
+              <h1 class="titulo-cuadrado" style="color: #ffffff;">Centro educativo</h1> 
+              <p style="color: #ffffff;">Todo lo que necesita para cada etapa del viaje de su producto.</p>
+
+              
+
+                <form class="form">
+                    <div class="form-group">
+                      <div class="row">
+                        <div class="col-xl-2 col-md-2">
+                         
+                        </div>
+ 
+                        <div class="col-xl-8 col-md-8">
+                          <input type="text" class="form-control " id="txt-busqueda" placeholder="Realisar una busqueda"> <button type="submit" class="btn btn-rosa1 ">Busqueda</button>
+                        </div>
+                        <div class="col-xl-2 col-md-2">
+                        </div>
+                      </div>           
+                    </div>                 
+              </form>
+         </div>
+       </div>
+     </div>
+
+
+         <hr>
+         <div class="container">
+           <div class="row">
+                <div class="col-xl-12">
+
+
+                      <div class="col-xl-12">
+                        <div class="btn-group" role="group" aria-label="Basic example">                          
+                          <button type="button" class="btn btn-light">Creating Your Campaign</button>
+                          <button type="button" class="btn btn-light">Developing Your Product</button>
+                          <button type="button" class="btn btn-light">Managing Your Campaign</button> <br>
+                        </div>
+                          
+                      </div>
+                      <div class="col-xl-12">
+                         <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-light">Marketing & PR Planning Your Campaign</button>
+                        <button type="button" class="btn btn-light">Post-Campaign & InDemand</button>
+                        <button type="button" class="btn btn-light">Shipping & Fulfillment All Topics</button>
+                      </div>
+                      </div>
+                      <div class="col-xl-12">
+                         <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-light">Shipping & Fulfillment </button></div>
+                      </div>                   
+                  </div>
+
+              </div>
+           </div>
+       </div> 
+
+         <hr>
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-6">
+                <div class="help-cards pink-link">
+                  <img class="help-img" src="../img/centro1.jpg">
+                  <h5>Shipping & Fulfillment</h5>
+                  <p>From crowdfunding to fulfillment: An introduction to shipping smarter and faster </p>
+                  <a href="">READ THIS GUIDE</a>
+                </div>
+              </div>
+              <div class="col-xl-6">
+                <div class="help-cards pink-link">
+                  <img class="help-img" src="../img/centro2.jpg">
+                  <h5>Creating Your Campaign</h5>
+                  <p>Webinar: Campaign Pitch Workshop </p>
+                  <a href="">SIGN UP FOR WEBINAR</a>
+                </div>
+              </div>
+              <div class="col-xl-6">
+                <div class="help-cards pink-link">
+                  <img class="help-img" src="../img/centro3.jpg">
+                  <h5>Developing Your Product</h5>
+                  <p>Prototyping 101 Webinar: Keys to Success </p>
+                  <a href="">SIGN UP FOR WEBINAR</a>
+                </div>
+              </div>
+              <div class="col-xl-6">
+                <div class="help-cards pink-link">
+                  <img class="help-img" src="../img/centro4.jpg">
+                  <h5>Creating Your Campaign</h5>
+                  <p>Why Entrepreneurs Choose Indiegogo</p>
+                  <a href="">WATCH THIS VIDEO</a>
+                </div>
+              </div>
+              <div class="col-xl-6">
+                <div class="help-cards pink-link">
+                  <img class="help-img" src="../img/centro5.jpg">
+                  <h5>Marketing & PR, Planning Your Campaign</h5>
+                  <p>Build Excitement for Your Crowdfunding Campaign with a Pre-Launch Page </p>
+                  <a href="">READ THIS ARTICLE</a>
+                </div>
+              </div>
+              <div class="col-xl-6">
+                <div class="help-cards pink-link">
+                  <img class="help-img" src="../img/centro6.jpg">
+                  <h5>Creating Your Campaign</h5>
+                  <p>From budget to scripts: Creating a strong video for your campaign </p>
+                  <a href="">WATCH THIS WEBINAR</a>
+                </div>
+              </div>
+              <div class="col-xl-6">
+                <div class="help-cards pink-link">
+                  <img class="help-img" src="../img/centro7.jpg">
+                  <h5>Managing Your Campaign, Post-Campaign & InDemand, Shipping & Fulfillment</h5>
+                  <p>How to Write Campaign Updates Your Backers Will Love (With Templates) </p>
+                  <a href="">READ THIS ARTICLE</a>
+                </div>
+              </div>
+              <div class="col-xl-6">
+                <div class="help-cards pink-link">
+                  <img class="help-img" src="../img/centro8.jpg">
+                  <h5>Planning Your Campaign</h5>
+                  <p>It’s Alive! How to Turn Your Idea into a Prototype </p>
+                  <a href="">READ THIS GUIDE</a>
+                </div>
+              </div>
+              <div class="col-xl-12">
+                <a class="btn btn-rosa1" href="" >Show More</a>
+                
+              </div>
+            </div>
+          </div>
+          <hr>
+
+          <div class="container">
+           <div class="row">
+
+              <div class="col-xl-12">
+                <h1>Browse by Resource Type</h1>
+              </div>
+                
+                    <div class="col-xl-3">
+                      <div class="help-cards pink-link">
+                      <a href="">
+                        <img class="help-img" src="../img/articles.png"><br>
+                        Articles</a>
+                      </div>
+                    </div>
+                    <div class="col-xl-3">
+
+                      <div class="help-cards pink-link">
+                         <a href="">
+                        <img class="help-img" src="../img/guides.png"><br>
+                        
+                       Guides</a>
+                      </div>
+                    </div>
+                    <div class="col-xl-3">
+                      <div class="help-cards pink-link">
+                       <a href=""> <img class="help-img" src="../img/podcasts.png"> <br>
+                        
+                        Podcasts</a>
+                      </div>
+                    </div>
+                    <div class="col-xl-3">
+                      <div class="help-cards pink-link">
+                        <a href=""><img class="help-img" src="../img/webinars.png"><br>
+                        
+                        Webinars</a>
+                      </div>
+                    </div>
+            
+            </div>
+          </div>
+        
+
+         
 
 
 
@@ -53,7 +229,7 @@
 
 
 
-        </div>
+        
     
     <!-- Comienzo del pie de pagina-->
       <?php include("footer.html"); ?>

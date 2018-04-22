@@ -117,8 +117,8 @@
           <br>
             <div class="row">
               <div class="col-xl-6 col-md-6">
-                <br>
-                <img class="tamano-icon" src="../img/backer.png"><br>
+            
+                <img class="tamano-icon" src="../img/handshake@2x.png"><br>
 
               </div>
               <div class="col-xl-6 col-md-6">
@@ -217,7 +217,7 @@
              <div class="row">
                <div class="col-xl-12">
                   <div class="col-xl-6">
-                    <img src="../img/">
+                    <img class="tamano-icon" src="../img/minayoo2x.jpg">
                     <p>
                       Mina Yoo <br>
                       Inventor de Qiplet
@@ -366,7 +366,7 @@
              <div class="row">
                <div class="col-xl-12">
                   <div class="col-xl-6">
-                    <img src="../img/">
+                    <img class="tamano-icon" src="../img/trungpham2x.jpg">
                     <p>
                       Trung Pham <br>
                       CEO of AXIS Gear
@@ -376,6 +376,121 @@
 
                   <div class="col-xl-6">
                     <p class="elemento-p">"Indiegogo nos dio la oportunidad y el acceso para probar supuestos sobre quiénes son nuestros patrocinadores".</p>
+                  </div>
+                 
+               </div>
+             </div>
+           </div>
+
+            <hr>
+           <div class="container div-sombreado">
+          <br>
+            <div class="row">
+              <div class="col-xl-6 col-md-6">
+                <br>
+                <img class="tamano-icon" src="../img/globe@2x.png"><br>
+
+              </div>
+              <div class="col-xl-6 col-md-6">
+                <strong>3. FLEXIBILIDAD Y ALCANCE MUNDIAL</strong>
+
+                <b>
+                  Libertad para recaudar fondos para cualquier cosa y desde cualquier lugar.
+                </b>
+              </div>
+            </div>
+         </div>
+         <hr>
+
+
+           <div class="container">
+             
+                <table class="table table-responsive-sm">
+                    <thead>
+                      <tr>
+                        <th scope="col">Flexibilidad y alcance: Indiegogo vs. Kickstarter</th>
+                        <th scope="col"><img style="width: auto; height: 35px;" src="../img/icon-icon-go.png"></th>
+                        <th scope="col"><h4>ks</h4></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <p class="elemento-p">Múltiples Modelos de Financiamiento
+                            <br>
+                            Opción para mantener los fondos que recaudas, incluso si no alcanzas tu objetivo.
+                          </p>
+                          
+                         </td>
+                        <td>
+                          <strong><i class="fas fa-check "></i></strong>
+                        </td>
+                        <td><i class="fas fa-times"></i></td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p class="elemento-p">Plataforma abierta
+                            <br>
+                            Recauda dinero para cualquier cosa, sin proceso de solicitud o aprobación.
+                          </p>
+                          
+                         </td>
+                        <td>
+                          <strong><i class="fas fa-check "></i></strong>
+                        </td>
+                        <td><i class="fas fa-times"></i></td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p class="elemento-p">Distribución del Fondo Mundial
+                            <br>
+                            Reciba fondos en casi todos los países.
+                          </p>
+                          
+                         </td>
+                        <td>
+                          <strong><i class="fas fa-check "></i></strong>
+                        </td>
+                        <td><i class="fas fa-times"></i></td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p class="elemento-p">Alcance mundial
+                            <br>
+                            Ejecute una campaña de crowdfunding desde casi cualquier país o territorio.
+                          </p>
+                          
+                         </td>
+                        <td>
+                          <strong><i class="fas fa-check "></i></strong>
+                        </td>
+                        <td><i class="fas fa-times"></i></td>
+                      </tr>
+                      
+                    </tbody>
+                  </table>
+           </div>
+           <hr>
+
+           <div class="container">
+             <div class="row">
+               <div class="col-xl-12">
+                  <div class="col-xl-6">
+                    <img class="tamano-icon" src="../img/Ockelteam-Nathalie-300x300.jpg">
+                    <p>
+                      Nathalie van Wijkvliet <br>
+                      Director de marketing, Ockel Sirius
+                    </p>
+                    
+                  </div>
+                  <div class="col-xl-6">
+                    <p>"Indiegogo fue una excelente manera de conectarse con los innovadores: sería imposible tener esta comunidad en una plataforma que no sea Indiegogo".</p>
+                  </div>
+
+                  <div class="col-xl-12">
+                    <img src="../img/seenin.png">
+
+                    <p>* Servicios ofrecidos por First Democracy VC, un portal de financiación registrado, miembro de FINRA y filial de Indiegogo, Inc.</p>
                   </div>
                  
                </div>
