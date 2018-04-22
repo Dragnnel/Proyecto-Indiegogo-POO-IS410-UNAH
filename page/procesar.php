@@ -8,7 +8,7 @@
 	echo $_GET["checkNotificar"]."<br>";
 	
 
-	$archivo = fopen("data/usuario.csv", "a+");
+	$archivo = fopen("../data/usuario.csv", "a+");
 	fwrite($archivo, 
 		$_GET["txt-nombre"].",".
 		$_GET["text-apellido"].",".

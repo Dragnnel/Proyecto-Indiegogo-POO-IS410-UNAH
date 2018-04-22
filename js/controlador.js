@@ -22,7 +22,7 @@ function crearCuenta(){
 					"checkNotificar="+$("#checkNotificar").val();
 	console.log(parametros);
 	$.ajax({
-		url:"ajax/guardar-usuario.php",
+		url:"../ajax/guardar-usuario.php",
 		method:"POST",
 		data:parametros,
 		success:function(respuesta){
@@ -35,7 +35,7 @@ function crearCuenta(){
 $(document).ready(function(){
 	//Esta funcion se ejecutar cuando todo el DOM se haya cargado
 	$.ajax({
-		url:"ajax/obtener-usuarios.php",
+		url:"../ajax/obtener-usuarios.php",
 		success:function(respuesta){
 			console.log(respuesta);
 			//$("#div-usuarios").html(respuesta);
@@ -45,10 +45,12 @@ $(document).ready(function(){
 });
 
 function validar(){
-	validarCampoVacio("txt-nombre");	
-	validarCampoVacio("txt-apellido");
-	validarCampoVacio("txt-email");	
-	validarCampoVacio("txt-password");
+
+    validarCampoVacio("txt-nombre");  
+    validarCampoVacio("txt-apellido");
+    validarCampoVacio("txt-email");
+    validarCampoVacio("txt-password");
+    
 }
 
 

@@ -57,28 +57,28 @@
             <div class="col-xl-4">
               <h2>Registrarse</h2>
               <!--formulario de registro -->
-              <form class="formularios" name="form-registrarse"  id="form-registrarse" method="GET" action="../page/procesar.php">
+              <form class="formularios" name="form-registrarse"  id="form-registrarse" method="GET" action="procesar.php">
                 <div class="form-group">
-                  <input type="text" class="form-control" id="txt-nombre" placeholder="Introduzca sus nombre" onkeydown="validarNombre(this);">
+                  <input type="text" class="form-control" name="txt-nombre" id="txt-nombre" placeholder="Introduzca sus nombre" onkeydown="validarNombre(this);">
                   <div class="invalid-feedback">Campo obligatorio</div>
               </div>
               <div class="form-group">
-                  <input type="text" class="form-control" id="text-apellido" placeholder="Intruduzca sus apellido" onkeydown="validarApellido(this);">
+                  <input type="text" class="form-control" id="text-apellido" name="text-apellido" placeholder="Intruduzca sus apellido" onkeydown="validarApellido(this);">
                   <div class="invalid-feedback">Campo obligatorio</div>
               </div>
               <div class="form-group">
-                  <input type="email" class="form-control" id="txt-email"  placeholder="Introduzca su correo electrónico" onkeydown="validarEmail(this);">
+                  <input type="text" class="form-control" id="txt-email" name="txt-email"  placeholder="Introduzca su correo electrónico" onkeydown="validarEmail(this);">
                   <div class="invalid-feedback">Campo obligatorio</div>
               </div>
               <div class="form-group">
-                  <input type="password" class="form-control" id="txt-password" placeholder="Introduzca su contraseña" onkeydown="validarContrasena(this);">
+                  <input type="password" class="form-control" name "txt-password" id="txt-password" placeholder="Introduzca su contraseña" onkeydown="validarContrasena(this);">
                   <div class="invalid-feedback">Campo obligatorio</div>
               </div>
               <div class="form-check">
-                  <input type="checkbox" class="form-check-input" id="checkNotificar">
-                  <label class="form-check-label" for="checkNotificar" >Regístrate en el boletín semanal</label>
+                  <input type="checkbox" class="form-check-input" name="checkNotificar" id="checkNotificar">
+                  <label class="form-check-label" for="checkNotificar"  >Regístrate en el boletín semanal</label>
               </div>
-              <button type="button" id="btn-Crear-Cuenta" class="btn btn-rosa1 btn-block btn-lg" onclick="validar();" >Crear una cuenta</button>
+              <button type="button" id="btn-Crear-Cuenta" class="btn btn-rosa1 btn-block btn-lg" onclick="crearCuenta();" >Crear una cuenta</button>
                     <div class="container-fluid">
                       <div class="row" id="div-respuesta">
                       </div>
