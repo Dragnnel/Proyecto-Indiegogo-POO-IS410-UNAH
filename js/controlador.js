@@ -65,6 +65,32 @@ var validarCampoVacio = function(id){
 	}
 };
 
+function validarNombre(nombre) {
+    var patron =/^[a-zA-ZÑñÁáÉéÍíÓóÚúÜü\s]+$/;
+    if (patron.test(String(nombre.value).toLowerCase())){
+    	nombre.classList.remove("is-invalid");
+    	nombre.classList.add("is-valid");
+    }
+    else{
+    	nombre.classList.remove("is-valid");
+    	nombre.classList.add("is-invalid");
+    }
+}
+
+function validarApellido(apellido) {
+    var patron =/^[a-zA-ZÑñÁáÉéÍíÓóÚúÜü\s]+$/;
+    if (patron.test(String(apellido.value).toLowerCase())){
+    	apellido.classList.remove("is-invalid");
+    	apellido.classList.add("is-valid");
+    }
+    else{
+    	nombre.classList.remove("is-valid");
+    	nombre.classList.add("is-invalid");
+    }
+}
+
+
+
 function validarContrasena(etiqueta){
 	if (etiqueta.value.length<6) {
 		etiqueta.classList.remove("is-valid");

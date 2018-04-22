@@ -59,11 +59,11 @@
               <!--formulario de registro -->
               <form class="formularios" name="form-registrarse"  id="form-registrarse" method="GET" action="../page/procesar.php">
                 <div class="form-group">
-                  <input type="text" class="form-control" id="txt-nombre" placeholder="Introduzca sus nombre">
+                  <input type="text" class="form-control" id="txt-nombre" placeholder="Introduzca sus nombre" onkeydown="validarNombre(this);">
                   <div class="invalid-feedback">Campo obligatorio</div>
               </div>
               <div class="form-group">
-                  <input type="text" class="form-control" id="text-apellido" placeholder="Intruduzca sus apellido">
+                  <input type="text" class="form-control" id="text-apellido" placeholder="Intruduzca sus apellido" onkeydown="validarApellido(this);">
                   <div class="invalid-feedback">Campo obligatorio</div>
               </div>
               <div class="form-group">
