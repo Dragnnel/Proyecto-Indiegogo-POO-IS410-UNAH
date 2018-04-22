@@ -45,15 +45,351 @@
 
       
         <div class="container">
+           <div class="row">
+            <div class="col-xl-12"  style="background-image: url(../img/hero_sm.jpg); background-repeat: no-repeat;background-size: auto; background-position: 50%;position: relative; height: 375px;">
+              <br><br><br>
+              
+              <h1 class="titulo-cuadrado" style="color: #ffffff;">Elija el socio de crowdfunding que está con usted en cada paso</h1> 
+              <br>
+              </div>
+              <div class="div-sombreado">
+              <p><strong>¿Evaluando Indiegogo vs. Kickstarter?</strong> Como habrás adivinado, no es una comparación de manzanas a manzanas, así que hemos reunido algunas de las diferencias clave aquí. ¡Vamos a sumergirnos!</p>
+
+              <p>
+                Si estás en esta página, sabemos que probablemente estés al principio de algo grandioso. Un nuevo y genial producto o tecnología. Un proyecto de arte Una causa social o ambiental. Independientemente de los detalles de su propio proyecto, ¡felicidades por dar el primer paso!
+              </p>
+
+              <p>
+                Una de las primeras preguntas para cualquier persona que considere recaudar dinero a través del crowdfunding es, sin duda, "¿Qué plataforma debo usar?". Es una pregunta importante: su socio de crowdfunding será una gran parte de su vida durante semanas o meses (¡o incluso años!) puede tener un impacto directo en su éxito.
+              </p>
+
+              <p>
+                Mientras evalúa sus opciones y revisa sus cajas, considere esto: la recaudación de fondos es solo un paso en su viaje, y simplemente no hay lugar como Indiegogo <strong> para apoyarlo desde los primeros momentos de "¡ajá!" Hasta los detalles esenciales de compartir su proyecto con el mundo.</strong>
+              </p>
+
+              <p>
+                Listo para saltar adelante? Consulte nuestra guía de campo de financiación colectiva para comenzar a planificar su campaña.
+              </p>
+
+              <button class="btn-rosa1">Descargar la guía</button>
+
+              </div>
+            </div>
+          </div>
+
+
+            <div class="container">
+              <div class="row">
+                <br><br>
+                <div class="col-xl-12 col-md-12">
+                  <h1 style=" text-align: center; font-size: 28px;">
+                  Tres razones para elegir Indiegogo
+                </h1>
+                </div>
+                
+
+                <div class="col-xl-4 col-md-4">
+                  <img class="tamano-icon" src="../img/backer.png"><br>
+                  <b>
+                    ASOCIACIONES Y SOPORTE
+                  </b>
+                </div>
+
+                <div class="col-xl-4 col-md-4">
+                   <img class="tamano-icon" src="../img/experts-directory.png"><br>
+                  <b>
+                    HERRAMIENTAS DE CORTE
+                  </b>
+                </div>
+
+                <div class="col-xl-4 col-md-4">
+                  <br>
+                   <img class="tamano-icon" src="../img/global.jpg"><br>
+                  <b>
+                    FLEXIBILIDAD Y ALCANCE MUNDIAL
+                  </b>
+                </div>
+            </div>
+         </div>  <!--fin del conteiner -->
+
+
+         <div class="container div-sombreado">
+          <br>
+            <div class="row">
+              <div class="col-xl-6 col-md-6">
+                <br>
+                <img class="tamano-icon" src="../img/backer.png"><br>
+
+              </div>
+              <div class="col-xl-6 col-md-6">
+                <strong>1. ASOCIACIONES Y APOYO</strong>
+
+                <b>
+                  Indiegogo brinda soporte experto y asociaciones exclusivas para impulsar su campaña
+                </b>
+              </div>
+            </div>
+         </div>
+         <hr>
+
+           <div class="container">
+             
+                <table class="table table-responsive-sm">
+                    <thead>
+                      <tr>
+                        <th scope="col">Asociaciones y Soporte: Indiegogo vs. Kickstarter</th>
+                        <th scope="col"><img style="width: auto; height: 35px;" src="../img/icon-icon-go.png"></th>
+                        <th scope="col"><h4>ks</h4></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <p class="elemento-p">Socios de diseño, creación de prototipos y fabricación
+                            <br>
+                            A través de un programa innovador con Arrow, tendrá socios a su lado desde el diseño hasta la creación de prototipos y la fabricación.
+                          </p>
+                          
+                         </td>
+                        <td>
+                          <strong><i class="fas fa-check "></i></strong>
+                        </td>
+                        <td><i class="fas fa-times"></i></td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p class="elemento-p">Tecnología de vanguardia de socios líderes
+                            <br>
+                            Desde nuestro soporte para Apple Pay en la web hasta nuestra sólida integración con Stripe, trabajamos con empresas líderes para que todos los usuarios se beneficien.
+                          </p>
+                          
+                         </td>
+                        <td>
+                          <strong><i class="fas fa-check "></i></strong>
+                        </td>
+                        <td><i class="fas fa-times"></i></td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p class="elemento-p">Socios de cumplimiento
+                            <br>
+                            Obtenga asistencia de cumplimiento de socios dedicados, incluidos Amplifier y Brookstone.
+                          </p>
+                          
+                         </td>
+                        <td>
+                          <strong><i class="fas fa-check "></i></strong>
+                        </td>
+                        <td><i class="fas fa-times"></i></td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p class="elemento-p">Socios minoristas
+                            <br>
+                            Venda su producto en las principales plataformas de comercio electrónico a través de socios minoristas dedicados, incluidos Amazon y Newegg.
+                          </p>
+                          
+                         </td>
+                        <td>
+                          <strong><i class="fas fa-check "></i></strong>
+                        </td>
+                        <td><i class="fas fa-times"></i></td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p class="elemento-p">24-7 Apoyo de personas reales
+                            <br>
+                            Reciba soporte las 24 horas del equipo de felicidad de nuestros clientes.
+                          </p>
+                          
+                         </td>
+                        <td>
+                          <strong><i class="fas fa-check "></i></strong>
+                        </td>
+                        <td><i class="fas fa-times"></i></td>
+                      </tr>
+                    </tbody>
+                  </table>
+           </div>
+           <hr>
+
+           <div class="container">
+             <div class="row">
+               <div class="col-xl-12">
+                  <div class="col-xl-6">
+                    <img src="../img/">
+                    <p>
+                      Mina Yoo <br>
+                      Inventor de Qiplet
+                    </p>
+                    
+                  </div>
+
+                  <div class="col-xl-6">
+                    <p class="elemento-p">"Todas y cada una de las personas con las que hablamos y con las que trabajamos fueron útiles y dedicadas a nuestra campaña: eso siguió siendo cierto incluso 8 meses después de que finalizó nuestra campaña".</p>
+                  </div>
+                 
+               </div>
+             </div>
+           </div>
+           <hr>
+
+           <div class="col-xl-12">
+            <p class="elemento-p-centrado "> <b>¿Listo para comenzar? ¡<a href="">Descargue</a> nuestra guía de campo de Crowdfunding para comenzar a planificar su campaña!</b></p>
+           </div>
+           <hr>
+
+
+           <div class="row div-sombreado-blanco">
+              <div class="col-xl-2"></div>
+            <div class="col-xl-8">
+                <form >
+                  <div class="form-row">
+                    <h1 class="elemento-p2">Obtenga la guía de campo de Crowdfunding</h1>
+                    <h5 class="elemento-p2">No estoy seguro de cómo comenzar? Su práctica guía lo guiará a través de cada paso de un proyecto exitoso, desde la planificación de su lanzamiento hasta la post-campaña.</h5>
+                    <div class="form-group col-md-6">
+                      <label class="elemento-p2">Nombres*</label>
+                      <input type="text" class="form-control" id="txt-nombre" placeholder="Introduzca sus Nombres">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label class="elemento-p2" >Apellidos*</label>
+                      <input type="text" class="form-control" id="text-apellido" placeholder="Introduzca sus Apellidos">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="elemento-p2">Email*</label>
+                    <input type="text" class="form-control" id="text-email" placeholder="Introduzca su correo electronico">
+                  </div>
+                  <div class="form-group">
+                    <label class="elemento-p2">Sitio web de la compañía / sitio web del producto *</label>
+                    <input type="text" class="form-control" id="txt-nombre-campana" placeholder="Introduzca el nombre de la campaña">
+                  </div>
+            
+                    <div class="form-group ">
+                      <label class="elemento-p2" >¿Cuánto cuesta su presupuesto de marketing? *</label>
+                      <div class="form-group">
+                          <select class="form-control" id="exampleFormControlSelect1">
+                            <option>Abajo $1000</option>
+                            <option>$1000-$5000</option>
+                            <option>$5000-$20000</option>
+                            <option>$20000-$50000</option>
+                            <option>Más de $50000</option>
+                          </select>
+                        </div>
+                    </div>
+                    <div class="form-group ">
+                       <button type="button" class="btn btn-rosa1">Continuar la descarga</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-xl-2"></div>
+            
+          </div>
+          <hr>
+           <div class="container div-sombreado">
+          <br>
+            <div class="row">
+              <div class="col-xl-6 col-md-6">
+                <br>
+                <img class="tamano-icon" src="../img/experts-directory.png"><br>
+
+              </div>
+              <div class="col-xl-6 col-md-6">
+                <strong>2. HERRAMIENTAS DE CORTE</strong>
+
+                <b>
+                  Indiegogo proporciona herramientas previas y posteriores a la campaña para llevar su proyecto más allá del crowdfunding.
+                </b>
+              </div>
+            </div>
+         </div>
+         <hr>
+
+
+           <div class="container">
+             
+                <table class="table table-responsive-sm">
+                    <thead>
+                      <tr>
+                        <th scope="col">Herramientas:Indiegogo vs. Kickstarter</th>
+                        <th scope="col"><img style="width: auto; height: 35px;" src="../img/icon-icon-go.png"></th>
+                        <th scope="col"><h4>ks</h4></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <p class="elemento-p">Pre-Campaña
+                            <br>
+                            Easily capture email addresses before your campaign launches.
+                          </p>
+                          
+                         </td>
+                        <td>
+                          <strong><i class="fas fa-check "></i></strong>
+                        </td>
+                        <td><i class="fas fa-times"></i></td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p class="elemento-p">Equity Crowdfunding *
+                            <br>
+                            Obtenga dinero de una comunidad comprometida de inversores mientras mantiene el control de la empresa.
+                          </p>
+                          
+                         </td>
+                        <td>
+                          <strong><i class="fas fa-check "></i></strong>
+                        </td>
+                        <td><i class="fas fa-times"></i></td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p class="elemento-p">InDemand + Marketplace
+                            <br>
+                            Continúe recaudando dinero y construyendo su comunidad después de que termine su campaña de crowdfunding.
+                          </p>
+                          
+                         </td>
+                        <td>
+                          <strong><i class="fas fa-check "></i></strong>
+                        </td>
+                        <td><i class="fas fa-times"></i></td>
+                      </tr>
+                      
+                    </tbody>
+                  </table>
+           </div>
+           <hr>
+
+           <div class="container">
+             <div class="row">
+               <div class="col-xl-12">
+                  <div class="col-xl-6">
+                    <img src="../img/">
+                    <p>
+                      Trung Pham <br>
+                      CEO of AXIS Gear
+                    </p>
+                    
+                  </div>
+
+                  <div class="col-xl-6">
+                    <p class="elemento-p">"Indiegogo nos dio la oportunidad y el acceso para probar supuestos sobre quiénes son nuestros patrocinadores".</p>
+                  </div>
+                 
+               </div>
+             </div>
+           </div>
 
 
 
 
 
 
+     
 
 
-        </div>
     
     <!-- Comienzo del pie de pagina-->
       <?php include("footer.html"); ?>

@@ -13,6 +13,12 @@ a:hover {
     height: 90px;
 }
 
+strong{
+     color: #eb1478;
+}
+
+
+
 
 .cuadrado {
     display: block;
@@ -36,13 +42,17 @@ a:hover {
     background-color: #ffffff;  
 }
 
+.div-sombreado-negro{
+    background-color: #000000;  
+}
+
 .titulo-cuadrado{
     font-size: 40px;
     font-weight: 400;
     letter-spacing: 1px;
     margin-bottom: 15px;
     font-size: 36px;
-    color: #fff;
+    color: #ffffff;
     text-align: center;
 }
 
@@ -52,7 +62,7 @@ a:hover {
     letter-spacing: 1px;
     margin-bottom: 15px;
     font-size: 36px;
-    color: #000;
+    color: #000000;
     text-align: center;
 }
 
