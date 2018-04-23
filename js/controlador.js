@@ -167,16 +167,6 @@ function validar(n){
     }
 }
 
-function validarContrasena(etiqueta){
-    if (etiqueta.value.length<6) {
-        etiqueta.classList.remove("is-valid");
-        etiqueta.classList.add("is-invalid");
-    }
-    else{
-        etiqueta.classList.remove("is-invalid");
-        etiqueta.classList.add("is-valid");
-    }
-}
 
 function validarEmail(email) {
     var expRegCorreo = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;

@@ -8,4 +8,5 @@
 		console.log('Nombre: '.$partes[0].'Apellido'.$partes[1].'Email'.$partes[2].'Contraseña: '.$partes[3]);
 	}
 	fclose($archivo);
+	
 ?>
