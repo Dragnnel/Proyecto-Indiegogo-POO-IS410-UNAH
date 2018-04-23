@@ -92,15 +92,12 @@
         <h1>Grandes hallazgos, entregados todos los días</h1> 
         <p>Ya sea que busques campañas para financiar o productos para comprar, sacamos lo mejor y más brillante de Indiegogo en nuestro boletín. Regístrate para encontrar información sobre tecnología, diseño, películas y mucho más – todo antes de que sea masivo.</p>
         </div>
-        <div class="col-xl-12 col-md-12 ">
-            <div class="col-xl-12 ">
-                <form>
-                <input type="email" name="txt-email" class="form-control" placeholder="Tu dirección de correo aqui">
-              
-                <button type="button" class="btn btn-rosa1 btn-lg btn-block ">SUSCRIBIRSE</button>
-                </form>
-        
-          </div>   
+          <div class="col-xl-12">
+            <input type="email" name="txt-email" class="form-control" placeholder="Tu dirección de correo aqui">
+          </div>
+          <div class="col-xl-12">
+            <button type="button" class="btn btn-rosa1 btn-lg btn-block ">SUSCRIBIRSE</button>
+          </div>
       </div>
 
 
