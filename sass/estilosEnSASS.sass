@@ -1,10 +1,58 @@
-$w: 80%
+/*
+			Implementacion de sass en el segunda parte del proyecto
+			poo
+*/
+
+
+
+/* Zona de variables */
+$negrita_indiegogo: #eb1478;
+$negrita: bold;
+$color_enlace: #EB1478
+$color_enlace_visto: #a50e54
+$text_sin_decoracion: underline
+$text_normal: "Benton Sans","Helvetica","sans-serif"
+$text_color_footer: #2a2a2a
+$fondo_footer: #f5f5f5
+$padding_footer: 60px 0 0 0
+$tamano_fuente_footer: 14px
+
+
+
+
+
+/*Zona */
+
+a 
+	color: $color_enlace
+a:hover
+	color: $color_enlace_visto
+    text-decoration: $text_sin_decoracion   
+
+
 body
-  font-family: Verdana, Arial, sans-serif
-	  header
-	    margin: 0 auto
-	    width: $w
-	
-	  section
-	    margin: 0 auto
-	    width: $w
+	font-family: $text_normal
+
+
+
+footer
+	font-family: $text_normal
+	color:$text_color_footer
+	text-decoration: $text_sin_decoracion  
+	texte-aling: left
+	background: $fondo_footer
+	padding: $padding_footer
+   	font-size: $tamano_fuente_footer
+    font-weight: normal;
+    line-height: 0px;
+   
+h6
+	font-weight: $negrita
+
+
+
+
+
+
+
+

@@ -122,9 +122,6 @@
      <!--Controlador para gestionar la pagina-->
     <script type="text/javascript" src="../js/controlador.js"></script>
 
-    <script type="text/javascript" src="../js/jquery.validate.js"></script>
-
-
    
 
 
