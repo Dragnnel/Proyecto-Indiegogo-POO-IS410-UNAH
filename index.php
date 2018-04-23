@@ -177,26 +177,25 @@
             <hr> 
             <h6>O regístrate con el correo electrónico</h6>
               <div class="form-group">
-                 <input type="text" class="form-control" id="txt-nombre" placeholder="Introduzca sus nombre">
+                 <input type="text" class="form-control" id="txt-nombre-index" placeholder="Introduzca sus nombre">
                  <div class="invalid-feedback">Campo obligatorio</div>
               </div>
              <div class="form-group">
-                  <input type="text" class="form-control" id="txt-apellido" placeholder="Intruduzca sus apellido">
+                  <input type="text" class="form-control" id="txt-apellido-index" placeholder="Introduzca sus apellido">
                   <div class="invalid-feedback">Campo obligatorio</div>
               </div>
               <div class="form-group">
-                 <input type="email" class="form-control" id="txt-email"  placeholder="Introduzca su correo electrónico" onkeydown="validarEmail(this);">
+                 <input type="email" class="form-control" id="txt-email-index"  placeholder="Introduzca su correo electrónico" onkeydown="validarEmail(this);">
                   <div class="invalid-feedback">Email inválido</div>
               </div>
              <div class="form-group">
-                 <input type="password" class="form-control" id="txt-password" placeholder="Introduzca su contraseña" onkeydown="validarContrasena(this);">
+                 <input type="password" class="form-control" id="txt-password-index" placeholder="Introduzca su contraseña" onkeydown="validarContrasena(this);">
                  <div class="invalid-feedback">Mínimo 6 carácteres</div>
              </div>
               <div class="form-check">
-                  <input type="checkbox" class="form-check-input" id="checkNotificar">
-                 <label class="form-check-label" for="checkNotificar">Regístrate en el boletín semanal</label>
+                 <label class="form-check-label" for="checkNotificar"><input type="checkbox" class="form-check-input" id="checkNotificar-index">Regístrate en el boletín semanal</label>
               </div>
-             <button type="submit" id="btn-guardar" class="btn btn-rosa1">Crear una cuenta</button>
+             <button type="submit" id="btn-guardar-index" onclick="guardarUsuarioIndex();" class="btn btn-rosa1">Crear una cuenta</button>
           </div>
         </div>
       </div>
@@ -230,7 +229,7 @@
                   <input type="checkbox" class="form-check-input" id="checkRecordar">
                   <label class="form-check-label" for="checkRecordar">Recuérdame</label>
               </div>
-              <button type="button" class="btn btn-rosa1">Iniciar Sección</button>
+              <button type="button" onclick="iniciarSesion();" class="btn btn-rosa1">Iniciar Sección</button>
           </div>
         </div>
       </div>
