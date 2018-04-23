@@ -56,34 +56,30 @@
             </div>
             <div class="col-xl-4">
               <h2>Registrarse</h2>
-              <!--formulario de registro -->
-              <form class="formularios" name="form-registrarse"  id="form-registrarse" method="GET" action="procesar.php">
                 <div class="form-group">
-                  <input type="text" class="form-control" name="txt-nombre" id="txt-nombre" placeholder="Introduzca sus nombre" onkeydown="validarNombre(this);">
+                  <input type="text" class="form-control" name="txt-nombre-pag" id="txt-nombre" placeholder="Introduzca sus nombre">
                   <div class="invalid-feedback">Campo obligatorio</div>
               </div>
               <div class="form-group">
-                  <input type="text" class="form-control" id="text-apellido" name="text-apellido" placeholder="Intruduzca sus apellido" onkeydown="validarApellido(this);">
+                  <input type="text" class="form-control" id="txt-apellido-pag" name="text-apellido" placeholder="Intruduzca sus apellido">
                   <div class="invalid-feedback">Campo obligatorio</div>
               </div>
               <div class="form-group">
-                  <input type="text" class="form-control" id="txt-email" name="txt-email"  placeholder="Introduzca su correo electrónico" onkeydown="validarEmail(this);">
-                  <div class="invalid-feedback">Campo obligatorio</div>
+                 <input type="email" class="form-control" id="txt-email-pag"  placeholder="Introduzca su correo electrónico" onkeydown="validarEmail(this);">
+                  <div class="invalid-feedback">Email inválido</div>
               </div>
-              <div class="form-group">
-                  <input type="password" class="form-control" name "txt-password" id="txt-password" placeholder="Introduzca su contraseña" onkeydown="validarContrasena(this);">
-                  <div class="invalid-feedback">Campo obligatorio</div>
-              </div>
+             <div class="form-group">
+                 <input type="password" class="form-control" id="txt-password-pag" placeholder="Introduzca su contraseña" onkeydown="validarContrasena(this);">
+                 <div class="invalid-feedback">Mínimo 6 carácteres</div>
+             </div>
               <div class="form-check">
-                  <input type="checkbox" class="form-check-input" name="checkNotificar" id="checkNotificar">
-                  <label class="form-check-label" for="checkNotificar"  >Regístrate en el boletín semanal</label>
+                  <label class="form-check-label" for="checkNotificar-pag"><input type="checkbox" class="form-check-input" name="checkNotificar" id="checkNotificar">Regístrate en el boletín semanal</label>
               </div>
-              <button type="button" id="btn-Crear-Cuenta" class="btn btn-rosa1 btn-block btn-lg" onclick="crearCuenta();" >Crear una cuenta</button>
+              <button type="button" id="btn-guardar-pag" onclick="guardarUsuarioPag();" class="btn btn-rosa1 btn-block btn-lg">Crear una cuenta</button>
                     <div class="container-fluid">
                       <div class="row" id="div-respuesta">
                       </div>
                     </div>
-            </form>
             </div>
             <div class="col-xl-4">
               <h2>Iniciar Sesión</h2>    
@@ -98,7 +94,7 @@
                     <input type="checkbox" class="form-check-input" id="checkRecordar">
                     <label class="form-check-label" for="checkRecordar">Recuérdame</label>
                 </div>
-                <button type="submit" class="btn btn-rosa1 btn-lg btn-block">Iniciar Sección</button>
+                <button type="submit" onclick="iniciarSesion();" class="btn btn-rosa1 btn-lg btn-block">Iniciar Sección</button>
               </form>
             </div>
           </div>
