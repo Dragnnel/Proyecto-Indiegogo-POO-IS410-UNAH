@@ -230,9 +230,82 @@ function nvalidarsesion(){
 }
 
 
+function crowdfunding(){
+    if (nvalidarcrowdfunding()){
+        var parametros= "nombre="+$("#txt-nombre-emp").val()+"&"+
+                    "apellido="+$("#txt-apellido-emp").val()+"&"+
+                    "email="+$("#txt-email-emp").val()+"&"+
+                    "nombre-campana="+$("#txt-nombre-campana").val()+"&"+
+                    "presupuesto="+$("#sl-presupuesto");
 
+        console.log(parametros);
+        alert("Descargando...");
 
+        $.ajax({
+        url:"../ajax/guardar-usuario.php",
+        data: parametros,
+        method:"POST",
+        dataType:"json",
+        success:function(respuesta){
+            console.log(respuesta);
 
+            },
+        error:function(error){
+            console.log(error);
+            }
 
+        });
 
+    }
+}
+
+function nvalidarcrowdfunding(){
+
+    var v = [validar("#txt-nombre-emp"),validar("#txt-apellido-emp"),validar("#txt-nombre-campana"),validar("#txt-email-emp")];
+
+    if ((v[0]&&v[1]&&v[2]&&v[3])==false){
+        return false;
+    }
+    else{
+        return true;
+    }
+}
+
+function edu(){
+    if (nvalidaredu()){
+        var parametros= "nombre="+$("#txt-nombre-edu").val()+"&"+
+                    "apellido="+$("#txt-apellido-edu").val()+"&"+
+                    "email="+$("#txt-email-edu").val();
+
+        console.log(parametros);
+
+        $.ajax({
+        url:"../ajax/guardar-registro.php",
+        data: parametros,
+        method:"POST",
+        dataType:"json",
+        success:function(respuesta){
+            console.log(respuesta);
+            $("#div-edu").html("<h2 style='color:white; text-align:center; padding:55px 0 55px 0' >Thank you for signing up!</h2>")
+            },
+        error:function(error){
+            console.log(error);
+            }
+
+        });
+
+    }
+}
+
+function nvalidaredu(){
+
+    var v = [validar("#txt-nombre-edu"),validar("#txt-apellido-edu"),validar("#txt-email-edu")];
+
+    if ((v[0]&&v[1]&&v[2])==false){
+        return false;
+    }
+    else{
+        return true;
+    }
+}
 

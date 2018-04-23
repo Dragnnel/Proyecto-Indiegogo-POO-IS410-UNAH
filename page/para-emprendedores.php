@@ -151,36 +151,40 @@
                     <h5 class="elemento">No estoy seguro de cómo comenzar? Su práctica guía lo guiará a través de cada paso de un proyecto exitoso, desde la planificación de su lanzamiento hasta la post-campaña.</h5>
                     <div class="form-group col-md-6">
                       <label class="elemento">Nombres*</label>
-                      <input type="text" class="form-control" id="txt-nombre" placeholder="Introduzca sus Nombres">
+                      <input type="text" class="form-control" id="txt-nombre-emp" placeholder="Introduzca sus Nombres">
+                      <div class="invalid-feedback">Campo obligatorio</div>
                     </div>
                     <div class="form-group col-md-6">
                       <label class="elemento" >Apellidos*</label>
-                      <input type="text" class="form-control" id="text-apellido" placeholder="Introduzca sus Apellidos">
+                      <input type="text" class="form-control" id="txt-apellido-emp" placeholder="Introduzca sus Apellidos">
+                      <div class="invalid-feedback">Campo obligatorio</div>
                     </div>
                   </div>
                   <div class="form-group">
                     <label class="elemento">Email*</label>
-                    <input type="text" class="form-control" id="text-email" placeholder="Introduzca su correo electronico">
+                    <input type="text" onkeydown="validarEmail(this);" class="form-control" id="txt-email-emp" placeholder="Introduzca su correo electronico">
+                    <div class="invalid-feedback">Campo obligatorio</div>
                   </div>
                   <div class="form-group">
                     <label class="elemento">Sitio web de la compañía / sitio web del producto *</label>
                     <input type="text" class="form-control" id="txt-nombre-campana" placeholder="Introduzca el nombre de la campaña">
+                    <div class="invalid-feedback">Campo obligatorio</div>
                   </div>
             
                     <div class="form-group ">
                       <label class="elemento" >¿Cuánto cuesta su presupuesto de marketing? *</label>
                       <div class="form-group">
-                          <select class="form-control" id="exampleFormControlSelect1">
-                            <option>Abajo $1000</option>
-                            <option>$1000-$5000</option>
-                            <option>$5000-$20000</option>
-                            <option>$20000-$50000</option>
-                            <option>Más de $50000</option>
+                          <select class="form-control" id="sl-presupuesto">
+                            <option value="1" >Abajo $1000</option>
+                            <option value="2" >$1000-$5000</option>
+                            <option value="3" >$5000-$20000</option>
+                            <option value="4" >$20000-$50000</option>
+                            <option value="5" >Más de $50000</option>
                           </select>
                         </div>
                     </div>
                     <div class="form-group ">
-                       <button type="button" class="btn btn-rosa1">Continuar la descarga</button>
+                       <button type="button" onclick="crowdfunding();" class="btn btn-rosa1">Continuar la descarga</button>
                     </div>
                 </form>
 
