@@ -163,34 +163,36 @@
          
 
     <div class="row" style="background-color: #2a2a2a;;">
-              <div class="col-xl-2"></div>
-            <div class="col-xl-8">
+            <div class="col-xl-2"></div>
+            <div class="col-xl-8" id="div-edu">
                 <form >
                   <div class="form-row">
                     <h1 class="elemento">Join our entrepreneur community!</h1>
-                    <h5 class="elemento">
-                      Sign up now and get access to the latest campaign resources,business opportunities and expert advice sent directly to your inbox.
-                    </h5>
+                    <h5 class="elemento">Sign up now and get access to the latest campaign resources, business opportunities and expert advice sent directly to your inbox.</h5>
                     <div class="form-group col-md-6">
                       <label class="elemento">Nombres*</label>
-                      <input type="text" class="form-control" id="txt-nombre" placeholder="Introduzca sus Nombres">
+                      <input type="text" class="form-control" id="txt-nombre-edu" placeholder="Introduzca sus Nombres">
+                      <div class="invalid-feedback">Campo obligatorio</div>
                     </div>
                     <div class="form-group col-md-6">
                       <label class="elemento" >Apellidos*</label>
-                      <input type="text" class="form-control" id="text-apellido" placeholder="Introduzca sus Apellidos">
+                      <input type="text" class="form-control" id="txt-apellido-edu" placeholder="Introduzca sus Apellidos">
+                      <div class="invalid-feedback">Campo obligatorio</div>
                     </div>
                   </div>
                   <div class="form-group">
                     <label class="elemento">Email*</label>
-                    <input type="text" class="form-control" id="text-email" placeholder="Introduzca su correo electronico">
+                    <input type="text" class="form-control" id="txt-email-edu" placeholder="Introduzca su correo electronico" onkeydown="validarEmail(this);">
+                    <div class="invalid-feedback">Campo obligatorio</div>
                   </div>
                   
                     <div class="form-group ">
-                       <button type="button" class="btn btn-rosa1">SIGNP UP NOW</button>
+                       <button type="button" onclick="edu();" class="btn btn-rosa1">SIGNP UP NOW</button>
                     </div>
                 </form>
 
             </div>
+          </div>
 
         
 
