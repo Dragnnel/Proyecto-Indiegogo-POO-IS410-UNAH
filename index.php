@@ -171,30 +171,32 @@
             </button>
           </div>
           <div class="modal-body">
-            <a class="btn btn-facebook btn-lg btn-block" href="#"> CONTINUAR CON FACEBOOK </a>
+            <a class="btn btn-facebook btn-lg btn-block" href="https://www.facebook.com/login.php?skip_api_login=1&api_key=2392863781&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fv2.8%2Fdialog%2Foauth%3Fredirect_uri%3Dhttps%253A%252F%252Fwww.indiegogo.com%252Faccounts%252Fauth%252Ffacebook%252Fcallback%26state%3Dde07f2bc1862a7a28160642234cabc89bd531aa022d89ee2%26scope%3Demail%252Cuser_friends%252Cpublic_profile%26response_type%3Dcode%26client_id%3D2392863781%26ret%3Dlogin%26logger_id%3D8a7143cf-e047-642d-28b3-a478dfee8bd6&cancel_url=https%3A%2F%2Fwww.indiegogo.com%2Faccounts%2Fauth%2Ffacebook%2Fcallback%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3Dde07f2bc1862a7a28160642234cabc89bd531aa022d89ee2%23_%3D_&display=page&locale=es_ES&logger_id=8a7143cf-e047-642d-28b3-a478dfee8bd6"> CONTINUAR CON FACEBOOK </a>
           
             <p>Sin publicaciones sin su permiso.</p>
             <hr> 
-            <h5>O regístrate con el correo electrónico</h5>    
-            <form>
-                    <div class="form-group">
-                      <input type="text" class="form-control" id="txt-nombre" placeholder="Introduzca sus nombre">
-                  </div>
-                  <div class="form-group">
-                      <input type="text" class="form-control" id="text-apellido" placeholder="Intruduzca sus apellido">
-                  </div>
-                  <div class="form-group">
-                      <input type="email" class="form-control" id="txt-email"  placeholder="Introduzca su correo electrónico">
-                  </div>
-                  <div class="form-group">
-                      <input type="password" class="form-control" id="txt-password" placeholder="Introduzca su contraseña">
-                  </div>
-                  <div class="form-check">
-                      <input type="checkbox" class="form-check-input" id="checkNotificar">
-                      <label class="form-check-label" for="checkNotificar">Regístrate en el boletín semanal</label>
-                  </div>
-                  <button type="submit" class="btn btn-rosa1">Crear una cuenta</button>
-                </form>
+            <h6>O regístrate con el correo electrónico</h6>
+              <div class="form-group">
+                 <input type="text" class="form-control" id="txt-nombre" placeholder="Introduzca sus nombre">
+                 <div class="invalid-feedback">Campo obligatorio</div>
+              </div>
+             <div class="form-group">
+                  <input type="text" class="form-control" id="txt-apellido" placeholder="Intruduzca sus apellido">
+                  <div class="invalid-feedback">Campo obligatorio</div>
+              </div>
+              <div class="form-group">
+                 <input type="email" class="form-control" id="txt-email"  placeholder="Introduzca su correo electrónico" onkeydown="validarEmail(this);">
+                  <div class="invalid-feedback">Email inválido</div>
+              </div>
+             <div class="form-group">
+                 <input type="password" class="form-control" id="txt-password" placeholder="Introduzca su contraseña" onkeydown="validarContrasena(this);">
+                 <div class="invalid-feedback">Mínimo 6 carácteres</div>
+             </div>
+              <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="checkNotificar">
+                 <label class="form-check-label" for="checkNotificar">Regístrate en el boletín semanal</label>
+              </div>
+             <button type="submit" id="btn-guardar" class="btn btn-rosa1">Crear una cuenta</button>
           </div>
         </div>
       </div>
@@ -212,23 +214,23 @@
             </button>
           </div>
           <div class="modal-body">
-            <a class="btn btn-facebook btn-lg btn-block" href="#">INICIAR CON FACEBOOK</a>
+            <a class="btn btn-facebook btn-lg btn-block" href="https://www.facebook.com/login.php?skip_api_login=1&api_key=2392863781&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fv2.8%2Fdialog%2Foauth%3Fredirect_uri%3Dhttps%253A%252F%252Fwww.indiegogo.com%252Faccounts%252Fauth%252Ffacebook%252Fcallback%26state%3Dde07f2bc1862a7a28160642234cabc89bd531aa022d89ee2%26scope%3Demail%252Cuser_friends%252Cpublic_profile%26response_type%3Dcode%26client_id%3D2392863781%26ret%3Dlogin%26logger_id%3D8a7143cf-e047-642d-28b3-a478dfee8bd6&cancel_url=https%3A%2F%2Fwww.indiegogo.com%2Faccounts%2Fauth%2Ffacebook%2Fcallback%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3Dde07f2bc1862a7a28160642234cabc89bd531aa022d89ee2%23_%3D_&display=page&locale=es_ES&logger_id=8a7143cf-e047-642d-28b3-a478dfee8bd6">INICIAR CON FACEBOOK</a>
             <p>Sin publicaciones sin su permiso.</p>
             <hr> 
-            <h5>O ingresa con el correo electrónico</h5>    
-              <form>
-                  <div class="form-group">
-                      <input type="email" class="form-control" id="txt-email"  placeholder="Introduzca su correo electrónico">
-                  </div>
-                  <div class="form-group">
-                      <input type="password" class="form-control" id="txt-password" placeholder="Introduzca su contraseña">
-                  </div>
-                  <div class="form-check">
-                      <input type="checkbox" class="form-check-input" id="checkRecordar">
-                      <label class="form-check-label" for="checkRecordar">Recuérdame</label>
-                  </div>
-                  <button type="submit" class="btn btn-rosa1">Iniciar Sección</button>
-              </form>
+            <h6>O ingresa con el correo electrónico</h6>
+              <div class="form-group">
+                  <input type="email" class="form-control" id="txt-email"  placeholder="Introduzca su correo electrónico" onkeydown="validarEmail(this);">
+                  <div class="invalid-feedback">Email inválido</div>
+              </div>
+              <div class="form-group">
+                  <input type="password" class="form-control" id="txt-password" placeholder="Introduzca su contraseña" onkeydown="validarContrasena(this);">
+                  <div class="invalid-feedback">Mínimo 6 carácteres</div>
+              </div>
+              <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="checkRecordar">
+                  <label class="form-check-label" for="checkRecordar">Recuérdame</label>
+              </div>
+              <button type="button" class="btn btn-rosa1">Iniciar Sección</button>
           </div>
         </div>
       </div>

@@ -14,24 +14,6 @@ $("#div-explorar").hover(
     }
 );
 
-function crearCuenta(){
-	var parametros= "nombre="+$("#txt-nombre").val()+"&"+
-					"apellido="+$("#text-apellido").val()+"&"+
-					"email="+$("#txt-email").val()+"&"+
-					"password="+$("#txt-password").val()+"&"+
-					"checkNotificar="+$("#checkNotificar").val();
-	console.log(parametros);
-	$.ajax({
-		url:"../ajax/guardar-usuario.php",
-		method:"POST",
-		data:parametros,
-		success:function(respuesta){
-			console.log(respuesta);
-			$("#div-respuesta").append(respuesta);
-		}
-	});
-}
-
 $(document).ready(function(){
 	//Esta funcion se ejecutar cuando todo el DOM se haya cargado
 	$.ajax({
@@ -44,64 +26,58 @@ $(document).ready(function(){
 
 });
 
-function validar(){
+$("#btn-guardar").click(function(){
 
-    validarCampoVacio("txt-nombre");  
-    validarCampoVacio("txt-apellido");
-    validarCampoVacio("txt-email");
-    validarCampoVacio("txt-password");
-    
-}
+    if (nvalidar()){
+        $("#btn-guardar").attr("disabled","disabled");
+        var parametros= "nombre="+$("#txt-nombre").val()+"&"+
+                    "apellido="+$("#txt-apellido").val()+"&"+
+                    "email="+$("#txt-email").val()+"&"+
+                    "password="+$("#txt-password").val()+"&"+
+                    "checkNotificar="+$("#checkNotificar").val();
 
+        console.log(parametros);
 
-var validarCampoVacio = function(id){
-	
-	if (document.getElementById(id).value == ""){
-		document.getElementById(id).classList.remove('is-valid');
-		document.getElementById(id).classList.add('is-invalid');
-	}
-	else{
-		document.getElementById(id).classList.remove('is-invalid');
-		document.getElementById(id).classList.add('is-valid');
-	}
-};
+        $.ajax({
+        url:"../ajax/guardar-usuario.php",
+        data: parametros,
+        method:"POST",
+        dataType:"json",
+        success:function(respuesta){
+            console.log(respuesta);
 
-function validarNombre(nombre) {
-    var expRegNombre =/^[a-zA-ZÑñÁáÉéÍíÓóÚúÜü\s]+$/;
-    if (expRegNombre.test(String(nombre.value).toLowerCase())){
-    	nombre.classList.remove("is-invalid");
-    	nombre.classList.add("is-valid");
+            },
+       error:function(error){
+            console.log(error);
+            }
+
+        });
+
+    }
+
+});
+
+function nvalidar(){
+
+    var v = [validar("#txt-nombre"),validar("#txt-apellido"),validar("#txt-password"),validar("#txt-email")];
+
+    if ((v[0]&&v[1]&&v[2]&&v[3])==false){
+        return false;
     }
     else{
-    	nombre.classList.remove("is-valid");
-    	nombre.classList.add("is-invalid");
-    }
-}
-
-function validarApellido(apellido) {
-    var expRegApellidos =/^[a-zA-ZÑñÁáÉéÍíÓóÚúÜü\s]+$/;
-    if (expRegApellidos.test(String(apellido.value).toLowerCase())){
-    	apellido.classList.remove("is-invalid");
-    	apellido.classList.add("is-valid");
-    }
-    else{
-    	apellido.classList.remove("is-valid");
-    	apellido.classList.add("is-invalid");
+        return true;
     }
 }
 
-
-
-function validarContrasena(etiqueta) {
-    var expRegPassword = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&])[A-Za-z\d$@$!%*?&]{6,15}$/;
-    
-    if (expRegPassword.test(String(etiqueta.value).toLowerCase()) && etiqueta.value.length<6){
-    	etiqueta.classList.remove("is-invalid");
-    	etiqueta.classList.add("is-valid");
-    }
-    else{
-    	etiqueta.classList.remove("is-valid");
-    	etiqueta.classList.add("is-invalid");
+function validar(n){
+    if ($(n).val()==""){
+        $(n).removeClass("is-valid");
+        $(n).addClass("is-invalid");
+        return false;
+    }else{
+        $(n).removeClass("is-invalid");
+        $(n).addClass("is-valid");
+        return true;
     }
 }
 
