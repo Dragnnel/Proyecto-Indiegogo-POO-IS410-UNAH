@@ -1,37 +1,39 @@
-/*
-Error: Inconsistent indentation: 4 spaces were used for indentation, but the rest of the document was indented using 1 tab.
-        on line 28 of C:\xampp\htdocs\IS410-I2018-IIUnidad-master\Indiegogo-Proyecto-POO-UNAH-IS410\Proyecto-Indiegogo-POO-IS410-UNAH\sass\estilosEnSASS.sass
+/*Implementacion de sass en el segunda parte del proyecto
+			poo*/
+/* Zona de variables */
+/*Zona */
+/* line 24, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosEnSASS.sass */
+a {
+  color: #EB1478;
+}
 
-23: 
-24: a 
-25: 	color: $color_enlace
-26: a:hover
-27: 	color: $color_enlace_visto
-28:     text-decoration: $text_sin_decoracion   
-29: 
-30: 
-31: body
-32: 	font-family: $text_normal
-33: 
+/* line 26, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosEnSASS.sass */
+a:hover {
+  color: #a50e54;
+  color-text-decoration: underline;
+}
 
-Backtrace:
-C:\xampp\htdocs\IS410-I2018-IIUnidad-master\Indiegogo-Proyecto-POO-UNAH-IS410\Proyecto-Indiegogo-POO-IS410-UNAH\sass\estilosEnSASS.sass:28
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:494:in `block in tabulate'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:452:in `each'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:452:in `each_with_index'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:452:in `tabulate'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:417:in `_to_tree'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
-C:/Program Files (x86)/Koala/bin/sass:22:in `load'
-C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Inconsistent indentation: 4 spaces were used for indentation, but the rest of the document was indented using 1 tab.\A         on line 28 of C:\xampp\htdocs\IS410-I2018-IIUnidad-master\Indiegogo-Proyecto-POO-UNAH-IS410\Proyecto-Indiegogo-POO-IS410-UNAH\sass\estilosEnSASS.sass\A \A 23: \A 24: a \A 25: 	color: $color_enlace\A 26: a:hover\A 27: 	color: $color_enlace_visto\A 28:     text-decoration: $text_sin_decoracion   \A 29: \A 30: \A 31: body\A 32: 	font-family: $text_normal\A 33: "; }
+/* line 31, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosEnSASS.sass */
+body {
+  font-family: "Benton Sans", "Helvetica", "sans-serif";
+}
+
+/* line 36, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosEnSASS.sass */
+footer {
+  font-family: "Benton Sans", "Helvetica", "sans-serif";
+  color: #2a2a2a;
+  text-decoration: underline;
+  texte-aling: left;
+  background: #f5f5f5;
+  padding: 60px 0 0 0;
+  padding-font-size: 14px;
+  padding-font-weight: normal;
+  padding-line-height: 0px;
+}
+
+/* line 47, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosEnSASS.sass */
+h6 {
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=../css/estilosEnSASS.map */
