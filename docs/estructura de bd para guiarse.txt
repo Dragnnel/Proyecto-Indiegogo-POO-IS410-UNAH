@@ -7,6 +7,7 @@ INSERT INTO tbl_usuario(codigo_usuario, codigo_genero, nombre, apellido, email, 
 INSERT INTO tbl_categorias(codigo_categoria, nombre_categoria) VALUES (30,"Medio ambiente");
 
 
+SELECT codigo_usuario, codigo_genero, nombre, apellido, email, password, url_image_perfil FROM tbl_usuario WHERE 1
 
 
 Tecnología e innovación 

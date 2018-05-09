@@ -97,19 +97,19 @@
                 <p>Tecnología e innovación<p><br>
               </div>
               <div class="col-xl-6">
-                Audio<br>
-              Accesorios para cámaras<br>
-              Energía y tecnología ecológica<br>
-              Moda y dispositivos portátiles<br>
-              Alimentos y bebidas<br>
-              Salud y actividad física
+                <a href="#"> Audio</a><br>
+              <a href="#"> Accesorios para cámaras</a><br>
+              <a href="#"> Energía y tecnología ecológica</a><br>
+              <a href="#"> Moda y dispositivos portátiles</a><br>
+              <a href="#"> Alimentos y bebidas</a><br>
+              <a href="#"> Salud y actividad física</a>
               </div>
               <div class="col-xl-6">
-                Inicio<br>
-              Teléfonos y accesorios<br>
-              Productividad<br>
-              Transporte<br>
-              Viajes y vida al aire libre
+                <a href="#"> Inicio</a><br>
+             <a href="#">  Teléfonos y accesorios</a><br>
+              <a href="#"> Productividad</a><br>
+              <a href="#"> Transporte</a><br>
+              <a href="#"> Viajes y vida al aire libre</a>
               </div>
             </div>
           </div>
@@ -119,19 +119,19 @@
                 <p>Trabajos creativos<p><br>
               </div>
               <div class="col-xl-6">
-                Arte<br>
-              Cómics<br>
-              Danza y teatro<br>
-              Película<br>
-              Música<br>
-              Fotografía
+              <a href="#"> Arte</a><br>
+              <a href="#"> Cómics</a><br>
+              <a href="#"> Danza y teatro</a><br>
+              <a href="#"> Película</a><br>
+              <a href="#"> Música</a><br>
+              <a href="#"> Fotografía</a>
               </div>
               <div class="col-xl-6">
-                Podcasts, blogs y vlogs<br>
-              Juegos de mesa<br>
-              Videojuegos<br>
-              Series web y programas de TV<br>
-              Escritura y edición 
+              <a href="#"> Podcasts, blogs y vlogs</a><br>
+              <a href="#"> Juegos de mesa</a><br>
+              <a href="#"> Videojuegos</a><br>
+              <a href="#"> Series web y programas de TV</a><br>
+              <a href="#"> Escritura y edición</a> 
               </div>
             </div>
           </div>
@@ -141,16 +141,16 @@
                 <p>Proyectos comunitarios<p><br>
               </div>
               <div class="col-xl-6">
-                Derechos de los animales<br>
-              Cultura<br>
-              Educación<br>
-              Medio ambiente<br>
-              Derechos humanos<br>
-              Empresas locales 
+              <a href="#">Derechos de los animales</a><br>
+              <a href="#">Cultura</a><br>
+              <a href="#">Educación</a><br>
+              <a href="#">Medio ambiente</a><br>
+              <a href="#">Derechos humanos</a><br>
+              <a href="#">Empresas locales</a> 
               </div>
               <div class="col-xl-6">
-                Espiritualidad<br>
-              Bienestar 
+                <a href="#">Espiritualidad</a><br>
+              <a href="#">Bienestar </a>
               </div>
             </div>
           </div>

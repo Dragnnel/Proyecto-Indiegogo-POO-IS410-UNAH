@@ -3,11 +3,16 @@
 	include("../class/class-conexion.php");
 
 	$conexion = new Conexion();
-	echo "Conexion establecida<br>";
+	echo "Conexion establecida <br>";
 
-	$sql = 	"SELECT codigo_usuario, nombre, fecha_nacimiento, ".
-			"genero, fotografia ".
-			"FROM tbl_usuarios";
+	/*
+		SELECT codigo_usuario, codigo_genero, nombre, apellido, email, password, url_image_perfil FROM tbl_usuario WHERE 1
+
+	*/
+
+	$sql = 	"SELECT codigo_usuario, codigo_genero, nombre, apellido, ".
+			"email, password, url_image_perfil ".
+			"FROM tbl_usuario";
 	
 	$resultado = $conexion->ejecutarConsulta($sql);
 

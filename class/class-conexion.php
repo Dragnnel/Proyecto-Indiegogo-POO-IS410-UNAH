@@ -22,7 +22,7 @@
 		}
 
 		public function obtenerFila($resultado){
-			return mysqli_fetch_assoc($resultado);
+			return mysqli_fetch_array($resultado);
 		}
 
 		public function cerrarConexion(){
