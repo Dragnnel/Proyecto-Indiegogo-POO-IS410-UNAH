@@ -26,8 +26,9 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
     <!--Css donde se creara los demas atributos que se
-    utilizara en el sitio web -->
-    <link rel="stylesheet" type="text/css" href="css/estiloIS.css">
+    utilizara en el sitio web-->
+    <link rel="stylesheet" type="text/css" href="css/estilosConSASS.css">
+    
   </head>
   <!--Fin del encabezado -->
 
@@ -239,119 +240,117 @@
 
     <main role="main">
 
-  
-<!-- inicio Carousel -->
-  
- <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner">  
-          <div class="carousel-item active">
-            <img class="first-slide" src="img/carousel/1.jpg" alt="First slide">
-            <div class="container">
-              <div class="carousel-caption text-left">
-                
+
+  <!-- inicio Carousel -->
+    
+   <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">  
+            <div class="carousel-item active">
+              <img class="first-slide" src="img/carousel/1.jpg" alt="First slide">
+              <div class="container">
+                <div class="carousel-caption text-left">
+                  
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="carousel-item">
-            <img class="second-slide" src="img/carousel/2.jpg" alt="Second slide">
-            <div class="container">
-              <div class="carousel-caption">
-               
+            <div class="carousel-item">
+              <img class="second-slide" src="img/carousel/2.jpg" alt="Second slide">
+              <div class="container">
+                <div class="carousel-caption">
+                 
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="carousel-item">
-            <img class="second-slide" src="img/carousel/3.jpg" alt="Second slide">
-            <div class="container">
-              <div class="carousel-caption">
-               
+            <div class="carousel-item">
+              <img class="second-slide" src="img/carousel/3.jpg" alt="Second slide">
+              <div class="container">
+                <div class="carousel-caption">
+                 
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="carousel-item">
-            <img class="third-slide" src="img/carousel/4.jpg" alt="Third slide">
-            <div class="container">
-              <div class="carousel-caption text-right">
-               
+            <div class="carousel-item">
+              <img class="third-slide" src="img/carousel/4.jpg" alt="Third slide">
+              <div class="container">
+                <div class="carousel-caption text-right">
+                 
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="carousel-item">
-            <img class="second-slide" src="img/carousel/5.jpg" alt="Second slide">
-            <div class="container">
-              <div class="carousel-caption">
-               
+            <div class="carousel-item">
+              <img class="second-slide" src="img/carousel/5.jpg" alt="Second slide">
+              <div class="container">
+                <div class="carousel-caption">
+                 
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="carousel-item">
-            <img class="second-slide" src="img/carousel/6.jpg" alt="Second slide">
-            <div class="container">
-              <div class="carousel-caption">
-                
+            <div class="carousel-item">
+              <img class="second-slide" src="img/carousel/6.jpg" alt="Second slide">
+              <div class="container">
+                <div class="carousel-caption">
+                  
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="carousel-item">
-            <img class="second-slide" src="img/carousel/7.jpg" alt="Second slide">
-            <div class="container">
-              <div class="carousel-caption">
-               
+            <div class="carousel-item">
+              <img class="second-slide" src="img/carousel/7.jpg" alt="Second slide">
+              <div class="container">
+                <div class="carousel-caption">
+                 
+                </div>
               </div>
             </div>
-          </div>
 
-        </div> <!-- Fin de los item del carousel-->
+          </div> <!-- Fin de los item del carousel-->
+          
         
-      
-        <!--comienzo del la parte por encima de carousel-->
-      <div class="carousel slide carousel-inner cariuselCuadroFijo">
-            <div class="row">
-            <div class="col-lg-2">
-              <div class="link-carousel">
-                <a href="#" >Destacado</a>
+          <!--comienzo del la parte por encima de carousel-->
+        <div class="carousel slide carousel-inner cariuselCuadroFijo">
+              <div class="row">
+              <div class="col-lg-2">
+                <div class="link-carousel">
+                  <a href="#" >Destacado</a>
+                </div>
+                <br>
+                 <a class="carousel-control-prev indicadores-carousel" href="#myCarousel" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                
+                 <a class="carousel-control-next indicadores-carousel" href="#myCarousel" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true">
+                  </span>
+                  <span class="sr-only">Next</span>
+                </a>
+
               </div>
-              <br>
-               <a class="carousel-control-prev indicadores-carousel" href="#myCarousel" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              
-               <a class="carousel-control-next indicadores-carousel" href="#myCarousel" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true">
-                </span>
-                <span class="sr-only">Next</span>
-              </a>
 
-            </div>
+                 <div class="col-lg-4"></div>
 
-               <div class="col-lg-4"></div>
-
-               <div class="col-lg-6">
-                    <div class="container col-lg-3" id="carousel-CuadroDeRegistro"  >
-                      <h1>Encuéntralo primero en Indiegogo.</h1> 
-                      <p>Descubre innovaciones en tecnología y diseño antes de que sean masivas, incluso cientos de productos con envío inmediato.</p>
-                      <a class="btn btn-rosa1" href="page/log-in-sign-up.php" >REGÍSTRATE</a>
-                      <a class="btn btn-rosa2" href="page/lo-que-hacemos.php">MÁS INFORMACIÓN</a>
-                    </div>
-              </div>
-      </div>
-    </div><!--fin de la parte por enciama del carousel -->
- </div> <!--fin del Carousel -->
+                 <div class="col-lg-6">
+                      <div class="container col-lg-3" id="carousel-CuadroDeRegistro"  >
+                        <h1>Encuéntralo primero en Indiegogo.</h1> 
+                        <p>Descubre innovaciones en tecnología y diseño antes de que sean masivas, incluso cientos de productos con envío inmediato.</p>
+                        <a class="btn btn-rosa1" href="page/log-in-sign-up.php" >REGÍSTRATE</a>
+                        <a class="btn btn-rosa2" href="page/lo-que-hacemos.php">MÁS INFORMACIÓN</a>
+                      </div>
+                </div>
+        </div>
+      </div><!--fin de la parte por enciama del carousel -->
+   </div> <!--fin del Carousel -->
 
       <!-- Marketing messaging and featurettes
       ================================================== -->
       <!-- Wrap the rest of the page in another container to center all the content. -->
 
       <!-- Inicio de todo el contenido -->
-<br>
-
       <div class="container marketing">
 
         <!-- Divs de marketing y financiamiento -->

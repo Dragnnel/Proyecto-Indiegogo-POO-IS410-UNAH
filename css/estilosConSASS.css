@@ -1,0 +1,783 @@
+/*Implementacion de sass en el segunda parte del proyecto poo*/
+/* zona de variables */
+/* Zona de variables */
+/* line 7, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+a {
+  color: #EB1478;
+}
+
+/* line 9, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+a:hover {
+  color: #a50e54;
+  color-text-decoration: none;
+}
+
+/* line 14, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+body {
+  font-family: "Benton Sans", "Helvetica", "sans-serif";
+}
+
+/* line 18, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+strong {
+  color: #EB1478;
+}
+
+/* line 22, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+p {
+  color: #6a6a6a;
+  margin-top: 30px;
+}
+
+/* line 27, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+footer header {
+  font-family: "Benton Sans", "Helvetica", "sans-serif";
+  font-family-font-size: 16px;
+  font-family-font-weight: normal;
+  font-family-line-height: 26px;
+  font-family-letter-spacing: 0;
+  font-family-text-transform: uppercase;
+  font-family-color: #6a6a6a;
+}
+
+/* line 36, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+footer {
+  padding: 60px 0 0 0;
+  font-family: "Benton Sans", "Helvetica", "sans-serif";
+  color: #2a2a2a;
+  text-decoration: none;
+  text-aling: left;
+  background: #f5f5f5;
+  background-font-size: 14px;
+  background-font-weight: normal;
+  background-line-height: 0px;
+}
+
+/*falta parte del footer a*/
+/* line 50, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+footer a {
+  text-decoration: none;
+  color: #2a2a2a;
+  text-aling: left;
+  font-family: "Benton Sans", "Helvetica", "sans-serif";
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 0px;
+}
+
+/* line 58, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+footer a:hover {
+  text-decoration: none;
+  color: #2a2a2a;
+}
+
+/* line 62, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+h1 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+/* line 66, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+h3 {
+  font-weight: bold;
+  font-weight-margin-top: 30px;
+}
+
+/* line 71, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+h6 {
+  font-weight: bold;
+}
+
+/* line 74, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.tamano-icon {
+  width: auto;
+  width-height: 90px;
+}
+
+/* line 80, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.cuadrado {
+  display: block;
+  padding: 9.5px;
+  margin: 0 0 10px;
+  font-size: 13px;
+  line-height: 0px;
+  word-break: break-all;
+  word-wrap: break-word;
+  color: #333333;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* line 93, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.div-sombreado {
+  background-color: #f5f5f5;
+}
+
+/* line 97, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.div-sombreado-blanco {
+  background-color: #FFFFFF;
+}
+
+/* line 101, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.div-sombreado-negro {
+  background-color: #000000;
+}
+
+/* line 106, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.titulo-cuadrado {
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  font-size: 36px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+/* line 116, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.titulo-cuadrado-negro {
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  font-size: 36px;
+  color: #000000;
+  text-align: center;
+}
+
+/* line 126, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.titulo1-cuadrado-negro {
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #000000;
+  text-align: center;
+}
+
+/* line 137, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.titulo {
+  font-family: "Benton Sans", "Helvetica", "sans-serif";
+  font-size: 40px;
+  line-height: 26px;
+  letter-spacing: 0;
+  margin-top: 0;
+}
+
+/* line 145, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.titulo2 {
+  font-family: "Benton Sans", "Helvetica", "sans-serif";
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #2a2a2a;
+}
+
+/* line 152, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.titulo-negrita-rosa {
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 1.4em;
+  margin-top: 20px;
+  color: #EB1478;
+  font-size: 30px;
+}
+
+/* line 161, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.titulo-negritas {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  line-height: 1.3em;
+  color: inherit;
+  text-align: center;
+}
+
+/* line 171, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.elemento {
+  color: #FFFFFF;
+  text-align: left;
+}
+
+/* line 176, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.elemento-p {
+  color: #6a6a6a;
+  text-align: left;
+}
+
+/* line 181, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.elemento-p1 {
+  color: #6a6a6a;
+  text-align: left;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+/* line 188, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.elemento-p2 {
+  color: #000000;
+  text-align: left;
+}
+
+/* line 193, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.elemento-centrado {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+/* line 198, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.elemento-p-centrado {
+  color: #6a6a6a;
+  text-align: center;
+}
+
+/* line 203, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.cariuselCuadroFijo {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0%;
+  padding-bottom: 74px;
+}
+
+/* line 210, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+#carousel-CuadroDeRegistro {
+  background-color: #FFFFFF;
+  padding: 1px 80px 60px 40px;
+  margin-top: 84px;
+  text-align: left;
+}
+
+/* line 217, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.indicadores-carousel {
+  margin: 430px 0px 5px 60px;
+  padding: 5px;
+}
+
+/* line 222, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.link-carousel {
+  padding: 200px 5px 50px 60px;
+}
+
+/* line 227, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.link-carousel a {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+/* line 233, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.link-carousel a:hover {
+  color: #FFFFFF;
+}
+
+/* line 237, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.img-small {
+  width: 140px;
+  height: 70px;
+}
+
+/* line 242, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.bg-dark {
+  background-color: #FFFFFF !important;
+}
+
+/* line 246, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.nav-link {
+  color: #2a2a2a !important;
+  font-weight: bold;
+  font-family: "Helvetica";
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0 0px 0 0px;
+}
+
+/* line 255, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.nav-link:hover {
+  color: #EB1B9D !important;
+}
+
+/* line 259, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.navbar {
+  padding-bottom: 10px;
+}
+
+/* line 263, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.barra-vertical {
+  width: 1px;
+  height: 40px;
+  border: 0.2px solid;
+  border-color: #d7d7d7;
+}
+
+/* line 270, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.container {
+  max-width: 1280px;
+  text-align: center;
+  font-family: "Helvetica";
+  color: #2a2a2a;
+}
+
+/* line 277, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.fm {
+  padding: 195px 40px 195px 40px;
+}
+
+/*
+
+
+ */
+/* line 287, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.fm h2 {
+  font-size: 38px;
+  margin-bottom: 15px;
+  font-family: 'Domine',serif;
+  color: #323232;
+}
+
+/* line 294, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.fm p {
+  color: #604343;
+  font-size: 15px;
+}
+
+/* line 298, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.barra-financiamiento {
+  background-color: #dddddd;
+  margin-bottom: 20px;
+  height: 7px;
+  width: 60%;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 307, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.barra-rellena {
+  border-radius: 5px 0 0 5px;
+  width: 78%;
+  height: 7px;
+  background-color: #35CA97;
+}
+
+/* line 313, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.obj-market {
+  color: #e7b814;
+  text-align: center;
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+/* line 319, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.contenido-intermedio {
+  font-size: 15px;
+  margin-top: 50px;
+  color: #2a2a2a;
+  line-height: 20px;
+  font-family: "Benton Sans", "Helvetica", "sans-serif";
+}
+
+/* line 326, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.fa-3x {
+  color: #EB1478;
+  margin-bottom: 10px;
+}
+
+/* line 330, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.btn-light {
+  border: 2px solid #2a2a2a;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* line 337, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.btn-light:hover {
+  color: #FFFFFF;
+  background-color: #2a2a2a;
+}
+
+/* line 342, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.recuadros {
+  padding: 30px 5px 30px 5px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+/* line 348, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.recuadros:hover {
+  background-color: #F2F2F2;
+}
+
+/* line 353, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.recuadros p {
+  color: #2a2a2a;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+/* line 359, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.modal-content {
+  max-width: 300px;
+  margin-left: 100px;
+}
+
+/* line 365, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.recuadros a:hover {
+  text-decoration: none;
+}
+
+/* line 368, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.imgs {
+  margin-top: 20px;
+}
+
+/* line 372, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.imgs p {
+  margin-top: 20px;
+  color: #2a2a2a;
+  text-align: left;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* line 380, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.imgs a {
+  text-decoration: none;
+}
+
+/* line 383, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.btn-rosa1 {
+  background-color: #eb1478;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 9px 35px 9px 35px;
+  margin-top: 20px;
+}
+
+/* line 392, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.btn-rosa1:hover {
+  color: #FFFFFF;
+}
+
+/* line 395, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.btn-rosa2 {
+  background-color: #FFFFFF;
+  color: #EB1478;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 9px 35px 9px 35px;
+  border: 2px solid #EB1478;
+  margin-top: 20px;
+}
+
+/* line 404, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.btn-rosa2:hover {
+  background-color: #EB1478;
+  color: white;
+}
+
+/* line 409, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.btn-facebook {
+  background-color: #3C5A99;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+/* line 416, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.btn-facebook:hover {
+  color: white;
+  background-color: #5375BB;
+}
+
+/* line 422, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.rsaquo p {
+  text-align: right;
+  color: #2a2a2a;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* line 431, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.rsaquo p:hover {
+  color: #EB1478;
+  text-decoration: none;
+}
+
+/* line 436, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.rsaquo {
+  margin-top: 30px;
+}
+
+/* line 440, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.log-sign {
+  text-align: left;
+  margin-bottom: 100px;
+}
+
+/* line 446, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.formularios {
+  background-color: white;
+  padding: 15px 15px 15px 15px;
+}
+
+/* line 452, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.recuadro-left {
+  border-radius: 5px;
+  border: 1px solid #E2E2E2;
+  margin-left: 130px;
+  padding: 50px 20px 50px 20px;
+  margin-bottom: 30px;
+}
+
+/* line 460, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.recuadro-right {
+  border-radius: 5px;
+  border: 1px solid #E2E2E2;
+  margin-right: 130px;
+  padding: 50px 20px 0px 20px;
+  margin-bottom: 30px;
+}
+
+/* line 468, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.recuadro-left:hover {
+  background-color: #F0F0F0;
+  border-color: black;
+}
+
+/* line 473, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.recuadro-right:hover {
+  background-color: #F0F0F0;
+  border-color: black;
+}
+
+/* line 479, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.recuadro-left a {
+  color: #2a2a2a;
+}
+
+/* line 484, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.recuadro-right a {
+  color: #2a2a2a;
+}
+
+/* line 489, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.recuadro-left a:hover {
+  text-decoration: none;
+}
+
+/* line 494, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.recuadro-right a:hover {
+  text-decoration: none;
+}
+
+/* line 498, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.normal-text {
+  text-align: left;
+  margin-top: 40px;
+  margin-bottom: 90px;
+}
+
+/* line 504, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.centrado {
+  max-width: 980px;
+  margin-left: 140px;
+}
+
+/* line 510, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.pink-link a {
+  color: #EB1478;
+}
+
+/* line 514, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.pink-link {
+  margin-top: 90px;
+}
+
+/* line 519, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+row img {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* line 525, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.img-centradas {
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+/* line 535, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.img-centradas p {
+  max-width: 750px;
+  margin-left: 300px;
+  color: white;
+}
+
+/* line 542, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.texto h2 {
+  color: #EB1478;
+}
+
+/* line 546, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.texto {
+  margin-bottom: 60px;
+  max-width: 450px;
+  margin-left: 60px;
+}
+
+/* line 552, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.contact {
+  color: #EB1478;
+  text-align: left;
+}
+
+/* line 557, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.contact {
+  border: 1px solid gray;
+  border-radius: .10rem;
+}
+
+/* line 564, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.contact a {
+  color: #EB1478;
+}
+
+/* line 568, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.help-header {
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+/* line 576, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.help-content {
+  color: black;
+  text-align: center;
+  position: relative;
+  margin: 0 420px 20px 420px;
+}
+
+/* line 584, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.help-content .input-group {
+  width: 80%;
+  margin-left: 50px;
+}
+
+/* line 589, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.input-group-text {
+  background-color: white;
+  border: 1px solid white;
+  border-radius: .10rem;
+}
+
+/* line 596, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.mb-3 .form-control {
+  border-color: white;
+  border-radius: .10rem;
+}
+
+/* line 601, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.mb-3 {
+  margin-bottom: 0 !important;
+}
+
+/* line 605, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.my-3 {
+  margin-bottom: 0 !important;
+}
+
+/* line 609, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.help-cards {
+  border: 1px solid #E2E2E2;
+  padding: 30px 15px 30px 15px;
+  margin: 10px 0px 10px 0px;
+  text-align: center;
+  font-size: 14px;
+  background-color: white;
+}
+
+/* line 618, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.help-cards:hover {
+  border: 1px solid pink;
+}
+
+/* line 624, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.help-cards h5 a {
+  font-weight: bold;
+}
+
+/* line 628, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.help-img {
+  margin: 0 0 20px 0;
+  max-height: 75px;
+}
+
+/* line 633, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.help-footer {
+  background: #f5f5f5;
+  color: #2a2a2a;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+/* line 641, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.custom-select {
+  width: 55%;
+}
+
+/* line 645, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+#div-explorar {
+  display: none;
+  transition: all 3s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 10;
+  position: absolute;
+}
+
+/* line 652, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.container-explorar {
+  width: 100%;
+  text-align: left;
+  font-family: "Helvetica";
+  color: #2a2a2a;
+  font-size: 12px;
+}
+
+/* line 660, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.explorar-header {
+  background-color: white;
+  min-height: 200px;
+  padding: 60px 100px 15px 100px;
+}
+
+/* line 666, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.explorar-footer {
+  background-color: #F0F0F0;
+  min-height: 200px;
+  padding: 20px 100px 20px 100px;
+  line-height: 22px;
+}
+
+/* line 673, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.explorar-footer {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #000000;
+  font-size: 15px;
+}
+
+/* line 680, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
+.explorar-header-item {
+  background-color: #F0F0F0;
+  min-height: 100px;
+  max-width: 80%;
+}
+
+/*# sourceMappingURL=../css/estilosConSASS.map */

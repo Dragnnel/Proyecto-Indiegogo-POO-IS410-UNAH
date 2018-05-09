@@ -27,7 +27,8 @@
 
     <!--Css donde se creara los demas atributos que se
     utilizara en el sitio web -->
-    <link rel="stylesheet" type="text/css" href="../css/estiloIS.css">
+    <link rel="stylesheet" type="text/css" href="css/estilosConSASS.css">
+    <link rel="stylesheet" type="text/css" href="css/estiloIS.css"> 
   </head>
   <!--Fin del encabezado -->
 

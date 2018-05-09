@@ -1,0 +1,683 @@
+/*Implementacion de sass en el segunda parte del proyecto poo*/
+
+/* zona de variables */
+@import "variables"
+
+
+a 
+	color: $color_enlace
+a:hover /*se esta hablando el mismo elemento anterios pero sera otra regla*/
+	color: $color_enlace_visto
+    text-decoration: $text_sin_decoracion   
+
+
+body
+	font-family: $fuente_normal
+
+
+strong
+	color: $color_enlace
+
+
+p 
+	color: $color_parrafo
+	margin-top: 30px
+
+footer
+	header
+		font-family: $fuente_normal
+	    font-size: 16px
+	    font-weight: normal
+	    line-height: 26px
+	    letter-spacing: 0
+	    text-transform: uppercase
+	    color: $color_parrafo
+
+footer
+	padding: $padding_footer
+	font-family: $fuente_normal
+	color: $text_color_footer
+	text-decoration: $text_sin_decoracion  
+	text-aling: $izq
+	background: $fondo_footer
+   	font-size: $tamano_fuente_footer
+    font-weight: normal
+    line-height: 0px
+
+/*falta parte del footer a*/
+
+footer
+    a
+        text-decoration: $text_sin_decoracion
+        color: $text_color_footer
+        text-aling: $izq
+        font-family: $fuente_normal
+        font-size: $tamano_fuente_footer
+        font-weight: normal
+        line-height: 0px
+    a:hover
+            text-decoration: $text_sin_decoracion
+            color: $text_color_footer
+
+h1
+    margin-top: 40px
+    margin-bottom: 20px
+
+h3
+	font-weight: $negrita
+    margin-top: 30px
+
+   	
+h6
+	font-weight: $negrita
+
+.tamano-icon 
+	 width: auto
+    height: 90px
+
+
+
+.cuadrado
+    display: block
+    padding: 9.5px
+    margin: 0 0 10px
+    font-size: 13px
+    line-height: 0px
+    word-break: break-all
+    word-wrap: break-word
+    color: $color_cuadrado
+    background-color: $background_color_cuadrado
+    border: $borde_cuadrado
+    border-radius: 4px
+
+.div-sombreado
+    background-color: $fondo_footer 
+
+
+.div-sombreado-blanco
+    background-color: $color_sombreado_blanco  
+
+
+.div-sombreado-negro
+    background-color: $color_sombreado_negro
+
+
+
+.titulo-cuadrado
+    font-size: 40px
+    font-weight: 400
+    letter-spacing: 1px
+    margin-bottom: 15px
+    font-size: 36px
+    color: $color_sombreado_blanco  
+    text-align: center
+
+
+.titulo-cuadrado-negro 
+    font-size: 40px
+    font-weight: 400
+    letter-spacing: 1px
+    margin-bottom: 15px
+    font-size: 36px
+    color: $color_sombreado_negro
+    text-align: center
+
+
+.titulo1-cuadrado-negro 
+    font-size: 40px
+    font-weight: 400
+    letter-spacing: 1px
+    margin-bottom: 15px
+    font-size: 20px
+    color:  $color_sombreado_negro
+    text-align: center
+
+
+
+.titulo 
+    font-family: $fuente_normal
+    font-size: 40px
+    line-height: 26px
+    letter-spacing: 0
+    margin-top: 0
+
+
+.titulo2 
+    font-family: $fuente_normal
+    font-size: 14px
+    line-height: 1.42857143
+    color: $text_color_footer
+
+
+.titulo-negrita-rosa
+    font-size: 1em
+    font-weight: 700
+    line-height: 1.4em
+    margin-top: 20px
+    color: $color_enlace
+    font-size: 30px
+
+
+.titulo-negritas
+    font-size: 30px
+    font-weight: 700
+    margin-bottom: 15px
+    line-height: 1.3em
+    color: inherit
+    text-align: center
+
+
+
+.elemento 
+    color: $color_sombreado_blanco 
+    text-align: $izq
+
+
+.elemento-p 
+    color: #6a6a6a
+    text-align: $izq
+
+
+.elemento-p1 
+    color: $color_parrafo
+    text-align: $izq
+    font-size: 16px
+    line-height: 23px
+
+
+.elemento-p2 
+    color: $color_sombreado_negro 
+    text-align: $izq
+
+
+.elemento-centrado 
+    color: $color_sombreado_blanco 
+    text-align: center
+
+
+.elemento-p-centrado 
+    color: $color_parrafo
+    text-align: center
+
+
+.cariuselCuadroFijo 
+    background-color: rgba(0,0,0,0.6)
+    position: absolute
+    top: 0%
+    padding-bottom: 74px
+
+
+#carousel-CuadroDeRegistro
+    background-color: $color_sombreado_blanco 
+    padding: 1px 80px 60px 40px
+    margin-top: 84px
+    text-align: $izq
+
+
+.indicadores-carousel
+    margin: 430px 0px 5px 60px
+    padding: 5px
+
+
+.link-carousel
+    padding: 200px 5px 50px 60px
+
+
+.link-carousel 
+	a
+    color: $color_sombreado_blanco 
+    text-decoration: underline
+
+
+.link-carousel 
+	a:hover
+    color: $color_sombreado_blanco 
+
+
+.img-small
+    width: 140px
+    height: 70px
+
+
+.bg-dark 
+    background-color: $color_sombreado_blanco !important
+
+
+.nav-link
+    color: $text_color_footer !important
+    font-weight: bold
+    font-family: $fuente_nav_link
+    font-size: 14px
+    line-height: 20px
+    margin: 0 0px 0 0px
+
+
+.nav-link:hover
+  color: $color_nav_link !important
+
+
+.navbar
+  padding-bottom: 10px
+
+
+.barra-vertical
+  width: 1px
+  height: 40px
+  border: 0.2px solid
+  border-color: $color_borde_barra_vertical
+
+
+.container 
+    max-width: 1280px
+    text-align: center
+    font-family: $fuente_nav_link
+    color: $text_color_footer
+
+
+.fm
+  padding: 195px 40px 195px 40px
+
+
+
+/*  
+
+
+ */
+.fm
+    h2
+      font-size: 38px
+      margin-bottom: 15px  
+      font-family: 'Domine',serif
+      color: #323232
+
+.fm 
+    p
+      color: $fm_p_colo
+      font-size: 15px
+
+.barra-financiamiento
+    background-color: $color_barra_financiamiento
+    margin-bottom: 20px
+    height: 7px
+    width: 60%
+    border-radius: 5px
+    margin-left: auto
+    margin-right: auto
+
+.barra-rellena
+    border-radius: 5px 0 0 5px
+    width: 78%
+    height: 7px
+    background-color: $color_barra_rellena
+
+.obj-market
+    color: $color_obj_market
+    text-align: center
+    font-size: 14px
+    padding-bottom: 10px
+
+.contenido-intermedio
+    font-size: 15px
+    margin-top: 50px
+    color: $text_color_footer
+    line-height: 20px
+    font-family: $fuente_normal
+
+.fa-3x
+    color: $color_enlace
+    margin-bottom: 10px
+
+.btn-light
+    border: 2px solid $text_color_footer
+    margin-bottom: 15px
+    font-weight: $negrita
+    font-size: 14px
+
+
+.btn-light:hover
+    color: $color_sombreado_blanco
+    background-color: $text_color_footer
+
+
+.recuadros
+    padding: 30px 5px 30px 5px
+    margin-top: 10px
+    margin-bottom: 0
+
+
+.recuadros:hover
+    background-color: $color_cuadrado_index
+
+
+.recuadros
+    p
+        color: $text_color_footer
+        font-size: 10px
+        font-weight: $negrita
+
+
+.modal-content
+    max-width: 300px
+    margin-left: 100px
+
+
+.recuadros
+    a:hover
+        text-decoration: none
+
+.imgs
+    margin-top: 20px
+
+.imgs
+    p
+        margin-top: 20px
+        color: $text_color_footer
+        text-align: left
+        font-size: 12px
+        font-weight: $negrita
+
+.imgs 
+    a
+     text-decoration: none
+
+.btn-rosa1
+    background-color: $negrita_indiegogo
+    color: white
+    font-weight: $negrita
+    font-size: 15px
+    padding: 9px 35px 9px 35px
+    margin-top: 20px
+
+
+.btn-rosa1:hover
+    color: $color_sombreado_blanco
+
+.btn-rosa2
+    background-color: $color_sombreado_blanco
+    color: $color_enlace
+    font-weight: $negrita
+    font-size: 15px
+    padding: 9px 35px 9px 35px
+    border: 2px solid #EB1478
+    margin-top: 20px
+
+.btn-rosa2:hover
+    background-color: $color_enlace
+    color: white
+
+
+.btn-facebook
+    background-color: $color_btn_facebook_1
+    color: white
+    font-weight: $negrita
+    font-size: 15px
+
+
+.btn-facebook:hover
+    color: white
+    background-color: $color_btn_facebook_2
+
+
+.rsaquo 
+    p
+        text-align: right
+        color: $text_color_footer
+        margin-bottom: 10px
+        font-weight: $negrita
+        font-size: 20px
+
+
+.rsaquo 
+    p:hover
+        color: $color_enlace
+        text-decoration: none
+
+
+.rsaquo
+    margin-top: 30px
+
+
+.log-sign
+    text-align: left
+    margin-bottom: 100px
+
+
+
+.formularios
+    background-color: white
+    padding: 15px 15px 15px 15px
+
+
+
+.recuadro-left
+    border-radius: 5px
+    border: $borde_cuadrado_2
+    margin-left: 130px
+    padding: 50px 20px 50px 20px
+    margin-bottom: 30px
+
+
+.recuadro-right
+    border-radius: 5px
+    border: $borde_cuadrado_2
+    margin-right: 130px
+    padding: 50px 20px 0px 20px
+    margin-bottom: 30px
+
+
+.recuadro-left:hover
+    background-color: $color_explorar_header_item
+    border-color: black
+
+
+.recuadro-right:hover
+    background-color: $color_explorar_header_item
+    border-color: black 
+                       
+
+.recuadro-left 
+    a
+        color: $text_color_footer
+
+
+.recuadro-right
+    a
+        color: $text_color_footer
+
+
+.recuadro-left 
+    a:hover
+        text-decoration: none
+
+
+.recuadro-right 
+    a:hover
+        text-decoration: none
+
+
+.normal-text
+    text-align: left
+    margin-top: 40px
+    margin-bottom: 90px
+
+
+.centrado
+    max-width: 980px
+    margin-left: 140px
+
+
+.pink-link
+    a
+        color: $color_enlace
+
+
+.pink-link
+    margin-top: 90px
+
+
+row 
+    img
+        background-size: cover
+        background-repeat: no-repeat
+
+
+
+.img-centradas
+    background-size: cover
+    background-repeat: no-repeat
+    text-align: center
+    color: white
+    padding-top: 140px
+    padding-bottom: 140px
+
+
+.img-centradas
+    p
+        max-width: 750px
+        margin-left: 300px
+        color: white
+
+
+.texto
+    h2
+        color: $color_enlace
+
+
+.texto
+    margin-bottom: 60px
+    max-width: 450px
+    margin-left: 60px
+
+
+.contact
+    color: $color_enlace
+    text-align: left
+
+
+.contact 
+    .input-group
+    border: 1px solid gray
+    border-radius: .10rem
+
+
+.contact
+    a
+        color: $color_enlace
+
+
+.help-header
+    background-size: cover
+    background-repeat: no-repeat
+    padding-top: 20px
+    padding-bottom: 50px
+    margin-bottom: 50px
+
+
+.help-content
+    color: black
+    text-align: center
+    position: relative
+    margin: 0 420px 20px 420px
+
+
+.help-content
+    .input-group
+        width: 80%
+        margin-left: 50px
+
+
+.input-group-text
+    background-color: white
+    border: 1px solid white
+    border-radius: .10rem
+
+
+.mb-3
+    .form-control
+        border-color: white
+        border-radius: .10rem
+
+
+.mb-3
+     margin-bottom: 0 !important
+
+
+.my-3
+    margin-bottom: 0 !important
+
+
+.help-cards
+    border: 1px solid #E2E2E2
+    padding: 30px 15px 30px 15px
+    margin: 10px 0px 10px 0px
+    text-align: center
+    font-size: 14px
+    background-color: white
+
+
+.help-cards:hover
+    border: 1px solid pink
+
+
+.help-cards 
+    h5
+        a
+            font-weight: $negrita
+
+
+.help-img
+    margin: 0 0 20px 0
+    max-height: 75px
+
+
+.help-footer
+    background: $fondo_footer
+    color: $text_color_footer
+    text-align: center
+    padding-top: 20px
+    padding-bottom: 50px
+
+
+.custom-select
+    width: 55%
+
+
+#div-explorar
+    display: none
+    transition: all 3s cubic-bezier(0.4, 0, 0.2, 1)
+    z-index: 10
+    position: absolute
+
+
+.container-explorar
+    width: 100%
+    text-align: left
+    font-family: "Helvetica"
+    color: $text_color_footer
+    font-size: 12px
+
+
+.explorar-header
+    background-color: white
+    min-height: 200px
+    padding: 60px 100px 15px 100px
+
+
+.explorar-footer
+    background-color: $color_explorar_header_item
+    min-height: 200px
+    padding: 20px 100px 20px 100px
+    line-height: 22px
+
+
+.explorar-footer 
+    p
+    margin-top: 0
+    margin-bottom: 0
+    color: $color_sombreado_negro
+    font-size: 15px
+
+.explorar-header-item
+    background-color: $color_explorar_header_item
+    min-height: 100px
+    max-width: 80%

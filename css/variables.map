@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/variables.css",
+	"sources": [
+		"../sass/variables.sass"
+	],
+	"sourcesContent": [
+		"/* Zona de variables */\n$negrita_indiegogo: #eb1478;\n$negrita: bold;\n$color_enlace: #EB1478;\n$color_enlace_visto: #a50e54;\n$text_sin_decoracion: none;\n$fuente_normal: \"Benton Sans\",\"Helvetica\",\"sans-serif\";\n$fuente_nav_link: \"Helvetica\";\n$text_color_footer: #2a2a2a;\n$fondo_footer: #f5f5f5;\n$padding_footer: 60px 0 0 0;\n$tamano_fuente_footer: 14px;\n$color_parrafo: #6a6a6a;\n$izq: left;\n$color_cuadrado: #333333;\n$background_color_cuadrado: #f5f5f5;\n$borde_cuadrado: 1px solid #ccc;\n$borde_cuadrado_2: 1px solid #E2E2E2;\n$color_sombreado_blanco: #FFFFFF;\n$color_sombreado_negro:\t#000000;\n$color_nav_link: #EB1B9D;\n$color_borde_barra_vertical: #d7d7d7;\n$fm_p_colo: #604343;\n$color_barra_financiamiento: #dddddd;\n$color_barra_rellena: #35CA97;\n$color_obj_market: #e7b814;\n$color_cuadrado_index: #F2F2F2;\n$color_explorar_header_item: #F0F0F0;\n$color_btn_facebook_1: #3C5A99;\n$color_btn_facebook_2: #5375BB;\n"
+	],
+	"mappings": "AAAA,uBAAuB",
+	"names": []
+}
