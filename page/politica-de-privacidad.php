@@ -25,10 +25,10 @@
     <!-- Libreria para utilizar font awesome-->
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
-    <!--Css donde se creara los demas atributos que se
+   <!--Css donde se creara los demas atributos que se
     utilizara en el sitio web -->
-    <link rel="stylesheet" type="text/css" href="css/estilosConSASS.css">
-    <link rel="stylesheet" type="text/css" href="css/estiloIS.css"> 
+    <link rel="stylesheet" type="text/css" href="../css/estilosConSASS.css">
+ 
   </head>
   <!--Fin del encabezado -->
 

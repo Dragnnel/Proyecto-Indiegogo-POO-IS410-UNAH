@@ -403,16 +403,16 @@
 
         <div class="row">
           <div class="col-xl-6 rsaquo">
-            <a href="#"><img class="img-fluid" src="https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/f_auto/v1520380949/jgvnwpzhceyngzrn0xle.jpg"><p>&rsaquo;</p></a>
+            <a href="#"><img class="img-fluid" src="img/jgvnwpzhceyngzrn0xle.jpg"><p>&rsaquo;</p></a>
           </div>
           <div class="col-xl-6 rsaquo">
-            <a href="#"><img class="img-fluid" src="https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/f_auto/v1520445115/xdkbxfxwisosmn6hre1y.jpg"><p>&rsaquo;</p></a>
+            <a href="#"><img class="img-fluid" src="img/xdkbxfxwisosmn6hre1y.jpg"><p>&rsaquo;</p></a>
           </div>
           <div class="col-xl-6 rsaquo">
-            <a href="#"><img class="img-fluid" src="https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/f_auto/v1520380658/hqcniubpfmihxzsorfob.jpg"><p>&rsaquo;</p></a>
+            <a href="#"><img class="img-fluid" src="img/hqcniubpfmihxzsorfob.jpg"><p>&rsaquo;</p></a>
           </div>
           <div class="col-xl-6 rsaquo">
-            <a href="#"><img class="img-fluid" src="https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/f_auto/v1519325889/jiv7uac0yzeej9rfzu2g.jpg"><p>&rsaquo;</p></a>
+            <a href="#"><img class="img-fluid" src="img/jiv7uac0yzeej9rfzu2g.jpg"><p>&rsaquo;</p></a>
           </div>
         </div>
 
@@ -423,7 +423,7 @@
           <div class=" col-xl-12">
             <h3>¿Qué categorías te interesan?</h3>
             <p>Descubre proyectos ideales para ti y obtén grandes recomendaciones cuando seleccionas tus intereses.</p>
-            <button type="submit" class="btn btn-light">REGÍSTRATE Y SELECCIONA LOS INTERESES</button>
+            <button type="submit" class="btn btn-rosa2">REGÍSTRATE Y SELECCIONA LOS INTERESES</button>
             <p>O explora nuestras categorías principales</p>
           </div>
           <div class="recuadros col-xl-2">
@@ -449,19 +449,19 @@
             <p>Tu visión detrás de escena de las personas y las historias detrás de los proyectos de Indiegogo.</p>
           </div>
           <div class="imgs col-xl-4">
-            <a href="#"><img class="img-fluid" src="https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/f_auto/v1520385109/jhnigkgxljjtottk4ogm.jpg"><p>LEER AHORA&nbsp;&rsaquo;</p></a>
+            <a href="#"><img class="img-fluid" src="img/jhnigkgxljjtottk4ogm.jpg"><p>LEER AHORA&nbsp;&rsaquo;</p></a>
           </div>
           <div class="imgs col-xl-4">
-            <a href="#"><img class="img-fluid" src="https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/f_auto/v1519863823/uqow4uz5mh87ph2xceme.jpg"><p>LEER AHORA&nbsp;&rsaquo;</p></a>
+            <a href="#"><img class="img-fluid" src="img/uqow4uz5mh87ph2xceme.jpg"><p>LEER AHORA&nbsp;&rsaquo;</p></a>
           </div>
           <div class="imgs col-xl-4">
-            <a href="#"><img class="img-fluid" src="https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/f_auto/v1513214770/cewq6wrzbibc94uf6g2p.jpg"><p>LEER AHORA&nbsp;&rsaquo;</p></a>
+            <a href="#"><img class="img-fluid" src="img/cewq6wrzbibc94uf6g2p.jpg"><p>LEER AHORA&nbsp;&rsaquo;</p></a>
           </div>
           <div class=" col-xl-12">
             <h1>Cosas Inteligentes Para Seres Humanos Curiosos <br> Curious Humans ™</h1>
             <p>No hay un mejor lugar para encontrar algo nuevo y especial. Comienza en Indiegogo para encontrar cosas inteligentes y poco convencionales que solucionen los problemas importantes y no tan importantes de todos los días.</p>
           </div>
-          <div class="col-xl-3"><img src="https://indiegogo-media-prod-cld-res.cloudinary.com/image/upload/homepage/crowdfunding-crowdsurfing_base.svg">
+          <div class="col-xl-3"><img src="img/crowdfunding-crowdsurfing_base.svg">
           </div>
           <div class="col-xl-6">
             <a class="btn btn-rosa1" href="page/log-in-sign-up.php" >REGÍSTRATE</a>
@@ -470,9 +470,7 @@
         </div>
 
 
-
-        <!-- Fin de antes del pie de pagina -->
-
+    <br>
       </div><!-- /.container -->
 
       <!-- Comienzo del pie de pagina -->
@@ -544,10 +542,10 @@
               </div>
               <div class="col-xl-8">
                 
-              <a href="terminos-de-uso.php">Términos De Uso </a>&nbsp 
-              <a href="politica-de-privacidad.php">Política De Privacidad</a>&nbsp 
-              <a href="politica-de-cookies.php">Política De Cookies </a>&nbsp 
-              <a href="terminos-de-socio.php">Términos De Los Socios</a> 
+              <a href="page/terminos-de-uso.php">Términos De Uso </a>&nbsp 
+              <a href="page/politica-de-privacidad.php">Política De Privacidad</a>&nbsp 
+              <a href="page/politica-de-cookies.php">Política De Cookies </a>&nbsp 
+              <a href="page/terminos-de-socio.php">Términos De Los Socios</a> 
 
               </div>
 
