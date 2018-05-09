@@ -1,0 +1,48 @@
+INSERT INTO tbl_usuario(codigo_usuario, codigo_genero, nombre, apellido, email, password, url_image_perfil) VALUES (1,1,"nombtr","apellido","email@gmail.com","password", img/profile/foto_perfil_predeterminado.png)
+
+
+
+
+
+INSERT INTO tbl_categorias(codigo_categoria, nombre_categoria) VALUES (30,"Medio ambiente");
+
+
+
+
+Tecnología e innovación 
+•	Accesorios para cámaras
+•	Alimentos y bebidas
+•	Audio
+•	Energía y tecnología ecológica
+•	Inicio
+•	Moda y dispositivos portátiles
+•	Productividad
+•	Salud y actividad física
+•	Teléfonos y accesorios
+•	Transporte
+•	Viajes y vida al aire libre
+
+Trabajos creativos 
+•	Arte
+•	Cómics
+•	Danza y teatro
+•	Escritura y edición
+•	Fotografía
+•	Juegos de mesa
+•	Música
+•	Película
+•	Podcasts y blogs
+•	Series web y programas de TV
+•	Videojuegos
+
+Proyectos comunitarios 
+•	Bienestar
+•	Cultura
+•	Derechos de los animales
+•	Derechos humanos
+•	Educación
+•	Empresas locales
+•	Espiritualidad
+•	Medio ambiente
+
+
