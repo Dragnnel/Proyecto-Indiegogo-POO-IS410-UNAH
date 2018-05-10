@@ -7,7 +7,6 @@
 
 	/*
 		SELECT codigo_usuario, codigo_genero, nombre, apellido, email, password, url_image_perfil FROM tbl_usuario WHERE 1
-
 	*/
 
 	$sql = 	"SELECT codigo_usuario, codigo_genero, nombre, apellido, ".
