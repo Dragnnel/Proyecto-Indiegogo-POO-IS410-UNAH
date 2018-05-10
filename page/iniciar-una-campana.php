@@ -71,8 +71,7 @@
 
             </div>
             <p>¿Cuál es el título de tu campaña?</p> 
-                <input type="text" id="txt-titulo-campana" placeholder="El titulo de mi campaña...." class="input-group mb-2">
-                <button class="btn btn-rosa1  "><a href="mi-titulo-de-la-campana.php" style="color: #fff"> CREAR MI CAMPAÑA</a></button>
+                <input type="text" id="txt-titulo-campana" placeholder="El titulo de mi campaña....">
 
           </div>
 
