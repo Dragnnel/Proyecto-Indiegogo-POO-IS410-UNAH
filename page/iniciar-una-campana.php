@@ -15,7 +15,7 @@
 
     <!-- Icono o favicon de el sitio web y nombre de la pagina -->
     <link rel="icon" href="../img/favicon.png">
-    <title>Comienza Una Campañia Indiegogo IS-POO-2018</title>
+    <title>Iniciar una campaña- Indiegogo IS-POO-2018</title>
 
 	<!-- Importar las librerias de bootstrap -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -27,7 +27,7 @@
 
    <!--Css donde se creara los demas atributos que se
     utilizara en el sitio web -->
-     <link rel="stylesheet" type="text/css" href="../css/estilosConSASS.css">
+    <link rel="stylesheet" type="text/css" href="../css/estilosConSASS.css">
 
   </head>
   <!--Fin del encabezado -->
@@ -42,58 +42,59 @@
 
     <main role="main">
 
-<!--Contenido -->
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-12 col-md-12">
-            <h1 style="font-weight: bold;">Estoy recaudando fondos para</h1>
-          </div>
-          <div class="col-xl-6 col-md-6">
-            <div class="recuadro-left">
-              <a href="../page/iniciar-una-campana.php">
-                <h4 style="font-weight: bold;">... un proyecto.</h4>
-                <p>Indiegogo es donde las ideas innovadoras cobran vida.</p>
-                <hr>
-                <p>Tarifa de 5% de la plataforma</p>
-                <img class="img-small" src="../img/logo2.png">
-              </a>
-            </div>
-          </div>
-          <div class="col-xl-6 col-md-6">
-            <div class="recuadro-right">
-              <a href="#">
-                <h4 style="font-weight: bold;">... una causa.</h4>
-                <p>YouCaring es un sitio web confiable y gratuito líder en recaudación de fondos para causas personales, médicas y benéficas.</p>
-                <hr>
-                <p>Tarifa de 0% de la plataforma</p>
-                <img class="img-small" src="../img/youCaring-logo.png">
-              </a>
-            </div>
-          </div>
-        </div>
-        
-      </div>
+	<!-- Comienzo del contenido de pagina -->
 
-      <!-- Comienzo del pie de pagina -->
+
+    	<div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <h1>Comienza una campaña  </h1>
+            <h5>Recauda fondos para un proyecto creativo, empresarial u otro proyecto inspirador</h5>
+            
+
+              <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+
+                    <input type="text" class="form-control" id="text_monto" placeholder="$">
+
+                
+                <div class="btn-group" role="group">
+
+                   <select class="custom-select custom-select-sm">
+                    <option value="1">USD</option>
+                    <option value="2">EUR</option>
+                    <option value="3">GBP</option>
+                    <option value="4">CAD</option>
+                     <option value="4">AUD</option>
+                  </select>
+
+                </div>
+
+            </div>
+            <p>¿Cuál es el título de tu campaña?</p> 
+                <input type="text" id="txt-titulo-campana" placeholder="El titulo de mi campaña....">
+
+          </div>
+
+          
+        </div> <!--FIN DEL ROW -->
+      </div> <!-- fin del conteiner-->
+
+
+      <!-- Comienzo del pie de pagina-->
       <?php include("footer.html"); ?>
 
-    </main>
+      </main>
 
-
-
-
-
-
-    <!--Posterior uso JS, Popper.js y jQuery -->
+   <!--Posterior uso JS, Popper.js y jQuery -->
     <script src="../js/jquery-3.3.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-    
-
      <!--Controlador para gestionar la pagina-->
     <script type="text/javascript" src="../js/controlador.js"></script>
 
+
+  
 
 
   </body>
