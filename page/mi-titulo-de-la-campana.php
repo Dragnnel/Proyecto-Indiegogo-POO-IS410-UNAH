@@ -15,7 +15,7 @@
 
     <!-- Icono o favicon de el sitio web y nombre de la pagina -->
     <link rel="icon" href="../img/favicon.png">
-    <title>Iniciar una campaña- Indiegogo IS-POO-2018</title>
+    <title>Mi titulo de la campaña- Indiegogo IS-POO-2018</title>
 
 	<!-- Importar las librerias de bootstrap -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -45,40 +45,6 @@
 	<!-- Comienzo del contenido de pagina -->
 
 
-    	<div class="container">
-        <div class="row">
-          <div class="col-md-8">
-            <h1>Comienza una campaña  </h1>
-            <h5>Recauda fondos para un proyecto creativo, empresarial u otro proyecto inspirador</h5>
-            
-
-              <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-
-                    <input type="text" class="form-control" id="text_monto" placeholder="$">
-
-                
-                <div class="btn-group" role="group">
-
-                   <select class="custom-select custom-select-sm">
-                    <option value="1">USD</option>
-                    <option value="2">EUR</option>
-                    <option value="3">GBP</option>
-                    <option value="4">CAD</option>
-                     <option value="4">AUD</option>
-                  </select>
-
-                </div>
-
-            </div>
-            <p>¿Cuál es el título de tu campaña?</p> 
-                <input type="text" id="txt-titulo-campana" placeholder="El titulo de mi campaña...." class="input-group mb-2">
-                <button class="btn btn-rosa1  "><a href="mi-titulo-de-la-campana.php" style="color: #fff"> CREAR MI CAMPAÑA</a></button>
-
-          </div>
-
-          
-        </div> <!--FIN DEL ROW -->
-      </div> <!-- fin del conteiner-->
 
 
       <!-- Comienzo del pie de pagina-->
