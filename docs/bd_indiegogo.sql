@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 09-05-2018 a las 21:40:30
+-- Tiempo de generación: 11-05-2018 a las 04:59:54
 -- Versión del servidor: 10.1.31-MariaDB
 -- Versión de PHP: 7.2.3
 
@@ -108,10 +108,10 @@ CREATE TABLE `tbl_post` (
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `tbl_usuario`
+-- Estructura de tabla para la tabla `tbl_usuarios`
 --
 
-CREATE TABLE `tbl_usuario` (
+CREATE TABLE `tbl_usuarios` (
   `codigo_usuario` int(11) NOT NULL,
   `codigo_genero` int(11) NOT NULL,
   `nombre` varchar(100) DEFAULT NULL,
@@ -122,10 +122,10 @@ CREATE TABLE `tbl_usuario` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Volcado de datos para la tabla `tbl_usuario`
+-- Volcado de datos para la tabla `tbl_usuarios`
 --
 
-INSERT INTO `tbl_usuario` (`codigo_usuario`, `codigo_genero`, `nombre`, `apellido`, `email`, `password`, `url_image_perfil`) VALUES
+INSERT INTO `tbl_usuarios` (`codigo_usuario`, `codigo_genero`, `nombre`, `apellido`, `email`, `password`, `url_image_perfil`) VALUES
 (1, 1, 'Luis', 'Estrada', 'luis@gmail.com', 'asd.456', 'img/profile/foto_perfil_predeterminado.png'),
 (2, 1, 'Ronmel', 'Lizardo', 'ronmel@gmail.com', 'asd.456', 'img/profile/foto_perfil_predeterminado.png'),
 (3, 1, 'Juan', 'Perez', 'jperez@gmail.com', 'asd.456', 'img/profile/foto_perfil_predeterminado.png');
@@ -155,9 +155,9 @@ ALTER TABLE `tbl_post`
   ADD KEY `fk_tbl_post_tbl_categorias1_idx` (`codigo_categoria`);
 
 --
--- Indices de la tabla `tbl_usuario`
+-- Indices de la tabla `tbl_usuarios`
 --
-ALTER TABLE `tbl_usuario`
+ALTER TABLE `tbl_usuarios`
   ADD PRIMARY KEY (`codigo_usuario`),
   ADD KEY `fk_tbl_usuario_tbl_genero1_idx` (`codigo_genero`);
 
@@ -178,9 +178,9 @@ ALTER TABLE `tbl_post`
   MODIFY `codigo_post` int(11) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT de la tabla `tbl_usuario`
+-- AUTO_INCREMENT de la tabla `tbl_usuarios`
 --
-ALTER TABLE `tbl_usuario`
+ALTER TABLE `tbl_usuarios`
   MODIFY `codigo_usuario` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
@@ -192,12 +192,12 @@ ALTER TABLE `tbl_usuario`
 --
 ALTER TABLE `tbl_post`
   ADD CONSTRAINT `fk_tbl_post_tbl_categorias1` FOREIGN KEY (`codigo_categoria`) REFERENCES `tbl_categorias` (`codigo_categoria`) ON DELETE NO ACTION ON UPDATE NO ACTION,
-  ADD CONSTRAINT `fk_tbl_post_tbl_usuario` FOREIGN KEY (`codigo_usuario`) REFERENCES `tbl_usuario` (`codigo_usuario`) ON DELETE NO ACTION ON UPDATE NO ACTION;
+  ADD CONSTRAINT `fk_tbl_post_tbl_usuario` FOREIGN KEY (`codigo_usuario`) REFERENCES `tbl_usuarios` (`codigo_usuario`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 --
--- Filtros para la tabla `tbl_usuario`
+-- Filtros para la tabla `tbl_usuarios`
 --
-ALTER TABLE `tbl_usuario`
+ALTER TABLE `tbl_usuarios`
   ADD CONSTRAINT `fk_tbl_usuario_tbl_genero1` FOREIGN KEY (`codigo_genero`) REFERENCES `tbl_genero` (`codigo_genero`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 COMMIT;
 
