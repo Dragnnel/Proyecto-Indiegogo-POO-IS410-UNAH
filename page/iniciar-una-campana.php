@@ -73,6 +73,8 @@
             <p>¿Cuál es el título de tu campaña?</p> 
                 <input type="text" id="txt-titulo-campana" placeholder="El titulo de mi campaña....">
 
+                <button class="btn btn-rosal1">CREAR MI CAMPAÑA</button>
+
           </div>
 
           
