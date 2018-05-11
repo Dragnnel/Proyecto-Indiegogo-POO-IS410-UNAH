@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 11-05-2018 a las 07:08:36
+-- Tiempo de generación: 11-05-2018 a las 07:45:12
 -- Versión del servidor: 10.1.31-MariaDB
 -- Versión de PHP: 7.2.3
 
@@ -68,6 +68,21 @@ INSERT INTO `tbl_categorias` (`codigo_categoria`, `nombre_categoria`) VALUES
 (28, 'Empresas locales'),
 (29, 'Espiritualidad'),
 (30, 'Medio ambiente');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `tbl_contribuciones`
+--
+
+CREATE TABLE `tbl_contribuciones` (
+  `codigo_contribuciones` int(11) NOT NULL,
+  `codigo_post` int(11) NOT NULL,
+  `codigo_usuario` int(11) NOT NULL,
+  `monto` int(11) DEFAULT NULL,
+  `fecha` date DEFAULT NULL,
+  `visibilidad` varchar(45) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
 
@@ -162,6 +177,14 @@ ALTER TABLE `tbl_categorias`
   ADD PRIMARY KEY (`codigo_categoria`);
 
 --
+-- Indices de la tabla `tbl_contribuciones`
+--
+ALTER TABLE `tbl_contribuciones`
+  ADD PRIMARY KEY (`codigo_contribuciones`),
+  ADD KEY `fk_tbl_contribuciones_tbl_post1_idx` (`codigo_post`),
+  ADD KEY `fk_tbl_contribuciones_tbl_usuarios1_idx` (`codigo_usuario`);
+
+--
 -- Indices de la tabla `tbl_generos`
 --
 ALTER TABLE `tbl_generos`
@@ -194,6 +217,12 @@ ALTER TABLE `tbl_usuarios`
 --
 
 --
+-- AUTO_INCREMENT de la tabla `tbl_contribuciones`
+--
+ALTER TABLE `tbl_contribuciones`
+  MODIFY `codigo_contribuciones` int(11) NOT NULL AUTO_INCREMENT;
+
+--
 -- AUTO_INCREMENT de la tabla `tbl_generos`
 --
 ALTER TABLE `tbl_generos`
@@ -220,6 +249,13 @@ ALTER TABLE `tbl_usuarios`
 --
 -- Restricciones para tablas volcadas
 --
+
+--
+-- Filtros para la tabla `tbl_contribuciones`
+--
+ALTER TABLE `tbl_contribuciones`
+  ADD CONSTRAINT `fk_tbl_contribuciones_tbl_post1` FOREIGN KEY (`codigo_post`) REFERENCES `tbl_post` (`codigo_post`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  ADD CONSTRAINT `fk_tbl_contribuciones_tbl_usuarios1` FOREIGN KEY (`codigo_usuario`) REFERENCES `tbl_usuarios` (`codigo_usuario`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 --
 -- Filtros para la tabla `tbl_post`
