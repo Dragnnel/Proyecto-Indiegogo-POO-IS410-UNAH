@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 11-05-2018 a las 06:17:55
+-- Tiempo de generación: 11-05-2018 a las 07:08:36
 -- Versión del servidor: 10.1.31-MariaDB
 -- Versión de PHP: 7.2.3
 
@@ -72,19 +72,19 @@ INSERT INTO `tbl_categorias` (`codigo_categoria`, `nombre_categoria`) VALUES
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `tbl_genero`
+-- Estructura de tabla para la tabla `tbl_generos`
 --
 
-CREATE TABLE `tbl_genero` (
+CREATE TABLE `tbl_generos` (
   `codigo_genero` int(11) NOT NULL,
   `genero` varchar(45) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Volcado de datos para la tabla `tbl_genero`
+-- Volcado de datos para la tabla `tbl_generos`
 --
 
-INSERT INTO `tbl_genero` (`codigo_genero`, `genero`) VALUES
+INSERT INTO `tbl_generos` (`codigo_genero`, `genero`) VALUES
 (1, 'Masculino'),
 (2, 'Femenino');
 
@@ -147,9 +147,9 @@ CREATE TABLE `tbl_usuarios` (
 --
 
 INSERT INTO `tbl_usuarios` (`codigo_usuario`, `codigo_genero`, `codigo_tipo_de_usuario`, `nombre`, `apellido`, `email`, `password`, `url_image_perfil`) VALUES
-(1, 1, 0, 'Luis', 'Estrada', 'luis@gmail.com', 'asd.456', 'img/profile/foto_perfil_predeterminado.png'),
-(2, 1, 0, 'Ronmel', 'Lizardo', 'ronmel@gmail.com', 'asd.456', 'img/profile/foto_perfil_predeterminado.png'),
-(3, 1, 0, 'Juan', 'Perez', 'jperez@gmail.com', 'asd.456', 'img/profile/foto_perfil_predeterminado.png');
+(1, 1, 1, 'Luis', 'Estrada', 'luis@gmail.com', 'asd.456', 'img/profile/foto_perfil_predeterminado.png'),
+(2, 1, 1, 'Ronmel', 'Lizardo', 'ronmel@gmail.com', 'asd.456', 'img/profile/foto_perfil_predeterminado.png'),
+(3, 1, 3, 'Juan', 'Perez', 'jperez@gmail.com', 'asd.456', 'img/profile/foto_perfil_predeterminado.png');
 
 --
 -- Índices para tablas volcadas
@@ -162,9 +162,9 @@ ALTER TABLE `tbl_categorias`
   ADD PRIMARY KEY (`codigo_categoria`);
 
 --
--- Indices de la tabla `tbl_genero`
+-- Indices de la tabla `tbl_generos`
 --
-ALTER TABLE `tbl_genero`
+ALTER TABLE `tbl_generos`
   ADD PRIMARY KEY (`codigo_genero`);
 
 --
@@ -194,9 +194,9 @@ ALTER TABLE `tbl_usuarios`
 --
 
 --
--- AUTO_INCREMENT de la tabla `tbl_genero`
+-- AUTO_INCREMENT de la tabla `tbl_generos`
 --
-ALTER TABLE `tbl_genero`
+ALTER TABLE `tbl_generos`
   MODIFY `codigo_genero` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
@@ -232,7 +232,7 @@ ALTER TABLE `tbl_post`
 -- Filtros para la tabla `tbl_usuarios`
 --
 ALTER TABLE `tbl_usuarios`
-  ADD CONSTRAINT `fk_tbl_usuario_tbl_genero1` FOREIGN KEY (`codigo_genero`) REFERENCES `tbl_genero` (`codigo_genero`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  ADD CONSTRAINT `fk_tbl_usuario_tbl_genero1` FOREIGN KEY (`codigo_genero`) REFERENCES `tbl_generos` (`codigo_genero`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   ADD CONSTRAINT `fk_tbl_usuarios_tbl_tipo_de_usuarios1` FOREIGN KEY (`codigo_tipo_de_usuario`) REFERENCES `tbl_tipo_de_usuarios` (`codigo_tipo_de_usuario`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 COMMIT;
 
