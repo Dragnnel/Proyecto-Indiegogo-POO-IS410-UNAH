@@ -3,7 +3,7 @@
 	include("../class/class-conexion.php");
 	$conexion = new Conexion();
 
-	$sql = sprintf("SELECT codigo_usuario, nombre, apellido, password, url_imagen_perfil FROM tbl_usuarios WHERE email='%s' and password=sha1('%s')",
+	$sql = sprintf("SELECT codigo_usuario, nombre, apellido, password, url_image_perfil FROM tbl_usuarios WHERE email='%s' and password=sha1('%s')",
 		$conexion->antiInyeccion($_POST["mail"]),
 		$conexion->antiInyeccion($_POST["psw"]));
 

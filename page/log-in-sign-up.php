@@ -58,7 +58,7 @@
             <div class="col-xl-4">
               <h2>Registrarse</h2>
                 <div class="form-group">
-                  <input type="text" class="form-control" name="txt-nombre-pag" id="txt-nombre" placeholder="Introduzca sus nombre">
+                  <input type="text" class="form-control" name="txt-nombre-pag" id="txt-nombre-pag" placeholder="Introduzca sus nombre">
                   <div class="invalid-feedback">Campo obligatorio</div>
               </div>
               <div class="form-group">
@@ -86,16 +86,16 @@
               <h2>Iniciar Sesión</h2>    
               <form class="formularios">
                 <div class="form-group">
-                    <input type="email" class="form-control" id="txt-email"  placeholder="Introduzca su correo electrónico" onkeydown="validarEmail(this);" >
+                    <input type="email" class="form-control" id="txt-email-session"  placeholder="Introduzca su correo electrónico" onkeydown="validarEmail(this);" >
                 </div>
                 <div class="form-group">
-                    <input type="password" class="form-control" id="txt-password" placeholder="Introduzca su contraseña" onkeydown="validarContrasena(this);">
+                    <input type="password" class="form-control" id="txt-password-session" placeholder="Introduzca su contraseña" onkeydown="validarContrasena(this);">
                 </div>
                 <div class="form-check">
                     <input type="checkbox" class="form-check-input" id="checkRecordar">
                     <label class="form-check-label" for="checkRecordar">Recuérdame</label>
                 </div>
-                <button type="submit" onclick="iniciarSesion();" class="btn btn-rosa1 btn-lg btn-block">Iniciar Sección</button>
+                <button type="submit" onclick="iniciarSesionPag();" class="btn btn-rosa1 btn-lg btn-block">Iniciar Sección</button>
               </form>
             </div>
           </div>
