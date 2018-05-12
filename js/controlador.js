@@ -84,13 +84,13 @@ function obtenerCategorias(){
     $.ajax({
         url:"../ajax/obtener-categorias.php",
         dataType: 'json',
-        success:function(respuesta){
+        success : function(respuesta){
             console.log(respuesta);
             alert(respuesta);
             var imprimir = "";
             for (var i=0; i<respuesta.length; i++){
                 
-                imprimir += '<option value="'+respuesta[i].codigo_categoria+'">'+respuesta[i].nombre_categoria+'</option>';
+                imprimir += '<option value="' + respuesta[i].codigo_categoria + '"> ' + respuesta[i].nombre_categoria + ' </option>';
 
             }
             $("#div-cat").html(imprimir);

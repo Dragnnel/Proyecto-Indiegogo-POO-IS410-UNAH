@@ -80,7 +80,7 @@
 
           ¿Cuál es la descripción de tu campaña?
           <div class="col-xl-8">
-            <input type="text" class="form-control" id="txt-des" placeholder="Descripción de la campaña"><br>
+            <input type="text" class="form-control" id="txt-des" placeholder="Descripción de la campaña" ><br>
           </div>
 
           Escoge la imagen de tu campaña!
