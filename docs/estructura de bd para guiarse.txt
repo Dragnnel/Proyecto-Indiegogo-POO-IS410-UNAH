@@ -47,4 +47,4 @@ Proyectos comunitarios
 •	Medio ambiente
 
 
-INSERT INTO tbl_post(codigo_post, codigo_usuario, codigo_categoria, nombre_campana, descripcion, fecha_de_publicacion, fecha_de_expiracion, url_image, monto_a_recaudar) VALUES (1,1,1,"Primer Campaña","Demostracion de almacenamiento en la bd",01/02/2018,01/08/2018 ,"img",12000)
+INSERT INTO tbl_post(codigo_post, codigo_usuario, codigo_categoria, nombre_campana, descripcion, fecha_de_publicacion, fecha_de_expiracion, url_image, monto_a_recaudar) VALUES (1,1,1,"Primer Campaña","Demostracion de almacenamiento en la bd",2018-01-18,2018-01-18,"img",12000)
