@@ -1,7 +1,10 @@
 <?php
 	
-	include("../class/class-conexion.php");
-	$conexion = new Conexion();
+	
+    include("../class/class-conexion.php");
+
+    $conexion = new Conexion();
+
 
 	$sql = "SELECT codigo_categoria, nombre_categoria FROM tbl_categorias";
 
