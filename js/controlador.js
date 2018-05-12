@@ -247,13 +247,15 @@ function validarEmail(email) {
 
 function iniciarSesion(){
     if (nvalidarsesionIndex()){
-        var parametros=
-                    "mail="+$("#txt-email").val()+"&"+
-                    "psw="+$("#txt-password").val();
+        var parametros= "email="+$("#txt-email").val()+"&"+
+                        "password="+$("#txt-password").val();
+
+        $("#txt-email").val("");
+        $("#txt-password").val("");
 
         console.log(parametros);
         $.ajax({
-        url:"../ajax/obtener-usuario.php",
+        url:"ajax/obtener-usuario.php",
         data: parametros,
         method:"POST",
         dataType:"json",

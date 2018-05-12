@@ -10,7 +10,7 @@
     while($fila = $conexion->obtenerFila($resultado)){
         $resultadoPost[] = $fila;
     }
-
+    
     echo json_encode($resultadoPost);
     $conexion->cerrarConexion();
     
