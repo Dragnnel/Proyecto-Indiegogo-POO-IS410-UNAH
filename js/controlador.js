@@ -21,7 +21,7 @@ $(document).ready(function(){
 	//Esta funcion se ejecutar cuando todo el DOM se haya cargado
 	$.ajax({
 		url:"../ajax/obtener-post.php",
-        dataType:'json',
+        dataType:'html',
 		success:function(respuesta){
             console.log(respuesta);
            
@@ -46,6 +46,29 @@ $(document).ready(function(){
 
     obtenerCategorias();
 });
+
+
+function obtenerCategorias(){
+    $.ajax({
+        url:"../ajax/obtener-categorias.php",
+        dataType: 'html',
+        success : function(respuesta){
+            console.log(respuesta);
+            alert(respuesta);
+            var imprimir = "";
+            for (var i=0; i<respuesta.length; i++){
+                
+                imprimir += '<option value="' + respuesta[i].codigo_categoria + '"> ' + respuesta[i].nombre_categoria + ' </option>';
+
+            }
+            $("#div-cat").html(imprimir);
+
+        },
+        error:function(error){
+            console.log(error);
+        }
+    });
+}
 
 
 function crearCampana(){
@@ -81,27 +104,6 @@ function crearCampana(){
     }
 }
 
-function obtenerCategorias(){
-    $.ajax({
-        url:"../ajax/obtener-categorias.php",
-        dataType: 'json',
-        success : function(respuesta){
-            console.log(respuesta);
-            alert(respuesta);
-            var imprimir = "";
-            for (var i=0; i<respuesta.length; i++){
-                
-                imprimir += '<option value="' + respuesta[i].codigo_categoria + '"> ' + respuesta[i].nombre_categoria + ' </option>';
-
-            }
-            $("#div-cat").html(imprimir);
-
-        },
-        error:function(error){
-            console.log(error);
-        }
-    });
-}
 
 function guardarUsuarioHeader(){
 
