@@ -14,7 +14,9 @@
         $respuesta[] = $fila;
     }
 
-    var_dump($respuesta);
+    //var_dump($respuesta);
+    //var_dump(json_encode($respuesta, JSON_FORCE_OBJECT));
+    //echo json_encode($respuesta, JSON_FORCE_OBJECT);
     echo json_encode($respuesta);
    
     $conexion->cerrarConexion();

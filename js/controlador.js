@@ -14,15 +14,16 @@ $("#div-explorar").hover(
     }
 );
 
+
+
 $(document).ready(function(){
-    console.log( "ready!" );
+    console.log( "Comenzar con el DOM!" );
 	//Esta funcion se ejecutar cuando todo el DOM se haya cargado
 	$.ajax({
 		url:"../ajax/obtener-post.php",
         dataType:'json',
 		success:function(respuesta){
             console.log(respuesta);
-            alert(respuesta);
            
             var imprimir = "";
             for (var i=0; i<respuesta.length; i++){
@@ -44,7 +45,6 @@ $(document).ready(function(){
 	});
 
     obtenerCategorias();
-
 });
 
 function crearCampana(){

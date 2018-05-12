@@ -10,9 +10,10 @@
     while($fila = $conexion->obtenerFila($resultado)){
         $respuesta[] = $fila;
     }
-    
-    echo json_encode($respuesta);
-    var_dump($respuesta);
+
+
+   echo json_encode($respuesta);
+    //var_dump($respuesta);
     $conexion->cerrarConexion();
 	
 ?>
