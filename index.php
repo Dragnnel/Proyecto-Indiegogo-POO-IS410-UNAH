@@ -96,7 +96,7 @@
           <div class="col-xl-4">
             <div class="row">
               <div class="col-xl-12">
-                <p>Tecnología e innovación<p><br>
+                <p>Tecnología e innovación<p>
               </div>
               <div class="col-xl-6">
                 <a href="page/explorar.php"> Audio</a><br>
@@ -118,7 +118,7 @@
           <div class="col-xl-4">
             <div class="row">
               <div class="col-xl-12">
-                <p>Trabajos creativos<p><br>
+                <p>Trabajos creativos<p>
               </div>
               <div class="col-xl-6">
               <a href="page/explorar.php"> Arte</a><br>
@@ -140,7 +140,7 @@
           <div class="col-xl-4">
             <div class="row">
               <div class="col-xl-12">
-                <p>Proyectos comunitarios<p><br>
+                <p>Proyectos comunitarios<p>
               </div>
               <div class="col-xl-6">
               <a href="page/explorar.php">Derechos de los animales</a><br>
@@ -318,7 +318,7 @@
               <div class="row">
               <div class="col-lg-2">
                 <div class="link-carousel">
-                  <a href="#" >Destacado</a>
+                  <a href="page/explorar.php" >Destacado</a>
                 </div>
                 <br>
                  <a class="carousel-control-prev indicadores-carousel" href="#myCarousel" role="button" data-slide="prev">
@@ -365,7 +365,7 @@
                   <div class="barra-rellena"></div>
                 </div>
                 <p>Las campañas de crowdfunding de Indiegogo y las campañas de InDemand son donde toman vuelo las ideas nuevas y revolucionarias.</p>             
-                <a class="nav-link" href="#" role="button">APOYAR CAMPAÑAS&nbsp;&rsaquo;</a>
+                <a class="nav-link" href="page/explorar.php" role="button">APOYAR CAMPAÑAS&nbsp;&rsaquo;</a>
               </div>
             
           </div>
@@ -376,7 +376,7 @@
                   <i class="fas fa-truck"></i>&nbsp;Envío garantizado
                 </div>
                 <p>El mercado está cargado con innovación inteligente y sorprendente en tecnología, diseño y más; y la mayoría se envía en pocos días.</p>             
-                <a class="nav-link" href="#" role="button">COMPRAR PRODUCTOS&nbsp;&rsaquo;</a>
+                <a class="nav-link" href="page/explorar.php" role="button">COMPRAR PRODUCTOS&nbsp;&rsaquo;</a>
               </div>
           </div>
         </div>
@@ -405,16 +405,16 @@
 
         <div class="row">
           <div class="col-xl-6 rsaquo">
-            <a href="#"><img class="img-fluid" src="img/jgvnwpzhceyngzrn0xle.jpg"><p>&rsaquo;</p></a>
+            <a href="page/explorar.php"><img class="img-fluid" src="img/jgvnwpzhceyngzrn0xle.jpg"><p>&rsaquo;</p></a>
           </div>
           <div class="col-xl-6 rsaquo">
-            <a href="#"><img class="img-fluid" src="img/xdkbxfxwisosmn6hre1y.jpg"><p>&rsaquo;</p></a>
+            <a href="page/explorar.php"><img class="img-fluid" src="img/xdkbxfxwisosmn6hre1y.jpg"><p>&rsaquo;</p></a>
           </div>
           <div class="col-xl-6 rsaquo">
-            <a href="#"><img class="img-fluid" src="img/hqcniubpfmihxzsorfob.jpg"><p>&rsaquo;</p></a>
+            <a href="page/explorar.php"><img class="img-fluid" src="img/hqcniubpfmihxzsorfob.jpg"><p>&rsaquo;</p></a>
           </div>
           <div class="col-xl-6 rsaquo">
-            <a href="#"><img class="img-fluid" src="img/jiv7uac0yzeej9rfzu2g.jpg"><p>&rsaquo;</p></a>
+            <a href="page/explorar.php"><img class="img-fluid" src="img/jiv7uac0yzeej9rfzu2g.jpg"><p>&rsaquo;</p></a>
           </div>
         </div>
 
@@ -425,26 +425,26 @@
           <div class=" col-xl-12">
             <h3>¿Qué categorías te interesan?</h3>
             <p>Descubre proyectos ideales para ti y obtén grandes recomendaciones cuando seleccionas tus intereses.</p>
-            <button type="submit" class="btn btn-rosa2">REGÍSTRATE Y SELECCIONA LOS INTERESES</button>
+            <a href="page/log-in-sign-up.php" class="btn btn-rosa2">REGÍSTRATE Y SELECCIONA LOS INTERESES</a>
             <p>O explora nuestras categorías principales</p>
           </div>
           <div class="recuadros col-xl-2">
-            <a href="#"><i class="fas fa-home fa-3x"></i><br><p>INICIO</p></a>
+            <a href="index.php"><i class="fas fa-home fa-3x"></i><br><p>INICIO</p></a>
           </div>
           <div class="recuadros col-xl-2">
-            <a href="#"><i class="fas fa-mobile-alt fa-3x"></i><br><p>TELÉFONOS Y ACCESORIOS</p></a>
+            <a href="page/explorar.php"><i class="fas fa-mobile-alt fa-3x"></i><br><p>TELÉFONOS Y ACCESORIOS</p></a>
           </div>
           <div class="recuadros col-xl-2">
-            <a href="#"><i class="fas fa-shopping-bag fa-3x"></i><br><p>VIAJES Y VIDA AL AIRE LIBRE</p></a>
+            <a href="page/explorar.php"><i class="fas fa-shopping-bag fa-3x"></i><br><p>VIAJES Y VIDA AL AIRE LIBRE</p></a>
           </div>
           <div class="recuadros col-xl-2">
-            <a href="#"><i class="fas fa-heartbeat fa-3x"></i><br><p>SALUD Y ACTIVIDAD FÍSICA</p></a>
+            <a href="page/explorar.php"><i class="fas fa-heartbeat fa-3x"></i><br><p>SALUD Y ACTIVIDAD FÍSICA</p></a>
           </div>
           <div class="recuadros col-xl-2">
-            <a href="#"><i class="fas fa-music fa-3x"></i><br><p>AUDIO</p></a>
+            <a href="page/explorar.php"><i class="fas fa-music fa-3x"></i><br><p>AUDIO</p></a>
           </div>
           <div class="recuadros col-xl-2">
-            <a href="#"><i class="fas fa-video fa-3x"></i><br><p>PELÍCULA</p></a>
+            <a href="page/explorar.php"><i class="fas fa-video fa-3x"></i><br><p>PELÍCULA</p></a>
           </div>
           <div class=" col-xl-12">
             <h3>De la revista</h3>
@@ -484,17 +484,17 @@
                 <br>
                 <h5>EXPLORAR</h5> 
                   <a href="page/lo-que-hacemos.php">Lo que hacemos </a><br>
-                  <a href="#">Financiamiento</a><br>
-                  <a href="#">Marketplace</a><br>
-                  <a href="#">Invertir</a><br>
-                  <a href="https://www.generosity.com/">Generosity</a><br>
+                  <a href="page/explorar.php">Financiamiento</a><br>
+                  <a href="page/explorar.php">Marketplace</a><br>
+                  <a href="page/explorar.php">Invertir</a><br>
+                  <a href="https://www.generosity.com/" target="_blank">Generosity</a><br>
 
               </div>
               <div class="col-xl-2">
                  <br>
                 <h5>ACERCA DE</h5> 
                   <a href="page/sobre-nosotros.php">Sobre nosotros</a><br>
-                  <a href="https://es.go.indiegogo.com/blog">Blog</a><br>
+                  <a href="https://es.go.indiegogo.com/blog" target="_blank">Blog</a><br>
                   <a href="page/confianza-seguridad.php">Confianza y seguridad</a><br>
                   <a href="page/ayuda.php">Ayuda y servicio técnico</a><br>
                   <a href="">Prensa</a><br>

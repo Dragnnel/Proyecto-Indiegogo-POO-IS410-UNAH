@@ -61,7 +61,7 @@
           </div>
           <div class="col-xl-6 col-md-6">
             <div class="recuadro-right">
-              <a href="https://www.youcaring.com/">
+              <a href="https://www.youcaring.com/" target="_blank">
                 <h4 style="font-weight: bold;">... una causa.</h4>
                 <p>YouCaring es un sitio web confiable y gratuito líder en recaudación de fondos para causas personales, médicas y benéficas.</p>
                 <hr>
