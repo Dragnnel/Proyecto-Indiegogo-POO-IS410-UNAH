@@ -17,14 +17,15 @@
     if ($resultado){
         //Se agrego con exito
 
-        $sql = sprintf("SELECT codigo_usuario, nombre, apellido, password, url_imagen_perfil FROM tbl_usuarios WHERE codigo_usuario = %s",
+        $sql = sprintf("SELECT codigo_usuario, nombre, apellido, email, password, url_image_perfil FROM tbl_usuarios WHERE codigo_usuario = %s",
 		$conexion->ultimoId());
+
 
         $resultadoT = $conexion->ejecutarConsulta($sql);
         $fila = $conexion->obtenerFila($resultadoT);
         $fila["codigo_resultado"] = 0;
         $fila["mensaje_resultado"] = "Usuario registrado con éxito";
-        echo json_encode($fila);
+        echo json_encode($resultadoT);
 
     }else{
         //Fallo

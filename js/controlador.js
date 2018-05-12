@@ -17,7 +17,7 @@ $("#div-explorar").hover(
 $(document).ready(function(){
 	//Esta funcion se ejecutar cuando todo el DOM se haya cargado
 	$.ajax({
-		url:"ajax/obtener-post.php",
+		url:"../ajax/obtener-post.php",
         dataType:"json",
 		success:function(respuesta){
             console.log(respuesta);
@@ -47,7 +47,7 @@ $(document).ready(function(){
 
 function obtenerCategorias(){
     $.ajax({
-        url:"ajax/obtener-categorias.php",
+        url:"../ajax/obtener-categorias.php",
         dataType:"json",
         success:function(respuesta){
             console.log(respuesta);
@@ -100,12 +100,14 @@ function guardarUsuarioHeader(){
 function guardarUsuarioPag(){
 
     if (nvalidarPag()){
-        $("#btn-guardar-pag").attr("disabled","disabled");
         var parametros= "nombre="+$("#txt-nombre-pag").val()+"&"+
                     "apellido="+$("#txt-apellido-pag").val()+"&"+
                     "email="+$("#txt-email-pag").val()+"&"+
-                    "password="+$("#txt-password-pag").val()+"&"+
-                    "checkNotificar="+$("#checkNotificar-pag").val();
+                    "password="+$("#txt-password-pag").val();
+        $("#txt-nombre-pag").val("");
+        $("#txt-apellido-pag").val("");
+        $("#txt-email-pag").val("");
+        $("#txt-password-pag").val("");
 
         console.log(parametros);
 
@@ -237,7 +239,7 @@ function iniciarSesion(){
 
         console.log(parametros);
         $.ajax({
-        url:"ajax/obtener-usuario.php",
+        url:"../ajax/obtener-usuario.php",
         data: parametros,
         method:"POST",
         dataType:"json",
@@ -252,6 +254,43 @@ function iniciarSesion(){
 
     }
     
+}
+
+function iniciarSesionPag(){
+    if (nvalidarsesionPag()){
+        var parametros=
+                    "mail="+$("#txt-email-session").val()+"&"+
+                    "psw="+$("#txt-password-session").val();
+
+        console.log(parametros);
+        $.ajax({
+        url:"../ajax/obtener-usuario.php",
+        data: parametros,
+        method:"POST",
+        dataType:"json",
+        success:function(respuesta){
+            console.log(respuesta);
+            },
+        error:function(error){
+            console.log(error);
+            }
+
+        });
+
+    }
+    
+}
+
+function nvalidarsesionPag(){
+
+    var v = [validar("#txt-password-session"),validar("#txt-email-session")];
+
+    if ((v[0]&&v[1])==false){
+        return false;
+    }
+    else{
+        return true;
+    }
 }
 
 function nvalidarsesion(){
