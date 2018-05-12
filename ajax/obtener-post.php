@@ -12,8 +12,7 @@
     }
 
 
-    echo json_encode($resultadoPost);
-    var_dump($resultadoPost);
+ 	echo json_encode($respuesta);
     $conexion->cerrarConexion();
-    
+	
 ?>

@@ -47,6 +47,39 @@ $(document).ready(function(){
 
 });
 
+function crearCampana(){
+    if (nvalidarCampana()){
+        var parametros= "titulo="+$("#txt-titulo").val()+"&"+
+                    "descripcion="+$("#txt-des").val()+"&"+
+                    "recaudar="+$("#txt-recaudar").val()+"&"+
+                    "img="+$("#opt-img").val();
+
+        $("#txt-titulo").val("");
+        $("#txt-des").val("");
+        $("#txt-recaudar").val("");
+
+        console.log(parametros);
+
+        $.ajax({
+        url:"../ajax/guardar-post.php",
+        data: parametros,
+        method: "POST",
+        dataType:"json",
+        success:function(respuesta){
+            console.log(respuesta);
+
+            location.href ="explorar.php";
+
+            },
+        error:function(error){
+            console.log(error);
+            }
+
+        });
+
+    }
+}
+
 function obtenerCategorias(){
     $.ajax({
         url:"../ajax/obtener-categorias.php",
@@ -201,6 +234,22 @@ function nvalidarPag(){
     }
 }
 
+function nvalidarCampana(){
+
+    var v = [validar("#txt-titulo"),validar("#txt-des"),validar("#txt-recaudar")];
+
+    if ($("#txt-recaudar").val()<500) {
+        v[2]=false;
+    }
+
+    if ((v[0]&&v[1]&&v[2])==false){
+        return false;
+    }
+    else{
+        return true;
+    }
+}
+
 function nvalidarIndex(){
 
     var v = [validar("#txt-nombre-index"),validar("#txt-apellido-index"),validar("#txt-password-index"),validar("#txt-email-index")];
@@ -250,13 +299,15 @@ function validarEmail(email) {
 
 function iniciarSesion(){
     if (nvalidarsesionIndex()){
-        var parametros=
-                    "mail="+$("#txt-email").val()+"&"+
-                    "psw="+$("#txt-password").val();
+        var parametros= "email="+$("#txt-email").val()+"&"+
+                        "password="+$("#txt-password").val();
+
+        $("#txt-email").val("");
+        $("#txt-password").val("");
 
         console.log(parametros);
         $.ajax({
-        url:"../ajax/obtener-usuario.php",
+        url:"ajax/obtener-usuario.php",
         data: parametros,
         method:"POST",
         dataType:"json",

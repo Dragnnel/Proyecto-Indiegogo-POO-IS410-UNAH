@@ -4,9 +4,9 @@
 
     $conexion = new Conexion();
 
-	$sql = sprintf("SELECT codigo_usuario, nombre, apellido, password, url_image_perfil FROM tbl_usuarios WHERE email='%s' and password=sha1('%s')",
-		$conexion->antiInyeccion($_POST["mail"]),
-		$conexion->antiInyeccion($_POST["psw"]));
+	$sql = sprintf("SELECT codigo_usuario, nombre, apellido, password, url_image_perfil FROM tbl_usuarios WHERE email = '%s' and password = sha1('%s')",
+		$_POST["email"],
+		$_POST["password"]);
 
 	$resultado = $conexion->ejecutarConsulta($sql);
     $respuesta = array();
@@ -21,7 +21,6 @@
         $respuesta["mensajeResultado"] = "El usuario no existe";
         session_destroy();
     }
-
 
     echo json_encode($respuesta);
     $conexion->cerrarConexion();
