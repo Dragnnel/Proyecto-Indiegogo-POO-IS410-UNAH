@@ -54,7 +54,6 @@ function obtenerCategorias(){
         dataType: 'html',
         success : function(respuesta){
             console.log(respuesta);
-            alert(respuesta);
             var imprimir = "";
             for (var i=0; i<respuesta.length; i++){
                 
