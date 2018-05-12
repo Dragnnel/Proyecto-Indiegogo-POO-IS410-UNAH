@@ -24,7 +24,7 @@
         $fila = $conexion->obtenerFila($resultadoT);
         $fila["codigo_resultado"] = 0;
         $fila["mensaje_resultado"] = "Usuario registrado con éxito";
-        echo json_encode($resultadoT);
+        echo json_encode($fila);
 
     }else{
         //Fallo

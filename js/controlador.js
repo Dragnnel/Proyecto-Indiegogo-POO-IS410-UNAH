@@ -118,6 +118,8 @@ function guardarUsuarioPag(){
         dataType:"json",
         success:function(respuesta){
             console.log(respuesta);
+            $("#div-a-usu").html(respuesta.nombre);
+            $("#div-a-usu-img").html("");
 
             },
         error:function(error){
@@ -133,11 +135,15 @@ function guardarUsuarioPag(){
 function guardarUsuarioIndex(){
 
     if (nvalidarIndex()){
-        $("#btn-guardar-index").attr("disabled","disabled");
         var parametros= "nombre="+$("#txt-nombre-index").val()+"&"+
                     "apellido="+$("#txt-apellido-index").val()+"&"+
                     "email="+$("#txt-email-index").val()+"&"+
                     "password="+$("#txt-password-index").val();
+
+        $("#txt-nombre-index").val("");
+        $("#txt-apellido-index").val("");
+        $("#txt-email-index").val("");
+        $("#txt-password-index").val("");
 
         console.log(parametros);
 

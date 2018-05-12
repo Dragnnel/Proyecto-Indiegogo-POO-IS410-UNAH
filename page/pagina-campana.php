@@ -1,4 +1,4 @@
-<?php /*
+<?php 
     session_start();
     if (!isset($_SESSION["email"]) || !isset($_SESSION["psw"]))
         header("Location: log-in-sign-up.php");
@@ -16,7 +16,7 @@
     if ($conexion->cantidadRegistros($resultado)<=0){
            header("Location: log-in-sign-up.php");
     }
-    $registro = $conexion->obtenerFila($resultado);*/
+    $registro = $conexion->obtenerFila($resultado);
 ?>
 
 <!doctype html>
