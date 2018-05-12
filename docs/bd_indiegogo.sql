@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.7.9
+-- version 4.7.7
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 11-05-2018 a las 07:45:12
--- Versión del servidor: 10.1.31-MariaDB
--- Versión de PHP: 7.2.3
+-- Tiempo de generación: 12-05-2018 a las 04:32:02
+-- Versión del servidor: 10.1.30-MariaDB
+-- Versión de PHP: 7.2.2
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -87,25 +87,6 @@ CREATE TABLE `tbl_contribuciones` (
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `tbl_generos`
---
-
-CREATE TABLE `tbl_generos` (
-  `codigo_genero` int(11) NOT NULL,
-  `genero` varchar(45) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
---
--- Volcado de datos para la tabla `tbl_generos`
---
-
-INSERT INTO `tbl_generos` (`codigo_genero`, `genero`) VALUES
-(1, 'Masculino'),
-(2, 'Femenino');
-
--- --------------------------------------------------------
-
---
 -- Estructura de tabla para la tabla `tbl_post`
 --
 
@@ -117,8 +98,16 @@ CREATE TABLE `tbl_post` (
   `descripcion` varchar(45) DEFAULT NULL,
   `fecha_de_publicacion` date DEFAULT NULL,
   `fecha_de_expiracion` date DEFAULT NULL,
-  `url_image` varchar(100) DEFAULT NULL
+  `url_image` varchar(100) DEFAULT NULL,
+  `monto_a_recaudar` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Volcado de datos para la tabla `tbl_post`
+--
+
+INSERT INTO `tbl_post` (`codigo_post`, `codigo_usuario`, `codigo_categoria`, `nombre_campana`, `descripcion`, `fecha_de_publicacion`, `fecha_de_expiracion`, `url_image`, `monto_a_recaudar`) VALUES
+(1, 1, 1, 'Primer Campaña', 'Demostracion de almacenamiento en la bd', '0000-00-00', '0000-00-00', 'img', 12000);
 
 -- --------------------------------------------------------
 
@@ -148,7 +137,6 @@ INSERT INTO `tbl_tipo_de_usuarios` (`codigo_tipo_de_usuario`, `tipo_de_usuario`)
 
 CREATE TABLE `tbl_usuarios` (
   `codigo_usuario` int(11) NOT NULL,
-  `codigo_genero` int(11) NOT NULL,
   `codigo_tipo_de_usuario` int(11) NOT NULL,
   `nombre` varchar(100) DEFAULT NULL,
   `apellido` varchar(100) DEFAULT NULL,
@@ -161,10 +149,10 @@ CREATE TABLE `tbl_usuarios` (
 -- Volcado de datos para la tabla `tbl_usuarios`
 --
 
-INSERT INTO `tbl_usuarios` (`codigo_usuario`, `codigo_genero`, `codigo_tipo_de_usuario`, `nombre`, `apellido`, `email`, `password`, `url_image_perfil`) VALUES
-(1, 1, 1, 'Luis', 'Estrada', 'luis@gmail.com', 'asd.456', 'img/profile/foto_perfil_predeterminado.png'),
-(2, 1, 1, 'Ronmel', 'Lizardo', 'ronmel@gmail.com', 'asd.456', 'img/profile/foto_perfil_predeterminado.png'),
-(3, 1, 3, 'Juan', 'Perez', 'jperez@gmail.com', 'asd.456', 'img/profile/foto_perfil_predeterminado.png');
+INSERT INTO `tbl_usuarios` (`codigo_usuario`, `codigo_tipo_de_usuario`, `nombre`, `apellido`, `email`, `password`, `url_image_perfil`) VALUES
+(1, 1, 'Luis', 'Estrada', 'luis@gmail.com', 'asd.456', 'img/profile/foto_perfil_predeterminado.png'),
+(2, 1, 'Ronmel', 'Lizardo', 'ronmel@gmail.com', 'asd.456', 'img/profile/foto_perfil_predeterminado.png'),
+(3, 3, 'Juan', 'Perez', 'jperez@gmail.com', 'asd.456', 'img/profile/foto_perfil_predeterminado.png');
 
 --
 -- Índices para tablas volcadas
@@ -185,12 +173,6 @@ ALTER TABLE `tbl_contribuciones`
   ADD KEY `fk_tbl_contribuciones_tbl_usuarios1_idx` (`codigo_usuario`);
 
 --
--- Indices de la tabla `tbl_generos`
---
-ALTER TABLE `tbl_generos`
-  ADD PRIMARY KEY (`codigo_genero`);
-
---
 -- Indices de la tabla `tbl_post`
 --
 ALTER TABLE `tbl_post`
@@ -209,7 +191,6 @@ ALTER TABLE `tbl_tipo_de_usuarios`
 --
 ALTER TABLE `tbl_usuarios`
   ADD PRIMARY KEY (`codigo_usuario`),
-  ADD KEY `fk_tbl_usuario_tbl_genero1_idx` (`codigo_genero`),
   ADD KEY `fk_tbl_usuarios_tbl_tipo_de_usuarios1_idx` (`codigo_tipo_de_usuario`);
 
 --
@@ -223,16 +204,10 @@ ALTER TABLE `tbl_contribuciones`
   MODIFY `codigo_contribuciones` int(11) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT de la tabla `tbl_generos`
---
-ALTER TABLE `tbl_generos`
-  MODIFY `codigo_genero` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
-
---
 -- AUTO_INCREMENT de la tabla `tbl_post`
 --
 ALTER TABLE `tbl_post`
-  MODIFY `codigo_post` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `codigo_post` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT de la tabla `tbl_tipo_de_usuarios`
@@ -268,7 +243,6 @@ ALTER TABLE `tbl_post`
 -- Filtros para la tabla `tbl_usuarios`
 --
 ALTER TABLE `tbl_usuarios`
-  ADD CONSTRAINT `fk_tbl_usuario_tbl_genero1` FOREIGN KEY (`codigo_genero`) REFERENCES `tbl_generos` (`codigo_genero`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   ADD CONSTRAINT `fk_tbl_usuarios_tbl_tipo_de_usuarios1` FOREIGN KEY (`codigo_tipo_de_usuario`) REFERENCES `tbl_tipo_de_usuarios` (`codigo_tipo_de_usuario`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 COMMIT;
 
