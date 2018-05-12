@@ -11,7 +11,7 @@
 			$respuesta["password"] = $partes[3];
 			$respuesta["checkNotificar"] = $partes[4];
 		
-			var_dump($respuesta);
+			//var_dump($respuesta);
 			echo json_encode($respuesta);
 
 

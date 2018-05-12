@@ -47,6 +47,7 @@ $(document).ready(function(){
     obtenerCategorias();
 });
 
+
 function crearCampana(){
     if (nvalidarCampana()){
         var parametros= "titulo="+$("#txt-titulo").val()+"&"+
