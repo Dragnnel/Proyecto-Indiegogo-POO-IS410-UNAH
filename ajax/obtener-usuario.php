@@ -1,7 +1,8 @@
 <?php
 	session_start();
 	include("../class/class-conexion.php");
-	$conexion = new Conexion();
+
+    $conexion = new Conexion();
 
 	$sql = sprintf("SELECT codigo_usuario, nombre, apellido, password, url_image_perfil FROM tbl_usuarios WHERE email = '%s' and password = sha1('%s')",
 		$_POST["email"],
