@@ -17,7 +17,7 @@ $("#div-explorar").hover(
 $(document).ready(function(){
 	//Esta funcion se ejecutar cuando todo el DOM se haya cargado
 	$.ajax({
-		url:"../ajax/obtener-post.php",
+		url:"ajax/obtener-post.php",
         dataType:"json",
 		success:function(respuesta){
             console.log(respuesta);
