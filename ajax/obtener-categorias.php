@@ -7,10 +7,12 @@
 
     $resultado = $conexion->ejecutarConsulta($sql);
     $respuesta = array();
-    while($fila = $conexion->obtenerFila($resultado))
+    while($fila = $conexion->obtenerFila($resultado)){
         $respuesta[] = $fila;
+    }
     
     echo json_encode($respuesta);
     $conexion->cerrarConexion();
     
 ?>
+

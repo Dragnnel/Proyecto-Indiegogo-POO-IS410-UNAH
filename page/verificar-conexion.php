@@ -7,11 +7,15 @@
 
 	/*
 		SELECT codigo_usuario, codigo_genero, nombre, apellido, email, password, url_image_perfil FROM tbl_usuarios WHERE 1
+
+
+
+		"SELECT codigo_usuario, codigo_genero, nombre, apellido, ".
+			"email, password, url_image_perfil ".
+			"FROM tbl_usuarios"
 	*/
 
-	$sql = 	"SELECT codigo_usuario, codigo_genero, nombre, apellido, ".
-			"email, password, url_image_perfil ".
-			"FROM tbl_usuarios";
+	$sql = 	"SELECT codigo_categoria, nombre_categoria FROM tbl_categorias";
 	
 	$resultado = $conexion->ejecutarConsulta($sql);
 

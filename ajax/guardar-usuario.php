@@ -3,7 +3,10 @@
 	include("../class/class-conexion.php");
 	$conexion = new Conexion();
 
-	$sql =  sprintf("INSERT INTO tbl_usuarios(codigo_genero, codigo_tipo_de_usuario, nombre, apellido, email, password, url_image_perfil) VALUES (%s,%s,'%s','%s','%s',sha1('%s'),'img/profile/foto_perfil_predeterminado.png')",
+
+
+  
+	$sql =  sprintf("INSERT INTO tbl_usuarios(codigo_usuario, codigo_tipo_de_usuario, nombre, apellido, email, password, url_image_perfil) VALUES (%s,%s,'%s','%s','%s',sha1('%s'),'img/profile/foto_perfil_predeterminado.png')",
         1,
         3,
         $conexion->antiInyeccion($_POST["nombre"]),
