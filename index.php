@@ -48,7 +48,7 @@
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="#" id="btn-explorar">Explorar&nbsp;<i class="fas fa-angle-down"></i></a>
+                <a class="nav-link" href="page/explorar.php" id="btn-explorar">Explorar&nbsp;<i class="fas fa-angle-down"></i></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="page/lo-que-hacemos.php">Lo que hacemos.</a>
@@ -63,8 +63,8 @@
             <a href="page/para-emprendedores.php" class="nav-link">Para emprendedores</a>
             <a href="page/comienza-una-campania.php" class="nav-link">Comienza una campaña</a>
             <div class="barra-vertical"></div>
-            <a href="#" class="nav-link" data-toggle="modal" data-target="#modal-LogIn">Iniciar Sesión</a>
-            <a href="#" class="nav-link"  data-toggle="modal" data-target="#modal-SignUp">Regístrate</a>
+              <a href="#" class="nav-link" data-toggle="modal" data-target="#modal-LogIn">Iniciar Sesión</a>
+              <a href="#" class="nav-link"  data-toggle="modal" data-target="#modal-SignUp">Regístrate</a>
           </div>
         </nav>
 
@@ -72,22 +72,24 @@
        <div class="container-explorar" id="div-explorar" tabindex="0">
         <div class="row explorar-header">
           <div class="col-xl-2">
-            <div class="explorar-header-item"></div>
+            <div style="background-image: url(https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/f_auto/v1525994596/vcohtaxfbobynytduzv0.jpg); background-size: cover; " class="explorar-header-item"></div>
           </div>
           <div class="col-xl-2">
-            <div class="explorar-header-item"></div>
+            <div style="background-image: url(https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/f_auto/v1525994596/vcohtaxfbobynytduzv0.jpg); background-size: cover; " class="explorar-header-item"></div>
           </div>
           <div class="col-xl-2">
-            <div class="explorar-header-item"></div>
+            <div style="background-image: url(https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/f_auto/v1525711166/lf7kkhrzqrdtcg1xi2ya.jpg); background-size: cover; " class="explorar-header-item"></div>
           </div>
           <div class="col-xl-2">
-            <div class="explorar-header-item"></div>
+            <div style="background-image: url(https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/f_auto/v1525989352/qt9v2neniadvmx5k8ijl.jpg); background-size: cover; " class="explorar-header-item"></div>
           </div>
           <div class="col-xl-2">
-            <div class="explorar-header-item"></div>
+            <div style="background-image: url(https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/f_auto/v1525911918/lzitwjsllzlilakbhk91.png); background-size: cover; " class="explorar-header-item"></div>
           </div>
           <div class="col-xl-2">
-            <div class="explorar-header-item"></div>
+            <div style="background-image: url(https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/f_auto/v1525994596/vcohtaxfbobynytduzv0.jpg); background-size: cover; " class="explorar-header-item">
+              
+            </div>
           </div>
         </div>
         <div class="row explorar-footer">
@@ -97,19 +99,19 @@
                 <p>Tecnología e innovación<p><br>
               </div>
               <div class="col-xl-6">
-                <a href="#"> Audio</a><br>
-              <a href="#"> Accesorios para cámaras</a><br>
-              <a href="#"> Energía y tecnología ecológica</a><br>
-              <a href="#"> Moda y dispositivos portátiles</a><br>
-              <a href="#"> Alimentos y bebidas</a><br>
-              <a href="#"> Salud y actividad física</a>
+                <a href="page/explorar.php"> Audio</a><br>
+              <a href="page/explorar.php"> Accesorios para cámaras</a><br>
+              <a href="page/explorar.php"> Energía y tecnología ecológica</a><br>
+              <a href="page/explorar.php"> Moda y dispositivos portátiles</a><br>
+              <a href="page/explorar.php"> Alimentos y bebidas</a><br>
+              <a href="page/explorar.php"> Salud y actividad física</a>
               </div>
               <div class="col-xl-6">
-                <a href="#"> Inicio</a><br>
-             <a href="#">  Teléfonos y accesorios</a><br>
-              <a href="#"> Productividad</a><br>
-              <a href="#"> Transporte</a><br>
-              <a href="#"> Viajes y vida al aire libre</a>
+                <a href="page/explorar.php"> Inicio</a><br>
+             <a href="page/explorar.php">  Teléfonos y accesorios</a><br>
+              <a href="page/explorar.php"> Productividad</a><br>
+              <a href="page/explorar.php"> Transporte</a><br>
+              <a href="page/explorar.php"> Viajes y vida al aire libre</a>
               </div>
             </div>
           </div>
@@ -119,19 +121,19 @@
                 <p>Trabajos creativos<p><br>
               </div>
               <div class="col-xl-6">
-              <a href="#"> Arte</a><br>
-              <a href="#"> Cómics</a><br>
-              <a href="#"> Danza y teatro</a><br>
-              <a href="#"> Película</a><br>
-              <a href="#"> Música</a><br>
-              <a href="#"> Fotografía</a>
+              <a href="page/explorar.php"> Arte</a><br>
+              <a href="page/explorar.php"> Cómics</a><br>
+              <a href="page/explorar.php"> Danza y teatro</a><br>
+              <a href="page/explorar.php"> Película</a><br>
+              <a href="page/explorar.php"> Música</a><br>
+              <a href="page/explorar.php"> Fotografía</a>
               </div>
               <div class="col-xl-6">
-              <a href="#"> Podcasts, blogs y vlogs</a><br>
-              <a href="#"> Juegos de mesa</a><br>
-              <a href="#"> Videojuegos</a><br>
-              <a href="#"> Series web y programas de TV</a><br>
-              <a href="#"> Escritura y edición</a> 
+              <a href="page/explorar.php"> Podcasts, blogs y vlogs</a><br>
+              <a href="page/explorar.php"> Juegos de mesa</a><br>
+              <a href="page/explorar.php"> Videojuegos</a><br>
+              <a href="page/explorar.php"> Series web y programas de TV</a><br>
+              <a href="page/explorar.php"> Escritura y edición</a> 
               </div>
             </div>
           </div>
@@ -141,16 +143,16 @@
                 <p>Proyectos comunitarios<p><br>
               </div>
               <div class="col-xl-6">
-              <a href="#">Derechos de los animales</a><br>
-              <a href="#">Cultura</a><br>
-              <a href="#">Educación</a><br>
-              <a href="#">Medio ambiente</a><br>
-              <a href="#">Derechos humanos</a><br>
-              <a href="#">Empresas locales</a> 
+              <a href="page/explorar.php">Derechos de los animales</a><br>
+              <a href="page/explorar.php">Cultura</a><br>
+              <a href="page/explorar.php">Educación</a><br>
+              <a href="page/explorar.php">Medio ambiente</a><br>
+              <a href="page/explorar.php">Derechos humanos</a><br>
+              <a href="page/explorar.php">Empresas locales</a> 
               </div>
               <div class="col-xl-6">
-                <a href="#">Espiritualidad</a><br>
-              <a href="#">Bienestar </a>
+                <a href="page/explorar.php">Espiritualidad</a><br>
+              <a href="page/explorar.php">Bienestar </a>
               </div>
             </div>
           </div>

@@ -1,34 +1,39 @@
 <?php
 
-	$respuesta = array();
+	include("../class/class-conexion.php");
+	$conexion = new Conexion();
 
-		$respuesta['nombre'] = $_POST['nombre'];
-		$respuesta['apellido'] = $_POST['apellido'];	
-		$respuesta['email'] = $_POST['email'];	
-		$respuesta['password'] = $_POST['password'];
-		$respuesta['checkNotificar'] = $_POST['checkNotificar'];
+	$sql =  sprintf("INSERT INTO tbl_usuarios(codigo_genero, codigo_tipo_de_usuario, nombre, apellido, email, password, url_image_perfil) VALUES (%s,%s,'%s','%s','%s',sha1('%s'),'img/profile/foto_perfil_predeterminado.png')",
+        1,
+        3,
+        $conexion->antiInyeccion($_POST["nombre"]),
+        $conexion->antiInyeccion($_POST["apellido"]),
+        $conexion->antiInyeccion($_POST["email"]),
+        $conexion->antiInyeccion($_POST["password"])
+        );
+           
 
-	echo json_encode($respuesta);
-	
-	
-	/*$archivo = fopen("../data/usuario.csv", "a+");
-	fwrite( $archivo, 
-			$_POST["nombre"].",".
-			$_POST["apellido"].",".
-			$_POST["email"].",".
-			$_POST["password"].",".
-			$_POST["checkNotificar"]."\n"
-	);
-	fclose($archivo);
+    $resultado = $conexion->ejecutarConsulta($sql);
+    if ($resultado){
+        //Se agrego con exito
 
-	echo ' <div class="col-lg-12 col-sm-12 col-xs-12 col-md-12">';
-		echo '  <div class="well">';
-		echo '    <strong>'.$_POST['nombre'].'</strong>';
-		echo '    <p>'.$_POST["apellido"].'</p>';
-		echo '    <p>'.$_POST["email"].'</p>';
-		echo '    <p>'.$_POST["password"].'</p>';	
-		echo '    <p>'.$_POST["checkNotificar"].'</p>';
-		echo '  </div>';
-		echo '</div>';	*/
+        $sql = sprintf("SELECT codigo_usuario, nombre, apellido, password, url_imagen_perfil FROM tbl_usuarios WHERE codigo_usuario = %s",
+		$conexion->ultimoId());
+
+        $resultadoT = $conexion->ejecutarConsulta($sql);
+        $fila = $conexion->obtenerFila($resultadoT);
+        $fila["codigo_resultado"] = 0;
+        $fila["mensaje_resultado"] = "Usuario registrado con éxito";
+        echo json_encode($fila);
+
+    }else{
+        //Fallo
+        $respuesta["codigo_resultado"] = 1;
+        $respuesta["mensaje_resultado"] = "No se pudo registrar el usuario";
+        $respuesta["sql"] = $sql;
+        echo json_encode($respuesta);
+    }
+
+    $conexion->cerrarConexion();
 
 ?>

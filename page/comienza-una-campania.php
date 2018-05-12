@@ -50,7 +50,7 @@
           </div>
           <div class="col-xl-6 col-md-6">
             <div class="recuadro-left">
-              <a href="../page/iniciar-una-campana.php">
+              <a href="pagina-campana.php">
                 <h4 style="font-weight: bold;">... un proyecto.</h4>
                 <p>Indiegogo es donde las ideas innovadoras cobran vida.</p>
                 <hr>
@@ -61,7 +61,7 @@
           </div>
           <div class="col-xl-6 col-md-6">
             <div class="recuadro-right">
-              <a href="#">
+              <a href="https://www.youcaring.com/">
                 <h4 style="font-weight: bold;">... una causa.</h4>
                 <p>YouCaring es un sitio web confiable y gratuito líder en recaudación de fondos para causas personales, médicas y benéficas.</p>
                 <hr>

@@ -1,12 +1,27 @@
 <?php
-	$archivo = fopen("../data/usuarios.csv","r");
-	while(($linea=fgets($archivo))){
-		$partes = explode(",", $linea);
-		echo 'Nombre: '.$partes[0].'Apellido'.$partes[1].'Email'.$partes[2].'Contraseña: '.$partes[3];
+	session_start();
+	include("../class/class-conexion.php");
+	$conexion = new Conexion();
 
+	$sql = sprintf("SELECT codigo_usuario, nombre, apellido, password, url_imagen_perfil FROM tbl_usuarios WHERE email='%s' and password=sha1('%s')",
+		$conexion->antiInyeccion($_POST["mail"]),
+		$conexion->antiInyeccion($_POST["psw"]));
 
-		console.log('Nombre: '.$partes[0].'Apellido'.$partes[1].'Email'.$partes[2].'Contraseña: '.$partes[3]);
-	}
-	fclose($archivo);
+	$resultado = $conexion->ejecutarConsulta($sql);
+    $respuesta = array();
+    if ($conexion->cantidadRegistros($resultado)>0){
+        $respuesta = $conexion->obtenerFila($resultado);
+        $respuesta["codigoResultado"] = 0;
+        $respuesta["mensajeResultado"] = "El usuario si existe";
+        $_SESSION["email"] = $respuesta["email"];
+        $_SESSION["psw"] = sha1($_POST["password"]);
+    }else {
+        $respuesta["codigoResultado"] = 1;
+        $respuesta["mensajeResultado"] = "El usuario no existe";
+        session_destroy();
+    }
+
+    echo json_encode($respuesta);
+    $conexion->cerrarConexion();
 	
 ?>

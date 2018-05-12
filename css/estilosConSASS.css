@@ -748,6 +748,7 @@ row img {
   font-family: "Helvetica";
   color: #2a2a2a;
   font-size: 12px;
+  border-top: 1px solid black;
 }
 
 /* line 660, C:/xampp/htdocs/IS410-I2018-IIUnidad-master/Indiegogo-Proyecto-POO-UNAH-IS410/Proyecto-Indiegogo-POO-IS410-UNAH/sass/estilosConSASS.sass */
@@ -778,6 +779,41 @@ row img {
   background-color: #F0F0F0;
   min-height: 100px;
   max-width: 80%;
+}
+
+.explorar-pag {
+  margin: 50px 100px 50px 100px;
+  max-width: 1150px;
+}
+
+.explorar-pag .mb-3{
+  border: 1px solid #d7d7d7;
+}
+
+.explorar-pag li{
+  text-align: left !important;
+}
+
+.explorar-pag li:hover{
+  color: black;
+  text-decoration: none;
+  font-weight: none;
+}
+
+.explorar-pag p{
+  text-align: left !important;
+  color: #d7d7d7;
+  font-weight: none;
+}
+
+.cardin{
+  margin-bottom: 40px;
+}
+
+.post-pag {
+  margin: 50px 100px 50px 100px;
+  max-width: 1150px;
+  text-align: left;
 }
 
 /*# sourceMappingURL=../css/estilosConSASS.map */

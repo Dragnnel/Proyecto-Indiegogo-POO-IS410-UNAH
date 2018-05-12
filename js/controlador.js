@@ -17,14 +17,54 @@ $("#div-explorar").hover(
 $(document).ready(function(){
 	//Esta funcion se ejecutar cuando todo el DOM se haya cargado
 	$.ajax({
-		url:"../ajax/obtener-usuarios.php",
+		url:"../ajax/obtener-post.php",
+        dataType:"json",
 		success:function(respuesta){
-			console.log(respuesta.nombre);
-			//$("#div-usuarios").html(respuesta);
-		}
+            console.log(respuesta);
+            var imprimir = "";
+            for (var i=0; i<respuesta.length; i++){
+                
+                imprimir += '<div class="cardin col-xl-4"><div class="card">'+
+                        '<img class="card-img-top" src="../'+respuesta[i].url_image+'" alt="Card image cap">'+
+                        '<div class="card-body">'+
+                        '<h5 class="card-title">'+respuesta[i].nombre_campana+'</h5>'+
+                        '<p class="card-text">'+respuesta[i].descripcion+'</p>'+
+                        '<p class="card-text"><small class="text-muted">'+respuesta[i].fecha_de_publicacion+'</small></p>'+
+                        '</div></div></div>';
+
+            }
+            $("#div-lista-posts").html(imprimir);
+
+        },
+        error:function(error){
+            console.log(error);
+        }
 	});
 
+    obtenerCategorias();
+
 });
+
+function obtenerCategorias(){
+    $.ajax({
+        url:"ajax/obtener-categorias.php",
+        dataType:"json",
+        success:function(respuesta){
+            console.log(respuesta);
+            var imprimir = "";
+            for (var i=0; i<respuesta.length; i++){
+                
+                imprimir += '<option value="'+respuesta[i].codigo_categoria+'">'+respuesta[i].nombre_categoria+'</option>';
+
+            }
+            $("#div-cat").html(imprimir);
+
+        },
+        error:function(error){
+            console.log(error);
+        }
+    });
+}
 
 function guardarUsuarioHeader(){
 
@@ -95,15 +135,14 @@ function guardarUsuarioIndex(){
         var parametros= "nombre="+$("#txt-nombre-index").val()+"&"+
                     "apellido="+$("#txt-apellido-index").val()+"&"+
                     "email="+$("#txt-email-index").val()+"&"+
-                    "password="+$("#txt-password-index").val()+"&"+
-                    "checkNotificar="+$("#checkNotificar-index").val();
+                    "password="+$("#txt-password-index").val();
 
         console.log(parametros);
 
         $.ajax({
         url:"../ajax/guardar-usuario.php",
         data: parametros,
-        method:"POST",
+        method: "POST",
         dataType:"json",
         success:function(respuesta){
             console.log(respuesta);
@@ -191,27 +230,25 @@ function validarEmail(email) {
 }
 
 function iniciarSesion(){
-    if (nvalidarsesion()){
+    if (nvalidarsesionIndex()){
         var parametros=
-                    "email="+$("#txt-email-log").val()+"&"+
-                    "password="+$("#txt-password-log").val();
+                    "mail="+$("#txt-email").val()+"&"+
+                    "psw="+$("#txt-password").val();
 
-        alert("Sesion Iniciada "+parametros);
-
-        /*$.ajax({
-        url:"../ajax/guardar-usuario.php",
+        console.log(parametros);
+        $.ajax({
+        url:"ajax/obtener-usuario.php",
         data: parametros,
         method:"POST",
         dataType:"json",
         success:function(respuesta){
             console.log(respuesta);
-
             },
         error:function(error){
             console.log(error);
             }
 
-        });*/
+        });
 
     }
     
@@ -220,6 +257,18 @@ function iniciarSesion(){
 function nvalidarsesion(){
 
     var v = [validar("#txt-password-log"),validar("#txt-email-log")];
+
+    if ((v[0]&&v[1])==false){
+        return false;
+    }
+    else{
+        return true;
+    }
+}
+
+function nvalidarsesionIndex(){
+
+    var v = [validar("#txt-password"),validar("#txt-email")];
 
     if ((v[0]&&v[1])==false){
         return false;
