@@ -15,6 +15,7 @@
     }
     
     echo json_encode($respuesta);
+    var_dump($respuesta);
     $conexion->cerrarConexion();
     
 ?>

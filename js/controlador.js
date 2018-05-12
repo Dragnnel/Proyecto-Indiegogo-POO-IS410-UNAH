@@ -15,12 +15,15 @@ $("#div-explorar").hover(
 );
 
 $(document).ready(function(){
+    console.log( "ready!" );
 	//Esta funcion se ejecutar cuando todo el DOM se haya cargado
 	$.ajax({
 		url:"../ajax/obtener-post.php",
-        dataType:"json",
+        dataType:'json',
 		success:function(respuesta){
             console.log(respuesta);
+            alert(respuesta);
+           
             var imprimir = "";
             for (var i=0; i<respuesta.length; i++){
                 
@@ -31,7 +34,6 @@ $(document).ready(function(){
                         '<p class="card-text">'+respuesta[i].descripcion+'</p>'+
                         '<p class="card-text"><small class="text-muted">'+respuesta[i].fecha_de_publicacion+'</small></p>'+
                         '</div></div></div>';
-
             }
             $("#div-lista-posts").html(imprimir);
 
@@ -48,9 +50,10 @@ $(document).ready(function(){
 function obtenerCategorias(){
     $.ajax({
         url:"../ajax/obtener-categorias.php",
-        dataType:"json",
+        dataType: 'json',
         success:function(respuesta){
             console.log(respuesta);
+            alert(respuesta);
             var imprimir = "";
             for (var i=0; i<respuesta.length; i++){
                 
