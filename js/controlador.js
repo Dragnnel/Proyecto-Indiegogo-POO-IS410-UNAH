@@ -45,6 +45,39 @@ $(document).ready(function(){
 
 });
 
+function crearCampana(){
+    if (nvalidarCampana()){
+        var parametros= "titulo="+$("#txt-titulo").val()+"&"+
+                    "descripcion="+$("#txt-des").val()+"&"+
+                    "recaudar="+$("#txt-recaudar").val()+"&"+
+                    "img="+$("#opt-img").val();
+
+        $("#txt-titulo").val("");
+        $("#txt-des").val("");
+        $("#txt-recaudar").val("");
+
+        console.log(parametros);
+
+        $.ajax({
+        url:"../ajax/guardar-post.php",
+        data: parametros,
+        method: "POST",
+        dataType:"json",
+        success:function(respuesta){
+            console.log(respuesta);
+
+            location.href ="explorar.php";
+
+            },
+        error:function(error){
+            console.log(error);
+            }
+
+        });
+
+    }
+}
+
 function obtenerCategorias(){
     $.ajax({
         url:"../ajax/obtener-categorias.php",
@@ -191,6 +224,22 @@ function nvalidarPag(){
     var v = [validar("#txt-nombre-pag"),validar("#txt-apellido-pag"),validar("#txt-password-pag"),validar("#txt-email-pag")];
 
     if ((v[0]&&v[1]&&v[2]&&v[3])==false){
+        return false;
+    }
+    else{
+        return true;
+    }
+}
+
+function nvalidarCampana(){
+
+    var v = [validar("#txt-titulo"),validar("#txt-des"),validar("#txt-recaudar")];
+
+    if ($("#txt-recaudar").val()<500) {
+        v[2]=false;
+    }
+
+    if ((v[0]&&v[1]&&v[2])==false){
         return false;
     }
     else{

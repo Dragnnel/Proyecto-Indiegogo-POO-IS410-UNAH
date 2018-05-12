@@ -1,4 +1,4 @@
-<?php 
+<?php /*
     session_start();
     if (!isset($_SESSION["email"]) || !isset($_SESSION["psw"]))
         header("Location: log-in-sign-up.php");
@@ -16,7 +16,7 @@
     if ($conexion->cantidadRegistros($resultado)<=0){
            header("Location: log-in-sign-up.php");
     }
-    $registro = $conexion->obtenerFila($resultado);
+    $registro = $conexion->obtenerFila($resultado);*/
 ?>
 
 <!doctype html>
@@ -85,7 +85,7 @@
 
           Escoge la imagen de tu campaña!
           <div class="col-xl-8">
-            <select class="form-control" >
+            <select class="form-control" id="opt-img">
               <option value="img/imgpost/imagen1.png">Imagen 1</option>
               <option value="img/imgpost/imagen2.png">Imagen 2</option>
               <option value="img/imgpost/imagen3.png">Imagen 3</option>
@@ -108,7 +108,7 @@
           </div>
 
           <br>
-          <a class="btn btn-rosa1" href="#" >CREAR MI CAMPAÑA</a>
+          <button class="btn btn-rosa1" onclick="crearCampana();" >CREAR MI CAMPAÑA</button>
         </div>
       </div>
     </div>
