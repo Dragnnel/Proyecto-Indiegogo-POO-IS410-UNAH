@@ -63,8 +63,8 @@
             <a href="page/para-emprendedores.php" class="nav-link">Para emprendedores</a>
             <a href="page/comienza-una-campania.php" class="nav-link">Comienza una campaña</a>
             <div class="barra-vertical"></div>
-              <a href="#" class="nav-link" data-toggle="modal" data-target="#modal-LogIn">Iniciar Sesión</a>
-              <a href="#" class="nav-link"  data-toggle="modal" data-target="#modal-SignUp">Regístrate</a>
+              <a href="#" class="nav-link" data-toggle="modal" id="div-nombre-i" data-target="#modal-LogIn">Iniciar Sesión</a>
+              <a href="#" class="nav-link"  data-toggle="modal" id="div-i" data-target="#modal-SignUp">Regístrate</a>
           </div>
         </nav>
 

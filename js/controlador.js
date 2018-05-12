@@ -120,6 +120,9 @@ function guardarUsuarioPag(){
             console.log(respuesta);
             $("#div-a-usu").html(respuesta.nombre);
             $("#div-a-usu-img").html("");
+            $("#div-nombre-i").html(respuesta.nombre);
+            $("#div-i").html("");
+            location.href ="../index.php";
 
             },
         error:function(error){
@@ -148,12 +151,17 @@ function guardarUsuarioIndex(){
         console.log(parametros);
 
         $.ajax({
-        url:"../ajax/guardar-usuario.php",
+        url:"ajax/guardar-usuario.php",
         data: parametros,
         method: "POST",
         dataType:"json",
         success:function(respuesta){
             console.log(respuesta);
+            $("#div-nombre-i").html(respuesta.nombre);
+            $("#div-i").html("");
+            $("#div-a-usu").html(respuesta.nombre);
+            $("#div-a-usu-img").html("");
+            location.href ="index.php";
 
             },
         error:function(error){
