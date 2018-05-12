@@ -9,7 +9,7 @@
 		SELECT codigo_usuario, codigo_genero, nombre, apellido, email, password, url_image_perfil FROM tbl_usuarios WHERE 1
 	*/
 
-	$sql = 	"SELECT codigo_usuario, codigo_genero, nombre, apellido, ".
+	$sql = 	"SELECT codigo_usuario, nombre, apellido, ".
 			"email, password, url_image_perfil ".
 			"FROM tbl_usuarios";
 	
