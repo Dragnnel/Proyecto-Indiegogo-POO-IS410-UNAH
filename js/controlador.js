@@ -94,7 +94,10 @@ function crearCampana(){
         success:function(respuesta){
             console.log(respuesta);
 
-            location.href ="explorar.php";
+            if (respuesta.codigo_resultado==0)
+                location.href ="explorar.php";
+            else
+                alert("No se pudo agregar el post");
 
             },
         error:function(error){
