@@ -4,17 +4,17 @@
 
     $conexion = new Conexion();
 
-	$sql = sprintf("SELECT codigo_usuario, nombre, apellido, password, url_image_perfil FROM tbl_usuarios WHERE email = '%s' and password = sha1('%s')",
+	$sql = sprintf("SELECT codigo_usuario, nombre, apellido, url_image_perfil FROM tbl_usuarios WHERE email = '%s' and password = sha1('%s')",
 		$_POST["email"],
 		$_POST["password"]);
 
 	$resultado = $conexion->ejecutarConsulta($sql);
     $respuesta = array();
     if ($conexion->cantidadRegistros($resultado)>0){
-        $respuesta = $conexion->obtenerFila($resultado);
+        $respuesta[] = $conexion->obtenerFila($resultado);
         $respuesta["codigoResultado"] = 0;
         $respuesta["mensajeResultado"] = "El usuario si existe";
-        $_SESSION["email"] = $respuesta["email"];
+        $_SESSION["email"] = $_POST["email"];
         $_SESSION["psw"] = sha1($_POST["password"]);
     }else {
         $respuesta["codigoResultado"] = 1;

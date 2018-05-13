@@ -330,9 +330,11 @@ function iniciarSesion(){
 
 function iniciarSesionPag(){
     if (nvalidarsesionPag()){
-        var parametros=
-                    "mail="+$("#txt-email-session").val()+"&"+
-                    "psw="+$("#txt-password-session").val();
+        var parametros= "email="+$("#txt-email-session").val()+"&"+
+                        "password="+$("#txt-password-session").val();
+
+        $("#txt-email-session").val("");
+        $("#txt-password-session").val("");
 
         console.log(parametros);
         $.ajax({

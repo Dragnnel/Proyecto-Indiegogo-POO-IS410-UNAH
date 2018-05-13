@@ -95,7 +95,7 @@
                     <input type="checkbox" class="form-check-input" id="checkRecordar">
                     <label class="form-check-label" for="checkRecordar">Recuérdame</label>
                 </div>
-                <button type="submit" onclick="iniciarSesionPag();" class="btn btn-rosa1 btn-lg btn-block">Iniciar Sección</button>
+                <button type="button" onclick="iniciarSesionPag();" class="btn btn-rosa1 btn-lg btn-block">Iniciar Sección</button>
               </form>
             </div>
           </div>

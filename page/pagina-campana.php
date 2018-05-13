@@ -2,13 +2,13 @@
     session_start();
     if (!isset($_SESSION["email"]) || !isset($_SESSION["psw"]))
         header("Location: log-in-sign-up.php");
-    include("class/class-conexion.php");
+    include("../class/class-conexion.php");
     $conexion = new Conexion();
      $sql = sprintf( 
         "SELECT codigo_usuario, codigo_tipo_de_usuario, ". 
         "email, nombre, apellido, password, url_image_perfil FROM tbl_usuarios ".
         "WHERE email = '%s' and password = '%s' and codigo_tipo_usuario = 3",
-        $_SESSION["usr"],
+        $_SESSION["email"],
         $_SESSION["psw"]
     );
     $resultado = $conexion->ejecutarConsulta($sql);
