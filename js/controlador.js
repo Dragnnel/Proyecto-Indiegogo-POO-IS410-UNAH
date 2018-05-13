@@ -129,6 +129,12 @@ function guardarUsuarioHeader(){
         dataType:"json",
         success:function(respuesta){
             console.log(respuesta);
+            alert("Usuario registrado!");
+            $("#div-a-usu").html(respuesta.nombre);
+            $("#div-a-usu-img").html("");
+            $("#div-nombre-i").html(respuesta.nombre);
+            $("#div-i").html("");
+            //location.href ="../index.php";
 
             },
         error:function(error){
@@ -162,11 +168,12 @@ function guardarUsuarioPag(){
         dataType:"json",
         success:function(respuesta){
             console.log(respuesta);
+            alert("Usuario registrado!");
             $("#div-a-usu").html(respuesta.nombre);
             $("#div-a-usu-img").html("");
             $("#div-nombre-i").html(respuesta.nombre);
             $("#div-i").html("");
-            location.href ="../index.php";
+            //location.href ="../index.php";
 
             },
         error:function(error){
@@ -201,6 +208,7 @@ function guardarUsuarioIndex(){
         dataType:"json",
         success:function(respuesta){
             console.log(respuesta);
+            alert("Usuario registrado!");
             $("#div-nombre-i").html(respuesta.nombre);
             $("#div-i").html("");
             $("#div-a-usu").html(respuesta.nombre);
