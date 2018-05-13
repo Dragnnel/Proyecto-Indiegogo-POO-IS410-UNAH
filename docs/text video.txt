@@ -1,0 +1,268 @@
+
+
+		
+
+
+
+
+		Entrega final del 
+	Proyecto Indiegogo- IS410 POO
+
+
+
+
+
+
+
+
+Integrantes: 
+
+Luis Fernando Estrada Euceda	20151001598
+
+Ronmel Josué Lizardo Guzmán	20161004535
+
+
+
+
+
+
+
+
+
+Demostración de la implementación de 
+la tecnologia SASS en el 
+proyecto de indiegogo. 
+ 
+
+
+
+
+
+
+Sass: hojas de estilo sintácticamente 
+impresionantes.
+
+	--CSS con superpoderes--
+
+Sass es el lenguaje de extensión CSS 
+de grado profesional más maduro, 
+estable y poderoso del mundo.
+
+La principal ventaja de SASS es la 
+posibilidad de convertir los CSS en
+ algo dinámico.
+
+
+
+
+
+
+
+
+
+
+SASS dispone de dos formatos diferentes
+para la sintaxis, lo que hace se traduce
+en dos extensiones de fichero diferentes:
+	.sass y .scss
+
+
+
+
+
+
+
+
+
+El primero en salir fue .sass y 
+se caracteriza, al igual que Stylus 
+y coffeescript para el lenguaje de
+programación Javascript, en no hacer 
+uso de llaves ni punto y coma final,
+ en busca de la simplicidad y 
+eliminación de ruido.
+	
+	body
+	background: #000
+	font-size: 62.5%
+
+
+
+
+
+
+
+
+
+SASS nos ayuda a simplificar haciendo 
+uso del nesting o anidación. 
+Conseguimos escribir menos, con la
+ indentación del código CSS podemos
+ reflejar mejor la jerarquía:
+
+		div	
+		      a
+			color: red
+
+
+
+
+
+
+
+
+
+
+
+
+Tanto la sintaxis de .sass como la de .scss
+no puede ser interpretada directamente 
+por los navegadores, por lo se debe 
+compilar para traducir nuestro archivo 
+SASS en un clásico fichero CSS.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entre lo que se puede hacer en sass: 
+1-variables:Permite reutilizar valores
+ que podemos manejar desde un solo 
+sitio de forma sencilla y centralizada.
+
+2-Mixins: permite aprovechar un trozo de
+nuestro código al que podemos llamar 
+repetidamente y que encapsula en una o
+más líneas de código.
+
+
+
+
+
+
+
+
+
+
+
+
+
+3-extend, la herencia de .sass: Hay ciertos
+ momentos en los que deseamos aprovechar
+una clase o variarla ligeramente. SASS nos 
+brinda la posibilidad de poder reutilizar 
+este código anterior y añadir algún 
+elemento nuevo, si así lo deseamos.
+
+
+4-nesting o anidación
+
+5- Funciones: Siguiendo con las 
+posibilidades dinámicas, si solo 
+necesitamos hacer cálculos matemáticos 
+podemos crearnos funciones ad hoc para 
+llamarlas a la hora de compilar.
+
+
+
+
+
+
+
+Hay muchas aplicaciones que 
+lo pondrán en funcionamiento
+ con Sass en unos minutos para 
+Mac, Windows y Linux.
+
+
+La que se utilizo, para esta entrega del 
+proyecto es 
+Scout-App (Gratis, Código Abierto)
+http://scout-app.io/
+
+
+
+
+
+
+
+
+
+Veremos un ejemplo de compilación con la
+aplicacion Scout-App
+
+1-escogiendo la carpeta raiz del proyecto
+2-eligimos la direccion del Input Folder
+3-eligimos la direccion del Output Folder
+4-seleccionando el Environment (Ambiente)
+5-y por ultimo la manera en que se va ver al
+compilar entre las opciones compact,
+exoabded, nested, etc.
+
+
+
+
+
+
+
+Despues solo seria implementarlo a las 
+paginas del sitio web con la etiqueta
+
+ <link rel="stylesheet" type="text/css"
+ href="css/estilosConSASS.css">
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+declaracion de variables
+
+$nombre: valores  
+
+
+
+
+
+
+Vamos a ver los archivos sass
+
+
+
+
+
+
+Ya convertidos el sass a css se realizara para la implementacion 
+
+
+
+
+
