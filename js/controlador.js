@@ -54,12 +54,14 @@ function obtenerCategorias(){
         dataType: 'json',
         success : function(respuesta){
             console.log(respuesta);
-            var imprimir = "";
+            var imprimir = '<select class="form-control">';
             for (var i=0; i<respuesta.length; i++){
                 
                 imprimir += '<option value="' + respuesta[i].codigo_categoria + '"> ' + respuesta[i].nombre_categoria + ' </option>';
 
             }
+
+            imprimir += "</select>";
             $("#div-cat").html(imprimir);
 
         },

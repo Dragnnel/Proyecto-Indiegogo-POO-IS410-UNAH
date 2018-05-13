@@ -102,10 +102,8 @@
           </div>
 
           ¿Cuál es la categoría de tu campaña?
-          <div class="col-xl-8">
-            <select class="form-control div-cat" >
-            </select><br>
-          </div>
+          <div class="col-xl-8" id="div-cat">
+          </div><br>
 
           <br>
           <button class="btn btn-rosa1" onclick="crearCampana();" >CREAR MI CAMPAÑA</button>
