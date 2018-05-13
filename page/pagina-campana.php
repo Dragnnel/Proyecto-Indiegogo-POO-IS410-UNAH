@@ -7,7 +7,7 @@
      $sql = sprintf( 
         "SELECT codigo_usuario, codigo_tipo_de_usuario, ". 
         "email, nombre, apellido, password, url_image_perfil FROM tbl_usuarios ".
-        "WHERE email = '%s' and password = '%s' and codigo_tipo_usuario = 3",
+        "WHERE email = '%s' and password = '%s' and codigo_tipo_de_usuario = 1",
         $_SESSION["email"],
         $_SESSION["psw"]
     );

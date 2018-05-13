@@ -54,7 +54,7 @@ function obtenerCategorias(){
         dataType: 'json',
         success : function(respuesta){
             console.log(respuesta);
-            var imprimir = '<select class="form-control">';
+            var imprimir = '<select id="sl-categorias" class="form-control">';
             for (var i=0; i<respuesta.length; i++){
                 
                 imprimir += '<option value="' + respuesta[i].codigo_categoria + '"> ' + respuesta[i].nombre_categoria + ' </option>';
@@ -77,7 +77,8 @@ function crearCampana(){
         var parametros= "titulo="+$("#txt-titulo").val()+"&"+
                     "descripcion="+$("#txt-des").val()+"&"+
                     "recaudar="+$("#txt-recaudar").val()+"&"+
-                    "img="+$("#opt-img").val();
+                    "img="+$("#opt-img").val()+"&"+
+                    "categoria="+$("#sl-categorias").val();
 
         $("#txt-titulo").val("");
         $("#txt-des").val("");
@@ -93,7 +94,10 @@ function crearCampana(){
         success:function(respuesta){
             console.log(respuesta);
 
-            location.href ="explorar.php";
+            if (respuesta.codigo_resultado==0)
+                location.href ="explorar.php";
+            else
+                alert("No se pudo agregar el post");
 
             },
         error:function(error){

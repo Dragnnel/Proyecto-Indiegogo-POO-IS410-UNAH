@@ -1,11 +1,10 @@
 <?php
-
     include("../class/class-conexion.php");
     $conexion = new Conexion();
 
-    $sql =  sprintf("INSERT INTO tbl_post(codigo_usuario, codigo_categoria, nombre_campana, descripcion, fecha_de_publicacion, fecha_de_expiracion, url_image, monto_a_recaudar) VALUES (%s,%s,'%s','%s',curdate(),curdate(),'%s',%s)",
-        2,
-        3,//arreglar esto
+    $sql =  sprintf("INSERT INTO tbl_post(codigo_usuario, codigo_categoria, nombre_campana, descripcion, fecha_de_publicacion, fecha_de_expiracion, url_image, monto_a_recaudar) VALUES (1,%s,'%s','%s',curdate(),curdate(),'%s','%s')",
+        1,//arreglar
+        $conexion->antiInyeccion($_POST["categoria"]),
         $conexion->antiInyeccion($_POST["titulo"]),
         $conexion->antiInyeccion($_POST["descripcion"]),
         $conexion->antiInyeccion($_POST["img"]),
@@ -14,7 +13,7 @@
 
     //INSERT INTO tbl_post(codigo_usuario, codigo_categoria, nombre_campana, descripcion, fecha_de_publicacion, fecha_de_expiracion, url_image, monto_a_recaudar) VALUES (%s,%s,'%s','%s',curdate(),curdate(),'%s',%s)
            
-
+    
     $resultado = $conexion->ejecutarConsulta($sql);
     if ($resultado){
         //Se agrego con exito
