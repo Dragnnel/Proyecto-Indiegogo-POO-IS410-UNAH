@@ -21,7 +21,7 @@ $(document).ready(function(){
 	//Esta funcion se ejecutar cuando todo el DOM se haya cargado
 	$.ajax({
 		url:"../ajax/obtener-post.php",
-        dataType:'html',
+        dataType:'json',
 		success:function(respuesta){
             console.log(respuesta);
            
@@ -51,7 +51,7 @@ $(document).ready(function(){
 function obtenerCategorias(){
     $.ajax({
         url:"../ajax/obtener-categorias.php",
-        dataType: 'html',
+        dataType: 'json',
         success : function(respuesta){
             console.log(respuesta);
             var imprimir = "";
