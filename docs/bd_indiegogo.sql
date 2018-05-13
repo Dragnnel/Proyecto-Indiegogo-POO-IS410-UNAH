@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 13-05-2018 a las 01:48:45
+-- Tiempo de generación: 13-05-2018 a las 02:40:14
 -- Versión del servidor: 10.1.30-MariaDB
 -- Versión de PHP: 7.2.2
 
@@ -38,25 +38,25 @@ CREATE TABLE `tbl_categorias` (
 --
 
 INSERT INTO `tbl_categorias` (`codigo_categoria`, `nombre_categoria`) VALUES
-(1, 'Accesorios para cámaras'),
+(1, 'Accesorios para camaras'),
 (2, 'Alimentos y bebidas'),
 (3, 'Audio'),
-(4, 'Energía y tecnología ecológica'),
+(4, 'Energia y tecnologia ecologica'),
 (5, 'Inicio'),
-(6, 'Moda y dispositivos portátiles'),
+(6, 'Moda y dispositivos portatiles'),
 (7, 'Productividad'),
-(8, 'Salud y actividad física'),
-(9, 'Teléfonos y accesorios'),
+(8, 'Salud y actividad fisica'),
+(9, 'Telefonos y accesorios'),
 (10, 'Transporte'),
 (11, 'Viajes y vida al aire libre'),
 (12, 'Arte'),
-(13, 'Cómics'),
+(13, 'Comics'),
 (14, 'Danza y teatro'),
-(15, 'Escritura y edición'),
-(16, 'Fotografía'),
+(15, 'Escritura y edicion'),
+(16, 'Fotografia'),
 (17, 'Juegos de mesa'),
-(18, 'Música'),
-(19, 'Película'),
+(18, 'Musica'),
+(19, 'Pelicula'),
 (20, 'Podcasts y blogs'),
 (21, 'Series web y programas de TV'),
 (22, 'Videojuegos'),
@@ -64,7 +64,7 @@ INSERT INTO `tbl_categorias` (`codigo_categoria`, `nombre_categoria`) VALUES
 (24, 'Cultura'),
 (25, 'Derechos de los animales'),
 (26, 'Derechos humanos'),
-(27, 'Educación'),
+(27, 'Educacion'),
 (28, 'Empresas locales'),
 (29, 'Espiritualidad'),
 (30, 'Medio ambiente');
@@ -107,7 +107,7 @@ CREATE TABLE `tbl_post` (
 --
 
 INSERT INTO `tbl_post` (`codigo_post`, `codigo_usuario`, `codigo_categoria`, `nombre_campana`, `descripcion`, `fecha_de_publicacion`, `fecha_de_expiracion`, `url_image`, `monto_a_recaudar`) VALUES
-(1, 1, 1, 'Primer Campaña', 'Demostracion de almacenamiento en la bd', '2018-01-18', '2018-02-15', 'img/icon-icon-go.png', '12000'),
+(1, 1, 1, 'Primer Campana', 'Demostracion de almacenamiento en la bd', '2018-01-18', '2018-02-15', 'img/icon-icon-go.png', '12000'),
 (2, 2, 3, 'Apps IS410', 'Nueva app diferente innovadora', '2018-01-18', '2018-02-15', 'img/imgpost/imagen4.png', '3000'),
 (3, 2, 11, 'restaurante innovador', 'Nueva y diferente innovadora', '2018-01-18', '2018-05-15', 'img/imgpost/imagen3.png', '123000');
 

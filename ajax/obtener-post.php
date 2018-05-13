@@ -13,10 +13,10 @@
 
 
     
-    return print_r($respuesta);
+    //return print_r($respuesta);
     //var_dump($respuesta);
     //var_export($respuesta)
-    //echo json_encode($respuesta)
+    echo json_encode($respuesta);
     //echo json_encode(var_export($respuesta));
     $conexion->cerrarConexion();
 	
