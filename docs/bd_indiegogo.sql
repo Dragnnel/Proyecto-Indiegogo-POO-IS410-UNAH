@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 13-05-2018 a las 04:34:48
+-- Tiempo de generación: 13-05-2018 a las 04:57:42
 -- Versión del servidor: 10.1.30-MariaDB
 -- Versión de PHP: 7.2.2
 
@@ -205,6 +205,24 @@ ALTER TABLE `tbl_usuarios`
 --
 -- AUTO_INCREMENT de las tablas volcadas
 --
+
+--
+-- AUTO_INCREMENT de la tabla `tbl_categorias`
+--
+ALTER TABLE `tbl_categorias`
+  MODIFY `codigo_categoria` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
+
+--
+-- AUTO_INCREMENT de la tabla `tbl_contribuciones`
+--
+ALTER TABLE `tbl_contribuciones`
+  MODIFY `codigo_contribuciones` int(100) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT de la tabla `tbl_post`
+--
+ALTER TABLE `tbl_post`
+  MODIFY `codigo_post` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT de la tabla `tbl_tipo_de_usuarios`
