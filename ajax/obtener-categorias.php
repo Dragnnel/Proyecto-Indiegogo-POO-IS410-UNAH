@@ -14,16 +14,7 @@
         $respuesta[] = $fila;
     }
 
-    //var_dump($respuesta);
-    //var_dump(json_encode($respuesta, JSON_FORCE_OBJECT));
-    //echo json_encode($respuesta, JSON_FORCE_OBJECT);
     echo json_encode($respuesta);
-    //return print_r($respuesta);
-<<<<<<< HEAD
-    //var_dump($respuesta));
-=======
-    // var_dump($respuesta);
->>>>>>> 47d5ee159e96f352e26150ecd4041e93dee98596
    
     $conexion->cerrarConexion();
     
