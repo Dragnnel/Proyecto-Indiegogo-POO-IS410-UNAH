@@ -221,5 +221,8 @@ paginas del sitio web con la etiqueta
  <link rel="stylesheet" type="text/css"
  href="css/estilosConSASS.css">
 
+Se implemento en github el trabajo 
 
+
+Gracias por su atencion!!! 
 
