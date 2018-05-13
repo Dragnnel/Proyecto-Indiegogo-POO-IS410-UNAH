@@ -19,7 +19,7 @@
     //echo json_encode($respuesta, JSON_FORCE_OBJECT);
     //echo json_encode($respuesta);
     //return print_r($respuesta);
-     var_dump($respuesta));
+     var_dump($respuesta);
    
     $conexion->cerrarConexion();
     
